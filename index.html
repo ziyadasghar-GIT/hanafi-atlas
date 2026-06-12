@@ -2716,3 +2716,166 @@ generatePrintLayout();
 
 </body>
 </html>
+
+<!-- ─── Scholar Detail Modal (for Map view) ─── -->
+<div class="bio-modal-overlay" id="scholarDetailModal" onclick="if(event.target===this)closeScholarDetail()">
+  <div class="bio-modal">
+    <button class="bio-modal-close" onclick="closeScholarDetail()" aria-label="Close">&times;</button>
+    <div id="scholarDetailContent"></div>
+  </div>
+</div>
+
+<script>
+// ── Scholar detail modal (used by Map view) ──
+function showScholarDetail(scholar) {
+  if (!scholar) return;
+
+  const parsed = (typeof parseAhRange === 'function') ? parseAhRange(scholar.ah) : { ahDisplay: scholar.ah, ceDisplay: '' };
+
+  const noteHtml = scholar.note ? `<div class="bio-note">${escapeHtml(scholar.note)}</div>` : '';
+  const worksHtml = scholar.works ? `<div class="bio-works">Key works: ${escapeHtml(scholar.works)}</div>` : '';
+  const placeHtml = scholar.place ? `<div class="bio-place">📍 ${escapeHtml(scholar.place)}</div>` : '';
+
+  const html = `
+    <div class="bio-header">
+      <h3>${escapeHtml(scholar.name)}</h3>
+      <div class="bio-dates">
+        <span class="date-badge ah">${parsed.ahDisplay}</span>
+        <span class="date-badge ce">${parsed.ceDisplay}</span>
+      </div>
+    </div>
+    ${placeHtml}
+    ${noteHtml}
+    ${worksHtml}
+    <div class="bio-text">${escapeHtml(scholar.bio || 'No biography available.')}</div>
+  `;
+
+  document.getElementById('scholarDetailContent').innerHTML = html;
+  document.getElementById('scholarDetailModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeScholarDetail() {
+  document.getElementById('scholarDetailModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Event delegation for side panel + popup scholar names
+document.addEventListener('click', function(e) {
+  const panel = document.getElementById('scholarPanel');
+  if (!panel || !panel.contains(e.target)) return;
+
+  const link = e.target.closest('.scholar-name a, .popup-scholar a');
+  if (link) {
+    const name = link.textContent.trim();
+    const scholar = SCHOLARS.find(s => s.name === name);
+    if (scholar) {
+      e.preventDefault();
+      if (panel.classList.contains('open')) {
+        document.getElementById('panelBackdrop').classList.remove('open');
+        panel.classList.remove('open');
+      }
+      showScholarDetail(scholar);
+    }
+  }
+});
+
+// Update popup links to use detail modal
+setTimeout(() => {
+  if (typeof window.buildPopupHtml === 'function') {
+    const orig = window.buildPopupHtml;
+    window.buildPopupHtml = function(city) {
+      let html = orig(city);
+      html = html.replace(
+        /<a href="hanafi-timeline\.html#[^"]+" target="_blank">([^<]+)<\/a>/g,
+        (m, name) => {
+          const safe = name.replace(/'/g, "\\'");
+          return `<a href="#" onclick="event.preventDefault(); showScholarDetail(SCHOLARS.find(s => s.name === '${safe}'))">${name}</a>`;
+        }
+      );
+      return html;
+    };
+  }
+}, 900);
+
+// Escape key support for the new modal
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    const m = document.getElementById('scholarDetailModal');
+    if (m && m.classList.contains('open')) closeScholarDetail();
+  }
+});
+</script>
+
+<script>
+// Make scholar names in the side panel clickable (run after panel opens)
+const observer = new MutationObserver(() => {
+  const panel = document.getElementById('scholarPanel');
+  if (!panel) return;
+
+  panel.querySelectorAll('.scholar-name a').forEach(link => {
+    if (link.dataset.detailAttached) return;
+    link.dataset.detailAttached = 'true';
+
+    link.addEventListener('click', function(ev) {
+      ev.preventDefault();
+      const name = link.textContent.trim();
+      const scholar = SCHOLARS.find(s => s.name === name);
+      if (scholar) {
+        // close city panel
+        document.getElementById('panelBackdrop').classList.remove('open');
+        panel.classList.remove('open');
+        showScholarDetail(scholar);
+      }
+    });
+  });
+});
+
+observer.observe(document.body, { childList: true, subtree: true });
+</script>
+
+<script>
+// Direct click handler on the scholar panel body (more reliable)
+document.getElementById('scholarPanel').addEventListener('click', function(e) {
+  const nameEl = e.target.closest('.scholar-name a');
+  if (!nameEl) return;
+
+  e.preventDefault();
+  const name = nameEl.textContent.trim();
+  const scholar = SCHOLARS.find(s => s.name === name);
+  if (scholar) {
+    // close the city panel
+    document.getElementById('panelBackdrop').classList.remove('open');
+    this.classList.remove('open');
+
+    showScholarDetail(scholar);
+  }
+});
+</script>
+
+<script>
+// Monkey-patch openPanel to attach click handlers after rendering
+if (typeof window.openPanel === 'function') {
+  const origOpenPanel = window.openPanel;
+  window.openPanel = function(city) {
+    origOpenPanel(city);
+    // Attach handlers after the panel content is rendered
+    setTimeout(() => {
+      const panel = document.getElementById('scholarPanel');
+      if (!panel) return;
+      panel.querySelectorAll('.scholar-name a').forEach(link => {
+        link.onclick = function(ev) {
+          ev.preventDefault();
+          const name = link.textContent.trim();
+          const scholar = SCHOLARS.find(s => s.name === name);
+          if (scholar) {
+            document.getElementById('panelBackdrop').classList.remove('open');
+            panel.classList.remove('open');
+            showScholarDetail(scholar);
+          }
+        };
+      });
+    }, 50);
+  };
+}
+</script>
