@@ -1573,10 +1573,7 @@ function setView(view, opts) {
     // Map needs a resize after becoming visible
     setTimeout(() => mapInstance.resize(), 100);
   }
-  // Update URL
-  const url = new URL(window.location.href);
-  url.searchParams.set('view', view);
-  history.replaceState(null, '', url);
+  // No URL param update — map is a separate file
 }
 
 viewToggle.querySelectorAll('button').forEach(b => {

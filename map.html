@@ -930,7 +930,7 @@ function openPanel(city) {
             ${ceStr ? `<span class="ce">${ceStr}</span>` : ''}
           </div>
           <div class="scholar-body">
-            <div class="scholar-name"><a href="hanafi-timeline.html#${encodeURIComponent(s.name)}" target="_blank">${escapeHtml(s.name)}</a></div>
+            <div class="scholar-name"><a href="index.html#${encodeURIComponent(s.name)}" target="_blank">${escapeHtml(s.name)}</a></div>
             ${works}
             <div class="scholar-bio">${escapeHtml(s.bio || '')}</div>
             ${note}
@@ -985,7 +985,7 @@ function buildPopupHtml(city) {
       ${cityScholars.map(s => `
         <div class="popup-scholar">
           <span class="dot"></span>
-          <a href="hanafi-timeline.html#${encodeURIComponent(s.name)}" target="_blank">${escapeHtml(s.name)}</a>
+          <a href="index.html#${encodeURIComponent(s.name)}" target="_blank">${escapeHtml(s.name)}</a>
           <span class="dates">${escapeHtml(s.ah || '')}</span>
         </div>
       `).join('')}
