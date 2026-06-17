@@ -1575,7 +1575,7 @@ function setView(view, opts) {
 viewToggle.querySelectorAll('button').forEach(b => {
   b.addEventListener('click', () => {
     if (b.dataset.view === 'map') {
-      window.location.href = '../hanafi-map/index.html';
+      window.location.href = 'map.html';
     } else {
       setView(b.dataset.view);
     }
