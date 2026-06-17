@@ -1257,7 +1257,7 @@ body.print-mode .print-mode-btn {
   line-height: 1.7;
 }
 
-/* Map UI chrome — dark theme overrides for the original light styles */
+/* Map UI chrome — light theme (matching hanafi-map) */
 .view-map .header { display: none; }  /* Hide the per-view header, the global nav replaces it */
 
 /* Scrubber */
@@ -1310,11 +1310,15 @@ body.print-mode .print-mode-btn {
 
 /* Markers (3D columns click targets) */
 .view-map .marker {
-  background: rgba(201, 168, 76, 0.85);
+  width: 18px; height: 18px;
+  background: rgba(184, 148, 31, 0.85);
   border: 2px solid var(--gold);
-  color: #0a0f0d;
-  font-weight: 700;
-  text-shadow: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  transition: all 0.2s;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; color: white; font-weight: 700;
 }
 .view-map .marker:hover { background: var(--gold-light); }
 .view-map .marker.active {
@@ -1326,30 +1330,32 @@ body.print-mode .print-mode-btn {
 
 /* City labels */
 .view-map .city-label {
-  background: rgba(17, 26, 22, 0.92);
+  background: rgba(251, 246, 233, 0.95);
   border: 1px solid var(--border);
   border-left: 3px solid var(--gold);
   color: var(--text-primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .view-map .city-label .count { color: var(--gold); }
 
 /* Chapter display */
 .view-map .chapter-display {
-  background: rgba(17, 26, 22, 0.95);
+  background: rgba(251, 246, 233, 0.95);
   border: 1px solid var(--border);
   border-left: 3px solid var(--gold);
   color: var(--gold);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Side panel */
-.view-map .panel-backdrop { background: rgba(10, 15, 13, 0.6); }
+/* Side panel — light theme (matching hanafi-map) */
+.view-map .panel-backdrop { background: rgba(42, 31, 16, 0.35); }
 .view-map .panel {
   background: var(--bg-card);
   border-left: 1px solid var(--border);
   box-shadow: -8px 0 32px var(--shadow-strong);
 }
 .view-map .panel-header {
-  background: linear-gradient(180deg, var(--bg-card) 0%, rgba(17,26,22,0.6) 100%);
+  background: linear-gradient(180deg, var(--bg-card) 0%, rgba(251,246,233,0.6) 100%);
   border-bottom: 1px solid var(--border);
 }
 .view-map .panel-title { color: var(--text-primary); }
@@ -1358,7 +1364,7 @@ body.print-mode .print-mode-btn {
 .view-map .panel-stat strong { color: var(--gold); }
 .view-map .panel-body::-webkit-scrollbar-thumb { background: var(--border); }
 .view-map .scholar-row { border-bottom: 1px solid var(--border); }
-.view-map .scholar-row:hover { background: rgba(201, 168, 76, 0.05); }
+.view-map .scholar-row:hover { background: rgba(184, 148, 31, 0.08); }
 .view-map .scholar-date {
   color: var(--gold);
   border-right: 1px solid var(--border);
@@ -1371,6 +1377,10 @@ body.print-mode .print-mode-btn {
 .view-map .scholar-bio { color: var(--text-secondary); }
 .view-map .scholar-note { color: var(--text-dim); border-left: 2px solid var(--border); }
 .view-map .panel-close {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+
   border: 1px solid var(--border);
   color: var(--text-secondary);
 }
@@ -1613,7 +1623,7 @@ document.addEventListener('keydown', e => {
 function initMap() {
   mapInstance = new maplibregl.Map({
     container: 'map',
-    style: 'https://tiles.openfreemap.org/styles/dark',
+    style: 'https://tiles.openfreemap.org/styles/positron',
     center: [50, 30],
     zoom: 3,
     pitch: 25,
