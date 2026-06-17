@@ -55,6 +55,7 @@ open map.html      # Map
 ## Credits
 
 - Scholar data compiled by **Muntasir Zaman** via [Hadith Notes](https://hadithnotes.org/english-chronological-order-of-major-hanafi-jurists/)
+- Cross-referenced with [attahawi.com](https://attahawi.com)
 - Map reference: [Bukhari Project](https://bukhariproject.netlify.app)
 
 ## License
