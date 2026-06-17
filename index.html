@@ -1573,7 +1573,13 @@ function setView(view, opts) {
 }
 
 viewToggle.querySelectorAll('button').forEach(b => {
-  b.addEventListener('click', () => setView(b.dataset.view));
+  b.addEventListener('click', () => {
+    if (b.dataset.view === 'map') {
+      window.open('../hanafi-map/index.html', '_blank');
+    } else {
+      setView(b.dataset.view);
+    }
+  });
 });
 
 // Esc closes panel
