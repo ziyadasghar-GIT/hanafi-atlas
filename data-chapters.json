@@ -1,1 +1,132 @@
-[{"id":"intro","title":"Ḥanafī Hearts of the World","subtitle":"A Geographic Journey Through 1,400 Years of Scholarship","center":[47.81,30.51],"zoom":3.2,"pitch":25,"bearing":-10,"text":"From the Kūfan circle of Abū Ḥanīfah to the global diaspora of the modern era, follow the geographic spread of the Ḥanafī school through the lives of 165 scholars across 89 cities and 16 regions. Scroll to begin the journey."},{"id":"kufan","title":"I. The Kūfan Circle","subtitle":"2nd century AH · 720–818 CE","center":[44.79,32.04],"zoom":6.5,"pitch":35,"bearing":0,"text":"It all begins in Kūfah, the garrison city of ʿIrāq where Abū Ḥanīfah al-Nuʿmān ibn Thābit (80–150 AH) taught a generation of jurists. His students — Abū Yūsuf and al-Shaybānī — would systematise his dialectical method into the Ḥanafī madhhab."},{"id":"iraqi","title":"II. Baghdād and the ʿAbbāsid Capital","subtitle":"3rd century AH · 818–910 CE","center":[44.36,33.32],"zoom":6.5,"pitch":40,"bearing":0,"text":"The ʿAbbāsid capital Baghdād becomes the school's new center. Abū Yūsuf serves as the first Ḥanafī Qāḍī al-Quḍāt. Transmitters carry the teachings east toward Khurāsān and Transoxiana."},{"id":"transoxiana","title":"III. The Transoxianan Golden Age","subtitle":"4th–6th century AH · 911–1200 CE","center":[66.0,39.0],"zoom":4.5,"pitch":50,"bearing":-15,"text":"Transoxiana becomes the intellectual heartland of the madhhab. Bukhārā, Samarqand, Marghīnān, and Nasaf host a flowering of scholarship: al-Sarakhsī writes his 30-volume Al-Mabsūṭ, al-Māturīdī founds his theological school, al-Marghīnānī composes Al-Hidāyah."},{"id":"khurasan","title":"IV. Khurāsān and the Eastern Frontier","subtitle":"4th–8th century AH","center":[61.5,36.5],"zoom":5.5,"pitch":35,"bearing":20,"text":"Marw, Sarakhs, Herāt, Balkh, Ghazna — the eastern lands of Khurāsān produce a stream of scholars who refine and transmit the school's teachings."},{"id":"cairo","title":"V. Cairo and the Egyptian Schools","subtitle":"7th–10th century AH","center":[31.24,30.04],"zoom":5.5,"pitch":35,"bearing":0,"text":"After the Mongol invasions disrupt Central Asia, the school's center of gravity shifts to Cairo. al-Qudūrī's Mukhtaṣar becomes the most-memorised Ḥanafī text; al-Zaylaʿī, al-ʿAynī, and Ibn al-Humām build an Egyptian tradition of supercommentaries."},{"id":"ottoman","title":"VI. Ottoman Consolidation","subtitle":"9th–12th century AH · 1450–1800 CE","center":[30.5,39.5],"zoom":4.0,"pitch":50,"bearing":0,"text":"With the Ottoman Empire, Ḥanafī fiqh becomes the state madhhab across three continents. The Shaykh al-Islām codifies a unified Hanafī jurisprudence for the empire. Istanbul, Bursa, and Konya become the new centers."},{"id":"india","title":"VII. India and the Modern Era","subtitle":"12th–15th century AH · 1700–present","center":[78.0,27.5],"zoom":4.5,"pitch":35,"bearing":0,"text":"After Shāh Walī Allāh's reform, India becomes the modern heartland of Ḥanafī learning. The Deoband and Barelwī movements emerge in the 19th century, producing scholars who continue to shape global Muslim thought to this day."},{"id":"diaspora","title":"VIII. The Modern Diaspora","subtitle":"14th–15th century AH","center":[40.0,25.0],"zoom":2.5,"pitch":30,"bearing":0,"text":"In the 20th and 21st centuries, Ḥanafī scholarship goes truly global. ʿAbd al-Raḥīm Lajpūrī founds the first Darul Uloom in South Africa — Azaadville, Cape Town, London, Toronto, Houston — Ḥanafī communities carry the tradition across the world."},{"id":"all","title":"Epilogue","subtitle":"All 165 scholars, 89 cities, 16 regions","center":[50.0,30.0],"zoom":2.2,"pitch":25,"bearing":0,"text":"From a single circle in Kūfah to a global network of scholarship: 165 scholars across 89 cities and 16 regions over 14 centuries. The Ḥanafī school's story is, in many ways, the story of Islamic civilisation itself."}]
+[
+  {
+    "id": "intro",
+    "title": "Ḥanafī Hearts of the World",
+    "subtitle": "A Geographic Journey Through 1,400 Years of Scholarship",
+    "center": [
+      47.81,
+      30.51
+    ],
+    "zoom": 3.2,
+    "pitch": 25,
+    "bearing": -10,
+    "text": "From the Kūfan circle of Abū Ḥanīfah to the global diaspora of the modern era, follow the geographic spread of the Ḥanafī school through the lives of 165 scholars across 89 cities and 16 regions. Scroll to begin the journey."
+  },
+  {
+    "id": "kufan",
+    "title": "I. The Kūfan Circle",
+    "subtitle": "2nd century AH · 720–818 CE",
+    "center": [
+      44.79,
+      32.04
+    ],
+    "zoom": 6.5,
+    "pitch": 35,
+    "bearing": 0,
+    "text": "It all begins in Kūfah, the garrison city of ʿIrāq where Abū Ḥanīfah al-Nuʿmān ibn Thābit (80–150 AH) taught a generation of jurists. His students — Abū Yūsuf and al-Shaybānī — would systematise his dialectical method into the Ḥanafī madhhab."
+  },
+  {
+    "id": "iraqi",
+    "title": "II. Baghdād and the ʿAbbāsid Capital",
+    "subtitle": "3rd century AH · 818–910 CE",
+    "center": [
+      44.36,
+      33.32
+    ],
+    "zoom": 6.5,
+    "pitch": 40,
+    "bearing": 0,
+    "text": "The ʿAbbāsid capital Baghdād becomes the school's new center. Abū Yūsuf serves as the first Ḥanafī Qāḍī al-Quḍāt. Transmitters carry the teachings east toward Khurāsān and Transoxiana."
+  },
+  {
+    "id": "transoxiana",
+    "title": "III. The Transoxianan Golden Age",
+    "subtitle": "4th–6th century AH · 911–1200 CE",
+    "center": [
+      66.0,
+      39.0
+    ],
+    "zoom": 4.5,
+    "pitch": 50,
+    "bearing": -15,
+    "text": "Transoxiana becomes the intellectual heartland of the madhhab. Bukhārā, Samarqand, Marghīnān, and Nasaf host a flowering of scholarship: al-Sarakhsī writes his 30-volume Al-Mabsūṭ, al-Māturīdī founds his theological school, al-Marghīnānī composes Al-Hidāyah."
+  },
+  {
+    "id": "khurasan",
+    "title": "IV. Khurāsān and the Eastern Frontier",
+    "subtitle": "4th–8th century AH",
+    "center": [
+      61.5,
+      36.5
+    ],
+    "zoom": 5.5,
+    "pitch": 35,
+    "bearing": 20,
+    "text": "Marw, Sarakhs, Herāt, Balkh, Ghazna — the eastern lands of Khurāsān produce a stream of scholars who refine and transmit the school's teachings."
+  },
+  {
+    "id": "cairo",
+    "title": "V. Cairo and the Egyptian Schools",
+    "subtitle": "7th–10th century AH",
+    "center": [
+      31.24,
+      30.04
+    ],
+    "zoom": 5.5,
+    "pitch": 35,
+    "bearing": 0,
+    "text": "After the Mongol invasions disrupt Central Asia, the school's center of gravity shifts to Cairo. al-Qudūrī's Mukhtaṣar becomes the most-memorised Ḥanafī text; al-Zaylaʿī, al-ʿAynī, and Ibn al-Humām build an Egyptian tradition of supercommentaries."
+  },
+  {
+    "id": "ottoman",
+    "title": "VI. Ottoman Consolidation",
+    "subtitle": "9th–12th century AH · 1450–1800 CE",
+    "center": [
+      30.5,
+      39.5
+    ],
+    "zoom": 4.0,
+    "pitch": 50,
+    "bearing": 0,
+    "text": "With the Ottoman Empire, Ḥanafī fiqh becomes the state madhhab across three continents. The Shaykh al-Islām codifies a unified Hanafī jurisprudence for the empire. Istanbul, Bursa, and Konya become the new centers."
+  },
+  {
+    "id": "india",
+    "title": "VII. India and the Modern Era",
+    "subtitle": "12th–15th century AH · 1700–present",
+    "center": [
+      78.0,
+      27.5
+    ],
+    "zoom": 4.5,
+    "pitch": 35,
+    "bearing": 0,
+    "text": "After Shāh Walī Allāh's reform, India becomes the modern heartland of Ḥanafī learning. The Deoband and Barelwī movements emerge in the 19th century, producing scholars who continue to shape global Muslim thought to this day."
+  },
+  {
+    "id": "diaspora",
+    "title": "VIII. The Modern Diaspora",
+    "subtitle": "14th–15th century AH",
+    "center": [
+      40.0,
+      25.0
+    ],
+    "zoom": 2.5,
+    "pitch": 30,
+    "bearing": 0,
+    "text": "In the 20th and 21st centuries, Ḥanafī scholarship goes truly global. ʿAbd al-Raḥīm Lajpūrī founds the first Darul Uloom in South Africa — Azaadville, Cape Town, London, Toronto, Houston — Ḥanafī communities carry the tradition across the world."
+  },
+  {
+    "id": "all",
+    "title": "Epilogue",
+    "subtitle": "All 165 scholars, 89 cities, 16 regions",
+    "center": [
+      50.0,
+      30.0
+    ],
+    "zoom": 2.2,
+    "pitch": 25,
+    "bearing": 0,
+    "text": "From a single circle in Kūfah to a global network of scholarship: 165 scholars across 89 cities and 16 regions over 14 centuries. The Ḥanafī school's story is, in many ways, the story of Islamic civilisation itself."
+  }
+]
