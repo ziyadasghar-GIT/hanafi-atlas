@@ -2,7 +2,7 @@
 
 **Timeline & Interactive Map of the Ḥanafī School**
 
-A dual-view web app tracing 1,400 years of Ḥanafī scholarship across 165 scholars, 89 cities, and 16 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
+A dual-view web app tracing 1,400 years of Ḥanafī scholarship across 164 scholars, 89 cities, and 16 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
 
 ## Views
 
@@ -16,11 +16,11 @@ Light parchment-themed interactive map (MapLibre GL). Click city markers to fly 
 
 | File | Contents |
 |---|---|
-| `data-scholars.json` | 165 scholars with name, dates (AH), century, place, bio, works, note |
+| `data-scholars.json` | 164 scholars with name, dates (AH), century, place, bio, works, note |
 | `data-places.json` | 89 cities with coordinates (lng/lat), modern name, region |
 | `data-chapters.json` | 10 map chapter definitions (center, zoom, pitch, bearing, text) |
 
-Both pages load data from these JSON files at runtime.
+Both pages have all data embedded inline (works offline, no server needed). The JSON files in the repo are the source of truth for editing — run the embed script to update the HTML after edits.
 
 ## Tech Stack
 
@@ -31,7 +31,7 @@ Both pages load data from these JSON files at runtime.
 
 ## Local Development
 
-Just open the HTML files in a browser. No server required — all data is loaded from local JSON via `fetch()`.
+Just open the HTML files in a browser. No server required — all data is embedded inline.
 
 ```bash
 # Clone
@@ -43,11 +43,14 @@ open index.html    # Timeline
 open map.html      # Map
 ```
 
-> **Note:** `fetch()` requires a local server for some browsers. If data doesn't load, run:
-> ```bash
-> python3 -m http.server 8000
-> # Then visit http://localhost:8000
-> ```
+## Editing Data
+
+1. Edit the JSON files (`data-scholars.json`, `data-places.json`, `data-chapters.json`)
+2. Re-embed into HTML:
+   ```bash
+   python3 embed_data.py
+   ```
+   This updates the `<script id="inlineData">` tags in both `index.html` and `map.html`.
 
 ## Credits
 
