@@ -944,28 +944,6 @@ body.horizontal .scroll-hint {
   color: var(--text-primary);
 }
 
-.bio-modal .bio-map-link {
-  display: inline-block;
-  margin-top: 18px;
-  padding: 10px 18px;
-  background: linear-gradient(135deg, var(--emerald), var(--green-dark));
-  border: 1px solid var(--green-primary);
-  border-radius: 22px;
-  color: var(--gold-light);
-  font-family: 'Inter', sans-serif;
-  font-size: 0.88rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.25s;
-  box-shadow: 0 0 12px var(--shadow-green);
-}
-.bio-modal .bio-map-link:hover {
-  background: linear-gradient(135deg, var(--green-primary), var(--emerald));
-  transform: translateY(-1px);
-  box-shadow: 0 0 16px var(--shadow-gold);
-  color: #fff;
-}
-
 .bio-modal .bio-scroll-indicator {
   text-align: center;
   color: var(--text-secondary);
@@ -1257,7 +1235,7 @@ body.print-mode .print-mode-btn {
   line-height: 1.7;
 }
 
-/* Map UI chrome — light theme (matching hanafi-map) */
+/* Map UI chrome — dark theme overrides for the original light styles */
 .view-map .header { display: none; }  /* Hide the per-view header, the global nav replaces it */
 
 /* Scrubber */
@@ -1310,15 +1288,11 @@ body.print-mode .print-mode-btn {
 
 /* Markers (3D columns click targets) */
 .view-map .marker {
-  width: 18px; height: 18px;
-  background: rgba(184, 148, 31, 0.85);
+  background: rgba(201, 168, 76, 0.85);
   border: 2px solid var(--gold);
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
-  transition: all 0.2s;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 9px; color: white; font-weight: 700;
+  color: #0a0f0d;
+  font-weight: 700;
+  text-shadow: none;
 }
 .view-map .marker:hover { background: var(--gold-light); }
 .view-map .marker.active {
@@ -1330,32 +1304,30 @@ body.print-mode .print-mode-btn {
 
 /* City labels */
 .view-map .city-label {
-  background: rgba(251, 246, 233, 0.95);
+  background: rgba(17, 26, 22, 0.92);
   border: 1px solid var(--border);
   border-left: 3px solid var(--gold);
   color: var(--text-primary);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .view-map .city-label .count { color: var(--gold); }
 
 /* Chapter display */
 .view-map .chapter-display {
-  background: rgba(251, 246, 233, 0.95);
+  background: rgba(17, 26, 22, 0.95);
   border: 1px solid var(--border);
   border-left: 3px solid var(--gold);
   color: var(--gold);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Side panel — light theme (matching hanafi-map) */
-.view-map .panel-backdrop { background: rgba(42, 31, 16, 0.35); }
+/* Side panel */
+.view-map .panel-backdrop { background: rgba(10, 15, 13, 0.6); }
 .view-map .panel {
   background: var(--bg-card);
   border-left: 1px solid var(--border);
   box-shadow: -8px 0 32px var(--shadow-strong);
 }
 .view-map .panel-header {
-  background: linear-gradient(180deg, var(--bg-card) 0%, rgba(251,246,233,0.6) 100%);
+  background: linear-gradient(180deg, var(--bg-card) 0%, rgba(17,26,22,0.6) 100%);
   border-bottom: 1px solid var(--border);
 }
 .view-map .panel-title { color: var(--text-primary); }
@@ -1364,7 +1336,7 @@ body.print-mode .print-mode-btn {
 .view-map .panel-stat strong { color: var(--gold); }
 .view-map .panel-body::-webkit-scrollbar-thumb { background: var(--border); }
 .view-map .scholar-row { border-bottom: 1px solid var(--border); }
-.view-map .scholar-row:hover { background: rgba(184, 148, 31, 0.08); }
+.view-map .scholar-row:hover { background: rgba(201, 168, 76, 0.05); }
 .view-map .scholar-date {
   color: var(--gold);
   border-right: 1px solid var(--border);
@@ -1377,10 +1349,6 @@ body.print-mode .print-mode-btn {
 .view-map .scholar-bio { color: var(--text-secondary); }
 .view-map .scholar-note { color: var(--text-dim); border-left: 2px solid var(--border); }
 .view-map .panel-close {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  color: var(--text-secondary);
-
   border: 1px solid var(--border);
   color: var(--text-secondary);
 }
@@ -1623,7 +1591,7 @@ document.addEventListener('keydown', e => {
 function initMap() {
   mapInstance = new maplibregl.Map({
     container: 'map',
-    style: 'https://tiles.openfreemap.org/styles/positron',
+    style: 'https://tiles.openfreemap.org/styles/dark',
     center: [50, 30],
     zoom: 3,
     pitch: 25,
@@ -2597,12 +2565,6 @@ function openBioModal(index) {
   const parsed = parseAhRange(s.ah);
   const noteHtml = s.note ? `<div class="bio-note">${s.note}</div>` : '';
   const worksHtml = s.works ? `<div class="bio-works">Key works: ${s.works}</div>` : '';
-  // Cross-link button: only if the scholar has a known place
-  const city = s.place ? s.place.split(',')[0].trim() : null;
-  const hasPlaceInMap = city && PLACES[city];
-  const mapLink = hasPlaceInMap
-    ? `<button class="bio-map-link" onclick="openInMap('${city.replace(/'/g, "\\'")}')">🗺 Open in Map →</button>`
-    : '';
 
   document.getElementById('bioModalContent').innerHTML = `
     <div class="bio-header">
@@ -2616,24 +2578,9 @@ function openBioModal(index) {
     ${noteHtml}
     ${worksHtml}
     <div class="bio-text">${s.bio}</div>
-    ${mapLink}
   `;
   document.getElementById('bioModal').classList.add('open');
   document.body.style.overflow = 'hidden';
-}
-
-// Cross-link: switch to map view and open the panel for a given city
-function openInMap(city) {
-  if (!PLACES[city]) return;
-  closeBioModal();
-  setView('map', { force: true });
-  // Wait for map to be visible, then fly to city and open panel
-  setTimeout(() => {
-    if (mapInstance) {
-      mapInstance.flyTo({ center: PLACES[city].coords, zoom: 6, duration: 1500 });
-      setTimeout(() => openPanel(city), 1200);
-    }
-  }, 200);
 }
 
 function closeBioModal() {
@@ -2726,166 +2673,3 @@ generatePrintLayout();
 
 </body>
 </html>
-
-<!-- ─── Scholar Detail Modal (for Map view) ─── -->
-<div class="bio-modal-overlay" id="scholarDetailModal" onclick="if(event.target===this)closeScholarDetail()">
-  <div class="bio-modal">
-    <button class="bio-modal-close" onclick="closeScholarDetail()" aria-label="Close">&times;</button>
-    <div id="scholarDetailContent"></div>
-  </div>
-</div>
-
-<script>
-// ── Scholar detail modal (used by Map view) ──
-function showScholarDetail(scholar) {
-  if (!scholar) return;
-
-  const parsed = (typeof parseAhRange === 'function') ? parseAhRange(scholar.ah) : { ahDisplay: scholar.ah, ceDisplay: '' };
-
-  const noteHtml = scholar.note ? `<div class="bio-note">${escapeHtml(scholar.note)}</div>` : '';
-  const worksHtml = scholar.works ? `<div class="bio-works">Key works: ${escapeHtml(scholar.works)}</div>` : '';
-  const placeHtml = scholar.place ? `<div class="bio-place">📍 ${escapeHtml(scholar.place)}</div>` : '';
-
-  const html = `
-    <div class="bio-header">
-      <h3>${escapeHtml(scholar.name)}</h3>
-      <div class="bio-dates">
-        <span class="date-badge ah">${parsed.ahDisplay}</span>
-        <span class="date-badge ce">${parsed.ceDisplay}</span>
-      </div>
-    </div>
-    ${placeHtml}
-    ${noteHtml}
-    ${worksHtml}
-    <div class="bio-text">${escapeHtml(scholar.bio || 'No biography available.')}</div>
-  `;
-
-  document.getElementById('scholarDetailContent').innerHTML = html;
-  document.getElementById('scholarDetailModal').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeScholarDetail() {
-  document.getElementById('scholarDetailModal').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-// Event delegation for side panel + popup scholar names
-document.addEventListener('click', function(e) {
-  const panel = document.getElementById('scholarPanel');
-  if (!panel || !panel.contains(e.target)) return;
-
-  const link = e.target.closest('.scholar-name a, .popup-scholar a');
-  if (link) {
-    const name = link.textContent.trim();
-    const scholar = SCHOLARS.find(s => s.name === name);
-    if (scholar) {
-      e.preventDefault();
-      if (panel.classList.contains('open')) {
-        document.getElementById('panelBackdrop').classList.remove('open');
-        panel.classList.remove('open');
-      }
-      showScholarDetail(scholar);
-    }
-  }
-});
-
-// Update popup links to use detail modal
-setTimeout(() => {
-  if (typeof window.buildPopupHtml === 'function') {
-    const orig = window.buildPopupHtml;
-    window.buildPopupHtml = function(city) {
-      let html = orig(city);
-      html = html.replace(
-        /<a href="hanafi-timeline\.html#[^"]+" target="_blank">([^<]+)<\/a>/g,
-        (m, name) => {
-          const safe = name.replace(/'/g, "\\'");
-          return `<a href="#" onclick="event.preventDefault(); showScholarDetail(SCHOLARS.find(s => s.name === '${safe}'))">${name}</a>`;
-        }
-      );
-      return html;
-    };
-  }
-}, 900);
-
-// Escape key support for the new modal
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') {
-    const m = document.getElementById('scholarDetailModal');
-    if (m && m.classList.contains('open')) closeScholarDetail();
-  }
-});
-</script>
-
-<script>
-// Make scholar names in the side panel clickable (run after panel opens)
-const observer = new MutationObserver(() => {
-  const panel = document.getElementById('scholarPanel');
-  if (!panel) return;
-
-  panel.querySelectorAll('.scholar-name a').forEach(link => {
-    if (link.dataset.detailAttached) return;
-    link.dataset.detailAttached = 'true';
-
-    link.addEventListener('click', function(ev) {
-      ev.preventDefault();
-      const name = link.textContent.trim();
-      const scholar = SCHOLARS.find(s => s.name === name);
-      if (scholar) {
-        // close city panel
-        document.getElementById('panelBackdrop').classList.remove('open');
-        panel.classList.remove('open');
-        showScholarDetail(scholar);
-      }
-    });
-  });
-});
-
-observer.observe(document.body, { childList: true, subtree: true });
-</script>
-
-<script>
-// Direct click handler on the scholar panel body (more reliable)
-document.getElementById('scholarPanel').addEventListener('click', function(e) {
-  const nameEl = e.target.closest('.scholar-name a');
-  if (!nameEl) return;
-
-  e.preventDefault();
-  const name = nameEl.textContent.trim();
-  const scholar = SCHOLARS.find(s => s.name === name);
-  if (scholar) {
-    // close the city panel
-    document.getElementById('panelBackdrop').classList.remove('open');
-    this.classList.remove('open');
-
-    showScholarDetail(scholar);
-  }
-});
-</script>
-
-<script>
-// Monkey-patch openPanel to attach click handlers after rendering
-if (typeof window.openPanel === 'function') {
-  const origOpenPanel = window.openPanel;
-  window.openPanel = function(city) {
-    origOpenPanel(city);
-    // Attach handlers after the panel content is rendered
-    setTimeout(() => {
-      const panel = document.getElementById('scholarPanel');
-      if (!panel) return;
-      panel.querySelectorAll('.scholar-name a').forEach(link => {
-        link.onclick = function(ev) {
-          ev.preventDefault();
-          const name = link.textContent.trim();
-          const scholar = SCHOLARS.find(s => s.name === name);
-          if (scholar) {
-            document.getElementById('panelBackdrop').classList.remove('open');
-            panel.classList.remove('open');
-            showScholarDetail(scholar);
-          }
-        };
-      });
-    }, 50);
-  };
-}
-</script>

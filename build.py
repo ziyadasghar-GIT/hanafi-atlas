@@ -42,30 +42,8 @@ CHAPTERS = chapters_match.group(1)
 # 2. Appending map's CSS but with light-theme variables remapped to dark
 # 3. Adding view-switcher styles
 
-# Map light variables → dark equivalents
+# Keep map CSS as-is (light theme) — we want the map view to match hanafi-map exactly
 mp_css_dark = mp_css
-# Replace background/light colors with dark
-MAP_RECOLOR = [
-    # Page bg
-    ('--bg-primary: #f4ede0;', '--bg-primary: #0a0f0d;'),
-    ('--bg-card: #fbf6e9;', '--bg-card: #111a16;'),
-    ('--bg-card-hover: #162320;', '--bg-card-hover: #162320;'),
-    ('--gold: #b8941f;', '--gold: #c9a84c;'),
-    ('--gold-light: #d4af37;', '--gold-light: #e0c872;'),
-    ('--gold-dim: #8a6f1a;', '--gold-dim: #8a7233;'),
-    ('--green-primary: #0d7c3e;', '--green-primary: #0d7c3e;'),
-    ('--green-light: #1bb960;', '--green-light: #1bb960;'),
-    ('--text-primary: #2a1f10;', '--text-primary: #e8e0d0;'),
-    ('--text-secondary: #6b5d3e;', '--text-secondary: #a0997e;'),
-    ('--text-dim: #998c6d;', '--text-dim: #6e684f;'),
-    ('--border: #d8c89f;', '--border: #1e3028;'),
-    ('--shadow: rgba(0,0,0,0.1);', '--shadow: rgba(0,0,0,0.4);'),
-    ('--shadow-strong: rgba(0,0,0,0.2);', '--shadow-strong: rgba(0,0,0,0.6);'),
-    # Some map elements use raw cream tones - replace specific colors
-    ('background: var(--bg-card);', 'background: var(--bg-card) !important;'),
-]
-for old, new in MAP_RECOLOR:
-    mp_css_dark = mp_css_dark.replace(old, new)
 
 # ── Build the combined HTML ──
 HTML = f"""<!DOCTYPE html>
