@@ -59,4 +59,4 @@ open map.html      # Map
 
 ## License
 
-MIT
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to share and remix with attribution. Scholar data credited to Muntasir Zaman / Hadith Notes.
