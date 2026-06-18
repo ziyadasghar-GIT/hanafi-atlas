@@ -712,7 +712,11 @@
     "region": "Volga Bulgaria"
   },
   "Amman, Jordan": {
-    "lat": 31.9454,
-    "lon": 35.9263
+    "coords": [
+      35.9263,
+      31.9454
+    ],
+    "modern": "Amman, Jordan",
+    "region": "Syria"
   }
 }
