@@ -8,6 +8,7 @@ and replaces the <script id="inlineData"> blocks in both HTML files.
 """
 
 import json
+import os
 import re
 
 BASE = "/home/mza/Desktop/hanafi-atlas"
@@ -59,6 +60,27 @@ def main():
             print(f"  ✅ {html_file} updated")
         else:
             print(f"  ❌ {html_file} — no inlineData tag found")
+
+    # Embed graph data into network.html (separate format)
+    if os.path.exists(f"{BASE}/data-graph.json"):
+        graph_data = load_json("data-graph.json")
+        print(f"  {len(graph_data.get('nodes', []))} graph nodes, {len(graph_data.get('edges', []))} edges")
+
+        graph_inline = build_inline_script(graph_data)
+        # The network page uses GRAPH_DATA instead of the timeline/map format
+        # Replace the placeholder pattern in network.html
+        with open(f"{BASE}/network.html", "r") as f:
+            content = f.read()
+        
+        pattern = r'<script id="inlineData" type="application/json">.*?</script>'
+        new_content = re.sub(pattern, graph_inline, content, flags=re.DOTALL)
+        
+        if new_content != content:
+            with open(f"{BASE}/network.html", "w") as f:
+                f.write(new_content)
+            print(f"  ✅ network.html graph data embedded")
+        else:
+            print(f"  ⚠️  network.html — no inlineData tag found, data is already inline")
 
     print("Done!")
 
