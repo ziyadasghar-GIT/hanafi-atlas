@@ -1208,6 +1208,26 @@
     "works": "Durar al-Ḥukkām (Sharḥ al-Majallah)"
   },
   {
+    "name": "Muḥammad Qāsim Nanāwtawī",
+    "ah": "1248–1297",
+    "century": 13,
+    "sortDeath": 1297,
+    "place": "Deoband, India",
+    "bio": "Born 1832 in Nanauta, Muhammad Qasim Nanautawi — titled Hujjat al-Islam — was the principal co-founder of the Deoband movement and Darul Uloom Deoband (1866). He studied at Delhi College under Mamluk Ali Nanautawi alongside Rashid Ahmad Gangohi, and participated in the 1857 uprising, fighting at the Battle of Shamli. After the rebellion he threw himself into institutional work — establishing Darul Uloom Deoband, building its mosque in 1868, and founding madaris across Thanabhavan, Galautti, Kerana, Danapur, Meerut, and Muradabad. His curriculum centred on the Qur'an, Hadith, Fiqh, and logic — a framework that shaped hundreds of institutions across the Muslim world. A prominent advocate of widow remarriage, he authored Aab-i Hayat and other works. Died 1880 in Deoband, aged 47.",
+    "works": "Āb-i Ḥayāt (commentary on the life of the Prophet); Taḥzīr al-Nās; Mubāḥasah Shāhjahānpūr; Taṣfiyat al-Aqāʾid",
+    "note": "Co-founder of Deoband; established the network of Deobandi madaris"
+  },
+  {
+    "name": "Rashīd Aḥmad Gangohī",
+    "ah": "1244–1323",
+    "century": 13,
+    "sortDeath": 1323,
+    "place": "Gangoh, India",
+    "bio": "Born 1826 in Gangoh, Saharanpur, Rashid Ahmad Gangohi was one of the foremost Deobandi hadith scholars and a foundational figure of the Deoband movement. A descendant of Abu Ayyub al-Ansari through the Ansari-Ayyubi lineage, he studied in Delhi under Mamluk Ali Nanautawi alongside Muhammad Qasim Nanautawi before receiving bay'ah to Haji Imdadullah. He taught hadith extensively — his lectures on Sahih al-Bukhari and Jami' al-Tirmidhi were recorded by Muhammad Yahya Kandhlawi and later edited by Zakariyya Kandhlawi into Lami al-Darari and al-Kawakib al-Durri. He issued a fatwa of kufr against Mirza Ghulam Ahmad and was a staunch opponent of British colonial rule. Died 1905 in Gangoh, aged 79.",
+    "works": "Fatāwā Rashīdiyyah; Lami al-Darari ʿalā Jāmiʿ al-Bukkhārī; al-Kawākib al-Durriyyah Sharḥ Jāmiʿ al-Tirmidhī",
+    "note": "Foremost Deobandi hadith scholar; master of Shah Waliullah's tradition"
+  },
+  {
     "name": "Rashīd Aḥmad Gangohī",
     "ah": "1244–1323",
     "century": 14,
@@ -1276,9 +1296,9 @@
     "century": 14,
     "sortDeath": 1362,
     "place": "Thāna Bhawan, India",
-    "bio": "One of the greatest traditional Islamic scholars of the Indian subcontinent in the last two centuries, known as **Ḥakīm al-Ummat** (",
-    "works": "Imdād al-Fatāwā",
-    "note": "Major Deobandī scholar and jurist"
+    "bio": "Born 1863 in Thana Bhawan, Ashraf Ali Thanwi — known as Hakimul Ummat (Physician of the Ummah) — was one of the most influential Deobandi scholars of the modern era. A graduate of Darul Uloom Deoband (1883), he taught at Madrasa Faiz-e-Aam in Kanpur for 14 years before returning to revive the Khanqah-i-Imdadiyah in Thana Bhawan, where he founded Madrasa Ashrafiya. He authored over a thousand works including Bayan al-Qur'an, Bahishti Zewar (his bestselling manual of Islamic conduct for women), and Imdad al-Fatawa. He was a leading supporter of the Pakistan Movement and corresponded directly with Muhammad Ali Jinnah. Muhammad Iqbal regarded him as the greatest living authority on Rumi. He trained approximately 1,000 disciples and remained a towering figure of South Asian Sunni orthodoxy until his death in 1943.",
+    "works": "Bayān al-Qurʾān, Bahishtī Zewar, Imdād al-Fatāwā, Nashr al-Ṭibb fī Dhikr al-Nabī al-Ḥabīb",
+    "note": "Hakimul Ummat — author of over 1,000 works; leading supporter of the Pakistan Movement"
   },
   {
     "name": "Kifāyatullāh Dehlawī",

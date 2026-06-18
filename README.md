@@ -2,7 +2,7 @@
 
 **Timeline & Interactive Map of the Ḥanafī School**
 
-A dual-view web app tracing 1,400 years of Ḥanafī scholarship across 164 scholars, 89 cities, and 16 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
+A dual-view web app tracing 1,400 years of Ḥanafī scholarship across 166 scholars, 89 cities, and 16 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
 
 ## Views
 
@@ -16,7 +16,7 @@ Light parchment-themed interactive map (MapLibre GL). Click city markers to fly 
 
 | File | Contents |
 |---|---|
-| `data-scholars.json` | 164 scholars with name, dates (AH), century, place, bio, works, note |
+| `data-scholars.json` | 166 scholars with name, dates (AH), century, place, bio, works, note |
 | `data-places.json` | 89 cities with coordinates (lng/lat), modern name, region |
 | `data-chapters.json` | 10 map chapter definitions (center, zoom, pitch, bearing, text) |
 
