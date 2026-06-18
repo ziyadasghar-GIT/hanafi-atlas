@@ -10,6 +10,15 @@
     "note": "Founder of the Ḥanafī school"
   },
   {
+    "name": "Zufr ibn al-Ḥudhayl",
+    "ah": "110–158",
+    "century": 2,
+    "sortDeath": 158,
+    "place": "Isfahan, Persia",
+    "bio": "A leading student of Imam Abū Ḥanīfa and one of the foremost early jurists of the Hanafi school from Isfahan. Renowned for his exceptional skill in analogical reasoning (qiyās), he is frequently counted as one of the most authoritative transmitters of the school's founder, earning him the title ",
+    "works": "—"
+  },
+  {
     "name": "Abū Yūsuf Yaʿqūb ibn Ibrāhīm",
     "ah": "113–182",
     "century": 2,
@@ -28,13 +37,13 @@
     "works": "Al-Aṣl, al-Jāmiʿ al-Ṣaghīr/al-Kabīr, al-Ziyādāt, al-Siyar al-Kabīr"
   },
   {
-    "name": "Zufr ibn al-Ḥudhayl",
-    "ah": "110–158",
-    "century": 2,
-    "sortDeath": 158,
-    "place": "Isfahan, Persia",
-    "bio": "A leading student of Imam Abū Ḥanīfa and one of the foremost early jurists of the Hanafi school from Isfahan. Renowned for his exceptional skill in analogical reasoning (qiyās), he is frequently counted as one of the most authoritative transmitters of the school's founder, earning him the title ",
-    "works": "—"
+    "name": "Abū Sulaymān Mūsā al-Jūzajānī",
+    "ah": "d. p. 200",
+    "century": 3,
+    "sortDeath": 200,
+    "place": "Jūzjān, Khurāsān",
+    "bio": "A student of Muḥammad al-Shaybānī and Abū Yūsuf, he was a respected Hanafi scholar of Transoxiana and Khurāsān. His compilation *Nawādir Abī Sulaymān* preserved important legal opinions of the school's early authorities. He was instrumental in transmitting Hanafi teachings to the eastern Islamic lands.",
+    "works": "Nawādir Abī Sulaymān"
   },
   {
     "name": "al-Ḥasan ibn Ziyād al-Luʾluʾī",
@@ -44,15 +53,6 @@
     "place": "Kūfah, Iraq",
     "bio": "A prominent student of Abū Ḥanīfa and leading jurist of Kūfa, known for his work *al-Mujarrad*. He was one of the key early transmitters of the school's teachings in Iraq and his legal opinions were considered highly authoritative. His contribution to the systematization of Hanafi fiqh was foundational for the school's development.",
     "works": "Al-Mujarrad"
-  },
-  {
-    "name": "Abū Sulaymān Mūsā al-Jūzajānī",
-    "ah": "d. p. 200",
-    "century": 3,
-    "sortDeath": 200,
-    "place": "Jūzjān, Khurāsān",
-    "bio": "A student of Muḥammad al-Shaybānī and Abū Yūsuf, he was a respected Hanafi scholar of Transoxiana and Khurāsān. His compilation *Nawādir Abī Sulaymān* preserved important legal opinions of the school's early authorities. He was instrumental in transmitting Hanafi teachings to the eastern Islamic lands.",
-    "works": "Nawādir Abī Sulaymān"
   },
   {
     "name": "Muʿallā ibn Manṣūr al-Rāzī",
@@ -147,13 +147,14 @@
     "works": "Mukhtaṣar al-Karkhī"
   },
   {
-    "name": "Abū Bakr al-Jaṣṣāṣ al-Rāzī",
-    "ah": "305–370",
+    "name": "Abū ʿAlī al-Shāshī",
+    "ah": "d. ca. 344",
     "century": 4,
-    "sortDeath": 370,
-    "place": "Rayy, Persia",
-    "bio": "Born in 305 AH (917 CE), al-Jaṣṣāṣ was a towering figure of Ḥanafī uṣūl al-fiqh. His Aḥkām al-Qurʾān is one of the great works of Qurʾānic legal exegesis, while his Sharḥ Mukhtaṣar al-Ṭaḥāwī established a template for Ḥanafī commentary literature. He systematised the principles of legal reasoning that would underpin all subsequent Ḥanafī scholarship. Died 370 AH (980 CE).",
-    "works": "Aḥkām al-Qurʾān, Sharḥ Mukhtaṣar al-Ṭaḥāwī"
+    "sortDeath": 344,
+    "place": "Shāsh, Transoxiana",
+    "bio": "A Hanafi jurist from Shāsh (near modern Tashkent), known for his contributions to the principles of Hanafi jurisprudence. His work *Uṣūl al-Shāshī* was a significant text in the development of legal theory within the school. He was an important figure in the Central Asian Hanafi tradition.",
+    "works": "Uṣūl al-Shāshī (al-Uṣūl fī Uṣūl al-Fiqh)",
+    "note": "Wrote one of the earliest systematic Ḥanafī uṣūl al-fiqh treatises; foundational text cited by al-Jaṣṣāṣ, al-Bazdawī, and al-Sarakhsī"
   },
   {
     "name": "Abū Jaʿfar al-Hiduwānī",
@@ -163,6 +164,15 @@
     "place": "Karkh, Iraq",
     "bio": "A Hanafi jurist of the 4th century AH, recognized as one of the transmitters of the school's teachings in the generation following the early founders. His scholarly work contributed to the preservation and transmission of Hanafi legal doctrine. He was part of the scholarly network that sustained the school's development in the eastern Islamic world.",
     "works": "Sharḥ al-Jāmiʿ al-Ṣaghīr"
+  },
+  {
+    "name": "Abū Bakr al-Jaṣṣāṣ al-Rāzī",
+    "ah": "305–370",
+    "century": 4,
+    "sortDeath": 370,
+    "place": "Rayy, Persia",
+    "bio": "Born in 305 AH (917 CE), al-Jaṣṣāṣ was a towering figure of Ḥanafī uṣūl al-fiqh. His Aḥkām al-Qurʾān is one of the great works of Qurʾānic legal exegesis, while his Sharḥ Mukhtaṣar al-Ṭaḥāwī established a template for Ḥanafī commentary literature. He systematised the principles of legal reasoning that would underpin all subsequent Ḥanafī scholarship. Died 370 AH (980 CE).",
+    "works": "Aḥkām al-Qurʾān, Sharḥ Mukhtaṣar al-Ṭaḥāwī"
   },
   {
     "name": "Abū al-Layth al-Samarqandī (al-Faqīh)",
@@ -266,6 +276,16 @@
     "note": "Author of the 30-volume Al-Mabsūṭ"
   },
   {
+    "name": "Abū al-Yusr al-Bazdawī",
+    "ah": "d. ca. 493",
+    "century": 5,
+    "sortDeath": 493,
+    "place": "Bazdāw, Transoxiana",
+    "bio": "A prominent Hanafi-Māturīdī scholar and qāḍī in Samarqand, known as ",
+    "works": "Uṣūl al-Dīn",
+    "note": "Major Ḥanafī theologian from the Bazdawī family; systematized Ḥanafī kalām methodology"
+  },
+  {
     "name": "Zahīr al-Dīn al-Marghīnānī al-Kabīr",
     "ah": "d. 506",
     "century": 6,
@@ -273,6 +293,16 @@
     "place": "Marghīnān, Transoxiana",
     "bio": "A Hanafi jurist from Marghīnān in the Farghāna Valley, recognized as an early scholarly figure in the region before the fame of Burhan al-Dīn al-Marghīnānī. He contributed to the Hanafi legal tradition of Transoxiana. His works represent the continuity of Hanafi scholarship in the area.",
     "works": "—"
+  },
+  {
+    "name": "Abū al-Muʾīn al-Nasafī",
+    "ah": "d. 508",
+    "century": 6,
+    "sortDeath": 508,
+    "place": "Nasaf, Transoxiana",
+    "bio": "A preeminent Hanafi-Māturīdī theologian from Nasaf, considered the most important figure in the Māturīdī school after Imām al-Māturīdī himself. He authored *Tabṣirat al-Adilla* and *Bahr al-Kalām*, monumental works in Islamic theology that systematized Māturīdī doctrine. He died in 508 AH, bridging the 5th and 6th centuries.",
+    "works": "Tabṣirat al-Adillah, Bahr al-Kalām",
+    "note": "Principal defender of Māturīdī theology; central to the Ḥanafī theological-juristic tradition"
   },
   {
     "name": "Shaykh al-Islām ʿAlī al-Isbījābī",
@@ -302,15 +332,6 @@
     "works": "Ṭalabah al-Ṭalabah"
   },
   {
-    "name": "ʿAlāʾ al-Dīn Muḥammad al-Samarqandī",
-    "ah": "d. 539",
-    "century": 6,
-    "sortDeath": 539,
-    "place": "Samarqand, Transoxiana",
-    "bio": "A leading Hanafi jurist of Central Asia, teacher of the famous ʿAlāʾ al-Dīn al-Kāsānī, who later married his daughter. He authored *Tuḥfat al-Fuqahāʾ*, an important foundational text in Hanafi jurisprudence. His scholarly circle in Samarqand was one of the most prominent of the 6th century.",
-    "works": "Tuḥfat al-Fuqahāʾ"
-  },
-  {
     "name": "Jār Allāh Maḥmūd al-Zamakhsharī",
     "ah": "467–538",
     "century": 6,
@@ -319,6 +340,15 @@
     "bio": "Born 1074 in Zamakhshar, Khwārizm, al-Zamakhsharī was one of the greatest Arabic linguists and grammarians of the medieval period. A Muʿtazilī rationalist and Ḥanafī jurist, he traveled extensively through Bukhārā, Rayy, Iṣfahān, and Baghdād before settling in Mecca for five years — earning him the epithet Jār Allāh (Neighbour of God). His greatest work, al-Kashshāf, is the cornerstone of Quranic linguistic exegesis, renowned for its elegant Arabic style and interrogative pedagogical method. His al-Mufaṣṣal is considered by grammarians the second most important syntactic work after Ṣibawayh. He was a fierce proponent of the Muʿtazilī rationalist tradition and was noted for his independent approach to grammar, drawing from both the Baṣran and Kūfan schools as evidence demanded. Died 1143 in Jurjāniyyah, Khwārizm.",
     "works": "Al-Kashshāf ʿanḤaqāʾiq al-Tanzīl, al-Mufaṣṣal fī Ṣināʿat al-Iʿrāb",
     "note": "One of the greatest Arabic grammarians in history; author of al-Kashshāf"
+  },
+  {
+    "name": "ʿAlāʾ al-Dīn Muḥammad al-Samarqandī",
+    "ah": "d. 539",
+    "century": 6,
+    "sortDeath": 539,
+    "place": "Samarqand, Transoxiana",
+    "bio": "A leading Hanafi jurist of Central Asia, teacher of the famous ʿAlāʾ al-Dīn al-Kāsānī, who later married his daughter. He authored *Tuḥfat al-Fuqahāʾ*, an important foundational text in Hanafi jurisprudence. His scholarly circle in Samarqand was one of the most prominent of the 6th century.",
+    "works": "Tuḥfat al-Fuqahāʾ"
   },
   {
     "name": "Abū al-Fath ʿAbd al-Rashīd al-Walwālijī",
@@ -556,24 +586,6 @@
     "works": "Majmaʿ al-Baḥrayn"
   },
   {
-    "name": "ʿUmar ibn Muḥammad al-Sunnāmī",
-    "ah": "1st half 7th – 1st quarter 8th cent.",
-    "century": 7,
-    "sortDeath": 710,
-    "place": "Bukhārā, Transoxiana",
-    "bio": "Hanafi jurist active in the late 7th and early 8th centuries. He contributed to the transmission of Hanafi legal teachings.",
-    "works": "Nisāb al-Iḥtisāb / al-Fatāwā al-Diyāʾiyyah"
-  },
-  {
-    "name": "Dāwūd ibn Yūsuf al-Khaṭīb",
-    "ah": "1st half 8th cent.",
-    "century": 8,
-    "sortDeath": 740,
-    "place": "Bukhārā, Transoxiana",
-    "bio": "Hanafi scholar and intellectual of the 8th century, known for his contributions to jurisprudence and theology during the Islamic Golden Age.",
-    "works": "Al-Fatāwā al-Ghiyāthiyyah"
-  },
-  {
     "name": "Muḥammad ibn Muḥammad al-Kāshgharī",
     "ah": "d. 705",
     "century": 8,
@@ -581,6 +593,15 @@
     "place": "Kāshghar, Transoxiana",
     "bio": "Hanafi scholar from Kāshghar in the eastern Islamic world. He authored *Munyat al-Muṣallī wa-Ghunyat al-Mubtadiʾ*, a recognized Hanafi work on prayer and worship.",
     "works": "Munyat al-Muṣallī"
+  },
+  {
+    "name": "ʿUmar ibn Muḥammad al-Sunnāmī",
+    "ah": "1st half 7th – 1st quarter 8th cent.",
+    "century": 7,
+    "sortDeath": 710,
+    "place": "Bukhārā, Transoxiana",
+    "bio": "Hanafi jurist active in the late 7th and early 8th centuries. He contributed to the transmission of Hanafi legal teachings.",
+    "works": "Nisāb al-Iḥtisāb / al-Fatāwā al-Diyāʾiyyah"
   },
   {
     "name": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
@@ -608,6 +629,15 @@
     "place": "Sighnāq, Transoxiana",
     "bio": "Prominent Hanafi jurist from Sighnāq (modern Kazakhstan), expert in fiqh, uṣūl al-fiqh, and Arabic linguistics. He laid solid foundations for Islamic scholarly traditions in Central Asia and the Golden Horde, and his works were preserved and studied by later generations.",
     "works": "Al-Nihāyah / al-Kāfī Sharḥ Uṣūl al-Bazdawī"
+  },
+  {
+    "name": "Dāwūd ibn Yūsuf al-Khaṭīb",
+    "ah": "1st half 8th cent.",
+    "century": 8,
+    "sortDeath": 740,
+    "place": "Bukhārā, Transoxiana",
+    "bio": "Hanafi scholar and intellectual of the 8th century, known for his contributions to jurisprudence and theology during the Islamic Golden Age.",
+    "works": "Al-Fatāwā al-Ghiyāthiyyah"
   },
   {
     "name": "Fakhr al-Dīn ʿUthmān al-Zaylaʿī",
@@ -718,6 +748,16 @@
     "works": "Durar al-Biḥār / Sharḥ Majmaʿ al-Baḥrayn"
   },
   {
+    "name": "Saʿd al-Dīn al-Taftazānī",
+    "ah": "722–792",
+    "century": 8,
+    "sortDeath": 792,
+    "place": "Taftazān, Khurāsān",
+    "bio": "Born in 722 AH (1322 CE) in Taftazān (near Nishapur), al-Taftazānī was a master of both uṣūl al-fiqh and kalām whose Sharḥ al-ʿAqāʾid al-Nasafiyyah is the standard commentary on al-Nasafī's creed text, studied in madrasas worldwide. His al-Talwīḥ (uṣūl) and al-Mutawwal (rhetoric) are equally foundational. He represents the synthesis of Ḥanafī jurisprudence with rigorous theological method. Died 792 AH (1390 CE).",
+    "works": "Sharḥ al-ʿAqāʾid al-Nasafiyyah, al-Talwīḥ",
+    "note": "Influential uṣūl al-fiqh and kalām authority; works are standard in Ḥanafī madrasa curricula worldwide"
+  },
+  {
     "name": "Abū Bakr ibn ʿAlī al-Ḥaddād",
     "ah": "720–800",
     "century": 9,
@@ -761,6 +801,16 @@
     "place": "Cairo, Egypt",
     "bio": "Distinguished Hanafi scholar from Cairo, known as Qārīʾ al-Hidāyah. Full name: Sirāj al-Dīn Abū Ḥafṣ ʿUmar ibn ʿAlī al-Kināni al-Qāhirī al-Ḥusaynī. He was an expert in Hanafi jurisprudence and Quranic recitation.",
     "works": "Fatāwā Qārīʾ al-Hidāyah"
+  },
+  {
+    "name": "Shams al-Dīn al-Fanārī (Mollā Fenārī)",
+    "ah": "751–834",
+    "century": 9,
+    "sortDeath": 834,
+    "place": "Fenār, Anatolia",
+    "bio": "Born in 751 AH (1350 CE) in Fenār, near Bursa, Mollā Fenārī was the first Shaykh al-Islām of the Ottoman Empire, a position he held under Murād I and Bāyezīd I. His Fuṣūl al-Badāyiʿ fī Uṣūl al-Dīn is a major work of Māturīdī theology, and his ʿAyn al-Aykām is an important uṣūl text. He institutionalised Ḥanafī fiqh as the official state madhhab of the Ottoman Empire. Died 834 AH (1431 CE).",
+    "works": "Fuṣūl al-Badāyiʿ fī Uṣūl al-Dīn, ʿAyn al-Aykām",
+    "note": "First Shaykh al-Islām of the Ottoman Empire; institutionalised Ḥanafī fiqh as the state madhhab"
   },
   {
     "name": "Abū al-Ḥasan ʿAlī al-Ṭarābulusī",
@@ -825,6 +875,16 @@
     "place": "Istanbul, Anatolia",
     "bio": "Leading Hanafi jurist of the Ottoman era, born in Istanbul. He authored *Durar al-Ḥukkām fī Sharḥ Ghurar al-Aḥkām* (a major legal text) and *Mirʾāt al-Uṣūl* (on uṣūl al-fiqh). He served as Shaykh al-Islām for approximately 20 years and was buried in Bursa.",
     "works": "Ghurar al-Aḥkām / Durar al-Ḥukkām"
+  },
+  {
+    "name": "Khwājazādah",
+    "ah": "d. 893",
+    "century": 9,
+    "sortDeath": 893,
+    "place": "Bursa, Anatolia",
+    "bio": "Ottoman Hanafi scholar and jurist of the late 9th century. He was part of the scholarly establishment that shaped early Ottoman Hanafi jurisprudence.",
+    "works": "Ḥāshiyyah ʿalā al-Talwīḥ",
+    "note": "Leading Ottoman Ḥanafī commentator; glosses on al-Taftazānī became a standard reference"
   },
   {
     "name": "Ṣarī al-Dīn ʿAbd al-Barr Ibn Shihnah",
@@ -972,6 +1032,16 @@
     "works": "Majmaʿ al-Damānāt"
   },
   {
+    "name": "Aḥmad Sirhindī (Mujaddid al-Alf al-Thānī)",
+    "ah": "971–1034",
+    "century": 11,
+    "sortDeath": 1034,
+    "place": "Sirhind, India",
+    "bio": "Born in 971 AH (1564 CE) in Sirhind, Imām Rabbānī Aḥmad Sirhindī is known as the Reviver of the Second Millennium (Mujaddid al-Alf al-Thānī). His Maktūbāt — a three-volume collection of 536 letters — addresses fiqh, theology, and spirituality, and represents one of the most intellectually influential works in South Asian Islam. He reformed the Naqshbandī Sufi order and was a staunch defender of Ḥanafī jurisprudence and Sunnī orthodoxy against syncretism. Died 1034 AH (1624 CE).",
+    "works": "Maktūbāt",
+    "note": "Reviver of the second millennium; Ḥanafī jurist whose Maktūbāt address fiqh, theology, and spirituality"
+  },
+  {
     "name": "Ismāʿīl ibn ʿAbd al-Ghanī al-Nābulusī",
     "ah": "1017–1062",
     "century": 11,
@@ -1081,6 +1151,15 @@
     "works": "Fatḥ Allāh al-Muʿīn"
   },
   {
+    "name": "Muḥammad Hāshim al-Tatāwī",
+    "ah": "1104–1174",
+    "century": 12,
+    "sortDeath": 1174,
+    "place": "Mecca, Hejaz",
+    "bio": "A leading Hanafi theologian from Thatta (Sindh, present-day Pakistan) who served as Imam of the Grand Mosque at Thatta. He was famous for his missionary work and contributions to Sufism and Hanafi jurisprudence in the Indian subcontinent.",
+    "works": "Fākihat al-Bustān"
+  },
+  {
     "name": "Abū Saʿīd Muḥammad al-Khādimī",
     "ah": "1113–1176",
     "century": 12,
@@ -1090,13 +1169,14 @@
     "works": "Al-Barīqah al-Maḥmūdiyyah"
   },
   {
-    "name": "Muḥammad Hāshim al-Tatāwī",
-    "ah": "1104–1174",
+    "name": "Shāh Walī Allāh al-Dihlawī",
+    "ah": "1114–1176",
     "century": 12,
-    "sortDeath": 1174,
-    "place": "Mecca, Hejaz",
-    "bio": "A leading Hanafi theologian from Thatta (Sindh, present-day Pakistan) who served as Imam of the Grand Mosque at Thatta. He was famous for his missionary work and contributions to Sufism and Hanafi jurisprudence in the Indian subcontinent.",
-    "works": "Fākihat al-Bustān"
+    "sortDeath": 1176,
+    "place": "Delhi, India",
+    "bio": "Born in Delhi in 1114 AH (1703 CE), Shāh Walī Allāh is regarded as the most important South Asian Islamic scholar of the 18th century. His Ḥujjat Allāh al-Bālighah attempted a comprehensive re-systematisation of Islamic law, drawing on Ḥanafī fiqh, Shāfiʿī methodology, and independent ijtihād. His al-Muṣaffā is a work of uṣūl al-fiqh. He translated the Qurʾān into Persian and his intellectual legacy shaped the entire subsequent trajectory of South Asian Islam. Died 1176 AH (1762 CE).",
+    "works": "Ḥujjat Allāh al-Bālighah, al-Muṣaffā",
+    "note": "Most important South Asian Islamic scholar of the 18th century; re-systematised Ḥanafī law with independent ijtihād"
   },
   {
     "name": "Ibrāhīm ibn Muṣṭafā al-Madhārī al-Ḥalabī",
@@ -1115,6 +1195,16 @@
     "place": "Constantinople, Anatolia",
     "bio": "A Hanafi jurist and scholar from the Ottoman realms. He authored and taught works on Hanafi fiqh, serving as a link in the transmission of the school during the 12th century AH.",
     "works": "Tawfīq al-Raḥmān"
+  },
+  {
+    "name": "Qāḍī Thanāʾ Allāh Pānīpatī",
+    "ah": "d. 1225",
+    "century": 13,
+    "sortDeath": 1225,
+    "place": "Panipat, India",
+    "bio": "A major Indian Ḥanafī scholar and exegete from Panipat, born in 1731. He authored the renowned Tafsīr al-Mazharī, a celebrated Quranic commentary that integrates fiqh rulings with tafsīr. He was a direct descendant of ʿUthmān ibn ʿAffān and served as a judge (qāḍī) in his region. Died 1225 AH (1810 CE).",
+    "works": "Mawāhib al-Raḥmān, al-Kifāyah fī Sharḥ al-Hidāyah",
+    "note": "Major South Asian Ḥanafī jurist and exegete; integrated fiqh rulings into tafsīr"
   },
   {
     "name": "Aḥmad ibn Muḥammad al-Taḥtāwī",
@@ -1143,6 +1233,16 @@
     "place": "Madīnah, Hejaz",
     "bio": "A renowned Indian-origin Hanafi hadith scholar who settled in Madina. He wrote a large commentary on the *Musnad* of Imam Abū Ḥanīfah and was known for his expertise in hadith and Hanafi jurisprudence in the Hejaz.",
     "works": "Tawāliʿ al-Anwār"
+  },
+  {
+    "name": "Muḥammad Qāsim Nanāwtawī",
+    "ah": "1248–1297",
+    "century": 13,
+    "sortDeath": 1297,
+    "place": "Deoband, India",
+    "bio": "Born 1832 in Nanauta, Muhammad Qasim Nanautawi — titled Hujjat al-Islam — was the principal co-founder of the Deoband movement and Darul Uloom Deoband (1866). He studied at Delhi College under Mamluk Ali Nanautawi alongside Rashid Ahmad Gangohi, and participated in the 1857 uprising, fighting at the Battle of Shamli. After the rebellion he threw himself into institutional work — establishing Darul Uloom Deoband, building its mosque in 1868, and founding madaris across Thanabhavan, Galautti, Kerana, Danapur, Meerut, and Muradabad. His curriculum centred on the Qur'an, Hadith, Fiqh, and logic — a framework that shaped hundreds of institutions across the Muslim world. A prominent advocate of widow remarriage, he authored Aab-i Hayat and other works. Died 1880 in Deoband, aged 47.",
+    "works": "Āb-i Ḥayāt (commentary on the life of the Prophet); Taḥzīr al-Nās; Mubāḥasah Shāhjahānpūr; Taṣfiyat al-Aqāʾid",
+    "note": "Co-founder of Deoband; established the network of Deobandi madaris"
   },
   {
     "name": "ʿAbd al-Ghanī al-Ghunaymī al-Maydānī",
@@ -1209,16 +1309,6 @@
     "works": "Durar al-Ḥukkām (Sharḥ al-Majallah)"
   },
   {
-    "name": "Muḥammad Qāsim Nanāwtawī",
-    "ah": "1248–1297",
-    "century": 13,
-    "sortDeath": 1297,
-    "place": "Deoband, India",
-    "bio": "Born 1832 in Nanauta, Muhammad Qasim Nanautawi — titled Hujjat al-Islam — was the principal co-founder of the Deoband movement and Darul Uloom Deoband (1866). He studied at Delhi College under Mamluk Ali Nanautawi alongside Rashid Ahmad Gangohi, and participated in the 1857 uprising, fighting at the Battle of Shamli. After the rebellion he threw himself into institutional work — establishing Darul Uloom Deoband, building its mosque in 1868, and founding madaris across Thanabhavan, Galautti, Kerana, Danapur, Meerut, and Muradabad. His curriculum centred on the Qur'an, Hadith, Fiqh, and logic — a framework that shaped hundreds of institutions across the Muslim world. A prominent advocate of widow remarriage, he authored Aab-i Hayat and other works. Died 1880 in Deoband, aged 47.",
-    "works": "Āb-i Ḥayāt (commentary on the life of the Prophet); Taḥzīr al-Nās; Mubāḥasah Shāhjahānpūr; Taṣfiyat al-Aqāʾid",
-    "note": "Co-founder of Deoband; established the network of Deobandi madaris"
-  },
-  {
     "name": "Rashīd Aḥmad Gangohī",
     "ah": "1244–1323",
     "century": 14,
@@ -1244,6 +1334,16 @@
     "place": "Ḥamāh, Syria",
     "bio": "A Hanafi scholar from the Atāsī family of Homs (Syria), known for their scholarly contributions. He was a jurist and teacher in the Levant.",
     "works": "Sharḥ Majjalat al-Aḥkām"
+  },
+  {
+    "name": "Aḥmad Riḍā Khān Barelwī",
+    "ah": "1272–1340",
+    "century": 14,
+    "sortDeath": 1340,
+    "place": "Bareilly, India",
+    "bio": "Born in 1272 AH (1856 CE) in Bareilly, Aḥmad Riḍā Khān was the founder of the Barelwī movement and one of the most prolific Ḥanafī scholars of the modern era. His Kanz al-Īmān is a widely-used Urdu Qurʾān translation, and his 12-volume Fatāwā Riḍawiyyah addresses every conceivable legal question. He defended traditional Sunnī practices against reformist critiques and wrote extensively in fiqh, ʿaqīdah, and ḥadīth. Died 1340 AH (1921 CE).",
+    "works": "Ḥasanayn al-ʿUqūd al-Durriyyah fī Tarjamat al-Ṣiddīqah, Kanz al-Īmān (Qurʾān translation), Fatāwā Riḍawiyyah (12 vols.)",
+    "note": "Founder of the Barelwī movement; prolific Ḥanafī jurist, muḥaddith, and polemicist who defended traditional Sunni practices; wrote across fiqh, ʿaqīdah, and ḥadīth"
   },
   {
     "name": "ʿAzīz al-Raḥmān ʿUthmānī",
@@ -1290,6 +1390,26 @@
     "bio": "Born 1863 in Thana Bhawan, Ashraf Ali Thanwi — known as Hakimul Ummat (Physician of the Ummah) — was one of the most influential Deobandi scholars of the modern era. A graduate of Darul Uloom Deoband (1883), he taught at Madrasa Faiz-e-Aam in Kanpur for 14 years before returning to revive the Khanqah-i-Imdadiyah in Thana Bhawan, where he founded Madrasa Ashrafiya. He authored over a thousand works including Bayan al-Qur'an, Bahishti Zewar (his bestselling manual of Islamic conduct for women), and Imdad al-Fatawa. He was a leading supporter of the Pakistan Movement and corresponded directly with Muhammad Ali Jinnah. Muhammad Iqbal regarded him as the greatest living authority on Rumi. He trained approximately 1,000 disciples and remained a towering figure of South Asian Sunni orthodoxy until his death in 1943.",
     "works": "Bayān al-Qurʾān, Bahishtī Zewar, Imdād al-Fatāwā, Nashr al-Ṭibb fī Dhikr al-Nabī al-Ḥabīb",
     "note": "Hakimul Ummat — author of over 1,000 works; leading supporter of the Pakistan Movement"
+  },
+  {
+    "name": "Mawlānā Amjad ʿAlī Aʿẓamī",
+    "ah": "ca. 1300–1367",
+    "century": 14,
+    "sortDeath": 1367,
+    "place": "Bahraich, India",
+    "bio": "Born circa 1300 AH (1882 CE) in Bahraich, Mawlānā Amjad ʿAlī was a leading Barelwī Ḥanafī scholar. His Bahār-e-Sharīʿat — a 24-volume Urdu compendium of Ḥanafī fiqh — is the most comprehensive such work in Urdu and a pillar of the Barelwī Ḥanafī tradition. It covers every area of law from purification to inheritance. Died 1367 AH (1948 CE).",
+    "works": "Bahār-e-Sharīʿat (24 vols.)",
+    "note": "Wrote the most comprehensive Urdu Ḥanafī fiqh compendium; pillar of the Barelwī Ḥanafī tradition"
+  },
+  {
+    "name": "Muḥammad Zāhid al-Kawtharī",
+    "ah": "1296–1371",
+    "century": 14,
+    "sortDeath": 1371,
+    "place": "Ankara, Anatolia",
+    "bio": "Born in 1296 AH (1879 CE) in the Ottoman Empire, al-Kawtharī was the last holder of the title Shaykh al-Islām. After the fall of the caliphate he lived in exile in Cairo, where he became the most formidable defender of the Ḥanafī madhhab and Māturīdī theology of the 20th century. His Ḥāshiyat al-ʿUqūd al-Durriyyah supercommentary and his Maqālāt collection of essays are essential reading. He was a prolific editor of classical manuscripts and a trenchant polemicist against both Wahhābī and modernist critiques. Died 1371 AH (1952 CE).",
+    "works": "Maqālāt al-Kawtharī, Ḥāshiyat al-ʿUqūd al-Durriyyah",
+    "note": "Shaykh al-Islām of the Ottoman Empire (last holder); towering Ḥanafī scholar, muḥaddith, and polemicist; defender of the madhhab against reformist critiques"
   },
   {
     "name": "Kifāyatullāh Dehlawī",
@@ -1347,6 +1467,16 @@
     "works": "Fatāwā Maḥmūdiyyah"
   },
   {
+    "name": "ʿAbd al-Fattāḥ Abū Ghuddah",
+    "ah": "1356–1418",
+    "century": 15,
+    "sortDeath": 1418,
+    "place": "Aleppo, Syria",
+    "bio": "A Syrian Hanafi scholar, hadith expert, and former head of the Syrian Muslim Brotherhood. He was renowned for editing and publishing classical manuscripts, his biographical works, and his teaching of hadith and fiqh. He traveled extensively to India and Pakistan, connecting Arab and South Asian scholarly traditions.",
+    "works": "al-Ḥiwār fī ʿUlūm al-Ḥadīth, al-Nukat ʿalā Ibn al-Ṣalāḥ",
+    "note": "Pre-eminent Syrian Ḥanafī muḥaddith and faqīh; student of al-Kawtharī; prolific editor of classical Ḥanafī and ḥadīth manuscripts; teacher of Muftī Taqī ʿUthmānī"
+  },
+  {
     "name": "Niẓām al-Dīn Aʿẓamī",
     "ah": "1328–1420",
     "century": 15,
@@ -1374,104 +1504,14 @@
     "works": "Aḥsan al-Fatāwā"
   },
   {
-    "name": "Abū ʿAlī al-Shāshī",
-    "ah": "d. ca. 344",
-    "century": 4,
-    "sortDeath": 344,
-    "place": "Shāsh, Transoxiana",
-    "bio": "A Hanafi jurist from Shāsh (near modern Tashkent), known for his contributions to the principles of Hanafi jurisprudence. His work *Uṣūl al-Shāshī* was a significant text in the development of legal theory within the school. He was an important figure in the Central Asian Hanafi tradition.",
-    "works": "Uṣūl al-Shāshī (al-Uṣūl fī Uṣūl al-Fiqh)",
-    "note": "Wrote one of the earliest systematic Ḥanafī uṣūl al-fiqh treatises; foundational text cited by al-Jaṣṣāṣ, al-Bazdawī, and al-Sarakhsī"
-  },
-  {
-    "name": "Abū al-Muʾīn al-Nasafī",
-    "ah": "d. 508",
-    "century": 6,
-    "sortDeath": 508,
-    "place": "Nasaf, Transoxiana",
-    "bio": "A preeminent Hanafi-Māturīdī theologian from Nasaf, considered the most important figure in the Māturīdī school after Imām al-Māturīdī himself. He authored *Tabṣirat al-Adilla* and *Bahr al-Kalām*, monumental works in Islamic theology that systematized Māturīdī doctrine. He died in 508 AH, bridging the 5th and 6th centuries.",
-    "works": "Tabṣirat al-Adillah, Bahr al-Kalām",
-    "note": "Principal defender of Māturīdī theology; central to the Ḥanafī theological-juristic tradition"
-  },
-  {
-    "name": "Abū al-Yusr al-Bazdawī",
-    "ah": "d. ca. 493",
-    "century": 5,
-    "sortDeath": 493,
-    "place": "Bazdāw, Transoxiana",
-    "bio": "A prominent Hanafi-Māturīdī scholar and qāḍī in Samarqand, known as ",
-    "works": "Uṣūl al-Dīn",
-    "note": "Major Ḥanafī theologian from the Bazdawī family; systematized Ḥanafī kalām methodology"
-  },
-  {
-    "name": "Saʿd al-Dīn al-Taftazānī",
-    "ah": "722–792",
-    "century": 8,
-    "sortDeath": 792,
-    "place": "Taftazān, Khurāsān",
-    "bio": "Born in 722 AH (1322 CE) in Taftazān (near Nishapur), al-Taftazānī was a master of both uṣūl al-fiqh and kalām whose Sharḥ al-ʿAqāʾid al-Nasafiyyah is the standard commentary on al-Nasafī's creed text, studied in madrasas worldwide. His al-Talwīḥ (uṣūl) and al-Mutawwal (rhetoric) are equally foundational. He represents the synthesis of Ḥanafī jurisprudence with rigorous theological method. Died 792 AH (1390 CE).",
-    "works": "Sharḥ al-ʿAqāʾid al-Nasafiyyah, al-Talwīḥ",
-    "note": "Influential uṣūl al-fiqh and kalām authority; works are standard in Ḥanafī madrasa curricula worldwide"
-  },
-  {
-    "name": "Shams al-Dīn al-Fanārī (Mollā Fenārī)",
-    "ah": "751–834",
-    "century": 9,
-    "sortDeath": 834,
-    "place": "Fenār, Anatolia",
-    "bio": "Born in 751 AH (1350 CE) in Fenār, near Bursa, Mollā Fenārī was the first Shaykh al-Islām of the Ottoman Empire, a position he held under Murād I and Bāyezīd I. His Fuṣūl al-Badāyiʿ fī Uṣūl al-Dīn is a major work of Māturīdī theology, and his ʿAyn al-Aykām is an important uṣūl text. He institutionalised Ḥanafī fiqh as the official state madhhab of the Ottoman Empire. Died 834 AH (1431 CE).",
-    "works": "Fuṣūl al-Badāyiʿ fī Uṣūl al-Dīn, ʿAyn al-Aykām",
-    "note": "First Shaykh al-Islām of the Ottoman Empire; institutionalised Ḥanafī fiqh as the state madhhab"
-  },
-  {
-    "name": "Khwājazādah",
-    "ah": "d. 893",
-    "century": 9,
-    "sortDeath": 893,
-    "place": "Bursa, Anatolia",
-    "bio": "Ottoman Hanafi scholar and jurist of the late 9th century. He was part of the scholarly establishment that shaped early Ottoman Hanafi jurisprudence.",
-    "works": "Ḥāshiyyah ʿalā al-Talwīḥ",
-    "note": "Leading Ottoman Ḥanafī commentator; glosses on al-Taftazānī became a standard reference"
-  },
-  {
-    "name": "Aḥmad Sirhindī (Mujaddid al-Alf al-Thānī)",
-    "ah": "971–1034",
-    "century": 11,
-    "sortDeath": 1034,
-    "place": "Sirhind, India",
-    "bio": "Born in 971 AH (1564 CE) in Sirhind, Imām Rabbānī Aḥmad Sirhindī is known as the Reviver of the Second Millennium (Mujaddid al-Alf al-Thānī). His Maktūbāt — a three-volume collection of 536 letters — addresses fiqh, theology, and spirituality, and represents one of the most intellectually influential works in South Asian Islam. He reformed the Naqshbandī Sufi order and was a staunch defender of Ḥanafī jurisprudence and Sunnī orthodoxy against syncretism. Died 1034 AH (1624 CE).",
-    "works": "Maktūbāt",
-    "note": "Reviver of the second millennium; Ḥanafī jurist whose Maktūbāt address fiqh, theology, and spirituality"
-  },
-  {
-    "name": "Shāh Walī Allāh al-Dihlawī",
-    "ah": "1114–1176",
-    "century": 12,
-    "sortDeath": 1176,
-    "place": "Delhi, India",
-    "bio": "Born in Delhi in 1114 AH (1703 CE), Shāh Walī Allāh is regarded as the most important South Asian Islamic scholar of the 18th century. His Ḥujjat Allāh al-Bālighah attempted a comprehensive re-systematisation of Islamic law, drawing on Ḥanafī fiqh, Shāfiʿī methodology, and independent ijtihād. His al-Muṣaffā is a work of uṣūl al-fiqh. He translated the Qurʾān into Persian and his intellectual legacy shaped the entire subsequent trajectory of South Asian Islam. Died 1176 AH (1762 CE).",
-    "works": "Ḥujjat Allāh al-Bālighah, al-Muṣaffā",
-    "note": "Most important South Asian Islamic scholar of the 18th century; re-systematised Ḥanafī law with independent ijtihād"
-  },
-  {
-    "name": "Qāḍī Thanāʾ Allāh Pānīpatī",
-    "ah": "d. 1225",
-    "century": 13,
-    "sortDeath": 1225,
-    "place": "Panipat, India",
-    "bio": "A major Indian Ḥanafī scholar and exegete from Panipat, born in 1731. He authored the renowned Tafsīr al-Mazharī, a celebrated Quranic commentary that integrates fiqh rulings with tafsīr. He was a direct descendant of ʿUthmān ibn ʿAffān and served as a judge (qāḍī) in his region. Died 1225 AH (1810 CE).",
-    "works": "Mawāhib al-Raḥmān, al-Kifāyah fī Sharḥ al-Hidāyah",
-    "note": "Major South Asian Ḥanafī jurist and exegete; integrated fiqh rulings into tafsīr"
-  },
-  {
-    "name": "Mawlānā Amjad ʿAlī Aʿẓamī",
-    "ah": "ca. 1300–1367",
-    "century": 14,
-    "sortDeath": 1367,
-    "place": "Bahraich, India",
-    "bio": "Born circa 1300 AH (1882 CE) in Bahraich, Mawlānā Amjad ʿAlī was a leading Barelwī Ḥanafī scholar. His Bahār-e-Sharīʿat — a 24-volume Urdu compendium of Ḥanafī fiqh — is the most comprehensive such work in Urdu and a pillar of the Barelwī Ḥanafī tradition. It covers every area of law from purification to inheritance. Died 1367 AH (1948 CE).",
-    "works": "Bahār-e-Sharīʿat (24 vols.)",
-    "note": "Wrote the most comprehensive Urdu Ḥanafī fiqh compendium; pillar of the Barelwī Ḥanafī tradition"
+    "name": "Akhtar Riḍā Khān",
+    "ah": "1362–1439",
+    "century": 15,
+    "sortDeath": 1439,
+    "place": "Bareilly, India",
+    "bio": "A prominent Indian Barelvi Hanafi scholar, grandson of Ahmad Rida Khan. He was a jurist and spiritual guide who continued the family tradition of issuing fatwas and leading the Barelvi movement in India.",
+    "works": "Fatāwā Riḍawiyyah (new ed.), Dār al-Iftāʾ al-ʿĀlamiyyah rulings",
+    "note": "Grand Muftī of the Barelwī Ḥanafī tradition; great-grandson of Aḥmad Riḍā Khān; headed Dār al-Iftāʾ and issued extensive fatāwā continuing the Barelwī jurisprudential legacy"
   },
   {
     "name": "Muftī Taqī ʿUthmānī",
@@ -1484,50 +1524,10 @@
     "note": "Most prominent living Ḥanafī jurist; Islamic Fiqh Academy member; pioneered Islamic finance jurisprudence"
   },
   {
-    "name": "Muḥammad Zāhid al-Kawtharī",
-    "ah": "1296–1371",
-    "century": 14,
-    "sortDeath": 1371,
-    "place": "Ankara, Anatolia",
-    "bio": "Born in 1296 AH (1879 CE) in the Ottoman Empire, al-Kawtharī was the last holder of the title Shaykh al-Islām. After the fall of the caliphate he lived in exile in Cairo, where he became the most formidable defender of the Ḥanafī madhhab and Māturīdī theology of the 20th century. His Ḥāshiyat al-ʿUqūd al-Durriyyah supercommentary and his Maqālāt collection of essays are essential reading. He was a prolific editor of classical manuscripts and a trenchant polemicist against both Wahhābī and modernist critiques. Died 1371 AH (1952 CE).",
-    "works": "Maqālāt al-Kawtharī, Ḥāshiyat al-ʿUqūd al-Durriyyah",
-    "note": "Shaykh al-Islām of the Ottoman Empire (last holder); towering Ḥanafī scholar, muḥaddith, and polemicist; defender of the madhhab against reformist critiques"
-  },
-  {
-    "name": "ʿAbd al-Fattāḥ Abū Ghuddah",
-    "ah": "1356–1418",
-    "century": 15,
-    "sortDeath": 1418,
-    "place": "Aleppo, Syria",
-    "bio": "A Syrian Hanafi scholar, hadith expert, and former head of the Syrian Muslim Brotherhood. He was renowned for editing and publishing classical manuscripts, his biographical works, and his teaching of hadith and fiqh. He traveled extensively to India and Pakistan, connecting Arab and South Asian scholarly traditions.",
-    "works": "al-Ḥiwār fī ʿUlūm al-Ḥadīth, al-Nukat ʿalā Ibn al-Ṣalāḥ",
-    "note": "Pre-eminent Syrian Ḥanafī muḥaddith and faqīh; student of al-Kawtharī; prolific editor of classical Ḥanafī and ḥadīth manuscripts; teacher of Muftī Taqī ʿUthmānī"
-  },
-  {
-    "name": "Aḥmad Riḍā Khān Barelwī",
-    "ah": "1272–1340",
-    "century": 14,
-    "sortDeath": 1340,
-    "place": "Bareilly, India",
-    "bio": "Born in 1272 AH (1856 CE) in Bareilly, Aḥmad Riḍā Khān was the founder of the Barelwī movement and one of the most prolific Ḥanafī scholars of the modern era. His Kanz al-Īmān is a widely-used Urdu Qurʾān translation, and his 12-volume Fatāwā Riḍawiyyah addresses every conceivable legal question. He defended traditional Sunnī practices against reformist critiques and wrote extensively in fiqh, ʿaqīdah, and ḥadīth. Died 1340 AH (1921 CE).",
-    "works": "Ḥasanayn al-ʿUqūd al-Durriyyah fī Tarjamat al-Ṣiddīqah, Kanz al-Īmān (Qurʾān translation), Fatāwā Riḍawiyyah (12 vols.)",
-    "note": "Founder of the Barelwī movement; prolific Ḥanafī jurist, muḥaddith, and polemicist who defended traditional Sunni practices; wrote across fiqh, ʿaqīdah, and ḥadīth"
-  },
-  {
-    "name": "Akhtar Riḍā Khān",
-    "ah": "1362–1439",
-    "century": 15,
-    "sortDeath": 1439,
-    "place": "Bareilly, India",
-    "bio": "A prominent Indian Barelvi Hanafi scholar, grandson of Ahmad Rida Khan. He was a jurist and spiritual guide who continued the family tradition of issuing fatwas and leading the Barelvi movement in India.",
-    "works": "Fatāwā Riḍawiyyah (new ed.), Dār al-Iftāʾ al-ʿĀlamiyyah rulings",
-    "note": "Grand Muftī of the Barelwī Ḥanafī tradition; great-grandson of Aḥmad Riḍā Khān; headed Dār al-Iftāʾ and issued extensive fatāwā continuing the Barelwī jurisprudential legacy"
-  },
-  {
     "name": "Ṣalāḥ Abū al-Ḥājj",
     "ah": "b. 1395",
     "century": 15,
-    "sortDeath": 1395,
+    "sortDeath": 1500,
     "place": "Amman, Jordan",
     "bio": "Born 1974 in Amman, Jordan, Salah Abu al-Haj is one of the leading contemporary scholars of Hanafi jurisprudence. He holds bachelor's, master's, and doctoral degrees from the University of Baghdad, having studied under Shaykh Abd al-Malik al-Sa'di. He served as Assistant Professor at Al-Balqa Applied University from 2004 to 2010 and is currently Dean of Hanafi Jurisprudence at the World Islamic Science and Education University in Jordan. He is the author of over 30 works including al-Fiqh al-Muqaran (Comparative Islamic Jurisprudence), Is'ad al-Mufti, and his magnum opus al-Madkhal al-Mufassal ila al-Fiqh al-Hanafi — a comprehensive introduction to Hanafi jurisprudence.",
     "works": "Al-Madkhal al-Mufassal ila al-Fiqh al-Hanafi; al-Fiqh al-Muqaran; Is'ad al-Mufti; Removing the Confusion",
