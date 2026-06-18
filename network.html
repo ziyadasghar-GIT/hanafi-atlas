@@ -10,8 +10,8 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  background: #08090d;
-  color: #e0e0e0;
+  background: #0a0f0d;
+  color: #e8e0d0;
   font-family: 'Inter', system-ui, sans-serif;
   overflow: hidden;
   height: 100vh;
@@ -22,9 +22,9 @@ body {
   position: fixed;
   top: 0; left: 0; right: 0;
   height: 56px;
-  background: rgba(8,9,13,0.95);
+  background: linear-gradient(180deg, rgba(10,15,13,0.98) 0%, rgba(10,15,13,0.92) 100%);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(201,168,76,0.1);
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -35,14 +35,14 @@ body {
 #topbar h1 {
   font-family: 'Amiri', serif;
   font-size: 20px;
-  color: #00e5ff;
+  color: #e0c872;
   white-space: nowrap;
 }
 
 #topbar .sep {
   width: 1px;
   height: 24px;
-  background: rgba(255,255,255,0.12);
+  background: rgba(168,153,126,0.12);
 }
 
 #topbar .nav-links {
@@ -51,7 +51,7 @@ body {
 }
 
 #topbar .nav-links a {
-  color: rgba(255,255,255,0.6);
+  color: var(--text-secondary, #a0997e);
   text-decoration: none;
   font-size: 13px;
   font-weight: 500;
@@ -61,13 +61,13 @@ body {
 }
 
 #topbar .nav-links a:hover {
-  color: #00e5ff;
-  background: rgba(0,229,255,0.08);
+  color: #e0c872;
+  background: rgba(224,200,114,0.08);
 }
 
 #topbar .nav-links a.active {
-  color: #00e5ff;
-  background: rgba(0,229,255,0.12);
+  color: #e0c872;
+  background: rgba(201,168,76,0.15);
 }
 
 #controls {
@@ -83,9 +83,9 @@ body {
 }
 
 .ctrl-group {
-  background: rgba(14,15,20,0.92);
+  background: rgba(17,26,22,0.95);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255,255,255,0.06);
+  border: 1px solid rgba(201,168,76,0.06);
   border-radius: 10px;
   padding: 12px 14px;
 }
@@ -94,24 +94,24 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: rgba(255,255,255,0.4);
+  color: rgba(160,153,126,0.5);
   margin-bottom: 8px;
 }
 
 #search-box {
   width: 200px;
   padding: 6px 10px;
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(201,168,76,0.06);
+  border: 1px solid rgba(30,48,40,0.8);
   border-radius: 6px;
-  color: #fff;
+  color: #e8e0d0;
   font-size: 13px;
   outline: none;
   font-family: 'Inter', sans-serif;
 }
 
-#search-box::placeholder { color: rgba(255,255,255,0.3); }
-#search-box:focus { border-color: #00e5ff; }
+#search-box::placeholder { color: rgba(160,153,126,0.4); }
+#search-box:focus { border-color: #e0c872; }
 
 .century-btns {
   display: flex;
@@ -121,21 +121,21 @@ body {
 
 .century-btn {
   padding: 3px 8px;
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid rgba(30,48,40,0.8);
   border-radius: 4px;
   background: transparent;
-  color: rgba(255,255,255,0.5);
+  color: rgba(160,153,126,0.7);
   font-size: 11px;
   cursor: pointer;
   transition: all 0.2s;
   font-family: 'Inter', sans-serif;
 }
 
-.century-btn:hover { border-color: rgba(255,255,255,0.3); color: #fff; }
+.century-btn:hover { border-color: rgba(160,153,126,0.4); color: #e8e0d0; }
 
 .century-btn.active {
   border-color: currentColor;
-  color: #fff;
+  color: #e8e0d0;
   font-weight: 600;
 }
 
@@ -150,11 +150,11 @@ body {
   align-items: center;
   gap: 8px;
   font-size: 12px;
-  color: rgba(255,255,255,0.6);
+  color: var(--text-secondary, #a0997e);
   cursor: pointer;
 }
 
-.legend-item input { accent-color: #00e5ff; }
+.legend-item input { accent-color: #e0c872; }
 
 .legend-line {
   width: 24px;
@@ -164,7 +164,7 @@ body {
 
 .stats-line {
   font-size: 11px;
-  color: rgba(255,255,255,0.35);
+  color: rgba(160,153,126,0.45);
   margin-top: 4px;
 }
 
@@ -195,25 +195,25 @@ body {
 #tooltip .tt-name {
   font-family: 'Amiri', serif;
   font-size: 16px;
-  color: #00e5ff;
+  color: #e0c872;
   margin-bottom: 4px;
 }
 
 #tooltip .tt-meta {
   font-size: 11px;
-  color: rgba(255,255,255,0.45);
+  color: #a0997e;
   margin-bottom: 6px;
 }
 
 #tooltip .tt-bio {
   font-size: 12px;
-  color: rgba(255,255,255,0.7);
+  color: rgba(232,224,208,0.8);
   line-height: 1.5;
 }
 
 #tooltip .tt-rels {
   margin-top: 6px;
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(201,168,76,0.1);
   padding-top: 6px;
 }
 
@@ -221,29 +221,32 @@ body {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgba(255,255,255,0.35);
+  color: rgba(160,153,126,0.45);
 }
 
 #tooltip .tt-rel-names {
   font-size: 12px;
-  color: rgba(255,255,255,0.65);
+  color: rgba(232,224,208,0.7);
 }
 
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
+::-webkit-scrollbar-thumb { background: rgba(201,168,76,0.15); border-radius: 2px; }
 
 @media (max-width: 768px) {
   #controls { left: 8px; top: 60px; }
   .ctrl-group { padding: 8px 10px; }
   #search-box { width: 140px; }
 }
+
+.ornament { color: #c9a84c; margin: 0 0.3em; font-size: 0.8em; }
+.atlas-nav { border-bottom: 1px solid #1e3028; }
 </style>
 </head>
 <body>
 
 <div id="topbar">
-  <h1>Ḥanafī Atlas — Scholar Network</h1>
+  <h1><span class="ornament">✦</span> Scholar Network <span class="ornament">✦</span></h1>
   <div class="sep"></div>
   <div class="nav-links">
     <a href="index.html">Timeline</a>
@@ -284,17 +287,17 @@ body {
     <div class="edge-legend">
       <label class="legend-item">
         <input type="checkbox" id="show-teachers" checked />
-        <div class="legend-line" style="background: #7b6cff;"></div>
+        <div class="legend-line" style="background: #c9a84c;"></div>
         Teacher → Student
       </label>
       <label class="legend-item">
         <input type="checkbox" id="show-peers" checked />
-        <div class="legend-line" style="background: #00e5ff; opacity: 0.5;"></div>
+        <div class="legend-line" style="background: #1bb960; opacity: 0.7;"></div>
         Peers / Colleagues
       </label>
       <label class="legend-item">
         <input type="checkbox" id="show-external" checked />
-        <div class="legend-line" style="background: rgba(255,255,255,0.15);"></div>
+        <div class="legend-line" style="background: rgba(201,168,76,0.15);"></div>
         External links
       </label>
     </div>
@@ -436,7 +439,7 @@ defs.append('marker')
   .attr('orient', 'auto')
   .append('path')
   .attr('d', 'M0,-4L10,0L0,4')
-  .attr('fill', '#7b6cff');
+  .attr('fill', '#c9a84c');
 
 defs.append('marker')
   .attr('id', 'arrowhead-ext')
@@ -448,7 +451,7 @@ defs.append('marker')
   .attr('orient', 'auto')
   .append('path')
   .attr('d', 'M0,-4L10,0L0,4')
-  .attr('fill', 'rgba(255,255,255,0.3)');
+  .attr('fill', 'rgba(160,153,126,0.4)');
 
 const g = svg.append('g');
 
@@ -505,9 +508,9 @@ function render() {
     .data(visibleEdges, d => d.source + '->' + d.target)
     .enter().append('line')
     .attr('stroke', d => {
-      if (d.type === 'teacher') return '#7b6cff';
-      if (d.type === 'peer') return 'rgba(0,229,255,0.35)';
-      return 'rgba(255,255,255,0.08)';
+      if (d.type === 'teacher') return '#c9a84c';
+      if (d.type === 'peer') return 'rgba(27,185,96,0.5)';
+      return 'rgba(201,168,76,0.1)';
     })
     .attr('stroke-width', d => d.type === 'teacher' ? 1.5 : 1)
     .attr('stroke-dasharray', d => d.type === 'peer' ? '4 3' : (d.type === 'teacher-external' ? '2 4' : 'none'))
@@ -530,7 +533,7 @@ function render() {
   nodes.append('circle')
     .attr('r', d => Math.max(5, 12 - d.century * 0.5))
     .attr('fill', d => d.color)
-    .attr('stroke', 'rgba(255,255,255,0.2)')
+    .attr('stroke', 'rgba(201,168,76,0.3)')
     .attr('stroke-width', 1.5);
   
   nodes.append('text')
