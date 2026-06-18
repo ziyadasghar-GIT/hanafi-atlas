@@ -875,6 +875,17 @@ let activeCentury = 2;
 let showRoutes = true;
 let showHeatmap = false;
 const markersByCity = new Map();
+let scrubberValueEl; // will be set after DOM is ready
+
+function setScrubberValue(c) {
+  activeCentury = c;
+  let suffix = 'th';
+  if (c === 2) suffix = 'nd';
+  else if (c === 3) suffix = 'rd';
+  const sv = document.getElementById('scrubberValue');
+  if (sv) sv.textContent = c + suffix + ' AH';
+  if (typeof updateMarkerStates === 'function') updateMarkerStates();
+}
 
 function getRegion(place) {
   if (!place) return 'Unknown';
@@ -1218,20 +1229,12 @@ map.on('load', async () => {
   updateMarkerStates();
   flyToChapter(0, true);
 
-  // Scrubber
-  const scrubber = document.getElementById('scrubber');
-  const scrubberValue = document.getElementById('scrubberValue');
-  function setScrubberValue(c) {
-    activeCentury = c;
-    let suffix = 'th';
-    if (c === 2) suffix = 'nd';
-    else if (c === 3) suffix = 'rd';
-    scrubberValue.textContent = c + suffix + ' AH';
-    updateMarkerStates();
-  }
-  scrubber.addEventListener('input', (e) => setScrubberValue(parseInt(e.target.value)));
-  scrubberValue.addEventListener('click', () => {
-    scrubber.value = 2;
+  // Scrubber — set up immediately (elements exist in HTML before this script)
+  const scrubberEl = document.getElementById('scrubber');
+  scrubberValueEl = document.getElementById('scrubberValue');
+  scrubberEl.addEventListener('input', (e) => setScrubberValue(parseInt(e.target.value)));
+  scrubberValueEl.addEventListener('click', () => {
+    scrubberEl.value = 2;
     setScrubberValue(2);
   });
 
