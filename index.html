@@ -2153,6 +2153,25 @@ searchInput.addEventListener('input', (e) => {
   renderTimeline();
 });
 
+
+
+// ── Filter functions ────────────────────────────────────────────────
+function filterByCentury(c) {
+  activeCentury = c;
+  document.querySelectorAll('.century-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.century == c);
+  });
+  renderTimeline();
+}
+
+function filterByRegion(region) {
+  activeRegion = region;
+  document.querySelectorAll('.region-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.region == region);
+  });
+  renderTimeline();
+}
+
 function renderTimeline() {
   const container = document.getElementById('timelineContainer');
   const isHorizontal = document.body.classList.contains('horizontal');
