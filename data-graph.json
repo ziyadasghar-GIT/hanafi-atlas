@@ -3158,6 +3158,570 @@
       "target": "ʿAbd al-Raḥīm Ḥafīd Ṣāḥib al-Hidāyah",
       "type": "teacher",
       "label": "taught"
+    },
+    {
+      "source": "Fakhr al-Dīn ʿUthmān al-Zaylaʿī",
+      "target": "Jamāl al-Dīn ʿAbd Allāh al-Zaylaʿī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ṣadr al-Sharīʿah ʿUbayd Allāh ibn Maḥmūd",
+      "target": "Tāj al-Sharīʿah Maḥmūd ibn Aḥmad",
+      "type": "teacher",
+      "label": "grandson of"
+    },
+    {
+      "source": "Muẓaffar al-Dīn Aḥmad Ibn al-Sāʿātī",
+      "target": "Abū al-Faḍl ʿAbd Allāh al-Mawṣilī",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Abū al-Faḍl ʿAbd Allāh al-Mawṣilī",
+      "target": "ʿAlī ibn Abī Bakr al-Marghīnānī",
+      "type": "teacher",
+      "label": "studied"
+    },
+    {
+      "source": "Ṣadr al-Sharīʿah ʿUbayd Allāh ibn Maḥmūd",
+      "target": "Akmal al-Dīn Muḥammad al-Bābartī",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Ṣadr al-Sharīʿah ʿUbayd Allāh ibn Maḥmūd",
+      "target": "Saʿd al-Dīn al-Taftazānī",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Kamāl al-Dīn Ibn al-Humām",
+      "target": "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+      "target": "Abū al-Baqāʾ Muḥammad Ibn al-Diyāʾ",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+      "target": "Muḥammad ibn Bīr ʿAlī al-Birgawī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "ʿAlī ibn Abī Bakr al-Marghīnānī",
+      "target": "Ḥasan ibn Manṣūr QāḍīKhān",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Burhān al-Dīn Maḥmūd al-Bukhārī",
+      "target": "Ḥasan ibn Manṣūr QāḍīKhān",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "ʿAlī ibn Abī Bakr al-Marghīnānī",
+      "target": "Burhān al-Dīn Maḥmūd al-Bukhārī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū al-ʿAbbās Aḥmad al-Sarūjī",
+      "target": "ʿAlī ibn Abī Bakr al-Marghīnānī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Akmal al-Dīn Muḥammad al-Bābartī",
+      "target": "Abū al-ʿAbbās Aḥmad al-Sarūjī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Amīr Kātib al-Itqānī",
+      "target": "ʿAlī ibn Abī Bakr al-Marghīnānī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Kamāl al-Dīn Ibn al-Humām",
+      "target": "Sirāj al-Dīn Abū Ḥafṣ ʿUmar Qārīʾ al-Hidāyah",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+      "target": "Abū al-Ikhlāṣ Ḥasan al-Shurunbulālī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+      "target": "Shihāb al-Dīn al-Tumurtāshī al-Ghazzī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Muḥammad ibn Bīr ʿAlī al-Birgawī",
+      "target": "Abū Saʿīd Muḥammad al-Khādimī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Raḥmat Allāh al-Sindī",
+      "target": "Muḥammad Hāshim al-Tatāwī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥusām al-Dīn Ḥusayn al-Sighnāqī",
+      "target": "ʿAlī ibn Abī Bakr al-Marghīnānī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "ʿAbd al-Laṭīf Ibn Malak",
+      "target": "Ṣadr al-Sharīʿah ʿUbayd Allāh ibn Maḥmūd",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Shams al-Dīn Muḥammad al-Quhustānī",
+      "target": "Ṣadr al-Sharīʿah ʿUbayd Allāh ibn Maḥmūd",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Najm al-Dīn Mukhtār al-Zāhidī",
+      "target": "Abū al-Ḥusayn Aḥmad al-Qudūrī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Abū al-Ḥusayn Aḥmad al-Qudūrī",
+      "target": "Abū al-ʿAbbās Aḥmad al-Nāṭifī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Ḥalwānī",
+      "target": "Abū al-Ḥasan ʿAlī al-Sughdī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū al-Ḥusayn Aḥmad al-Qudūrī",
+      "target": "al-Qāḍī Aḥmad ibn Manṣūr al-Isbījābī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Ḥalwānī",
+      "target": "Shaykh al-Islām ʿAlī al-Isbījābī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Ḥalwānī",
+      "target": "Abū al-Fath ʿAbd al-Rashīd al-Walwālijī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Ḥalwānī",
+      "target": "Aḥmad ibn Mūsā al-Kashshī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū al-Ḥusayn Aḥmad al-Qudūrī",
+      "target": "Abū al-Muẓaffar Asʿad al-Karābīsī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū Naṣr Aḥmad al-ʿAṭṭābī",
+      "target": "Abū Bakr ibn Masʿūd al-Kāsānī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Zahīr al-Dīn al-Marghīnānī al-Kabīr",
+      "target": "ʿAlī ibn Abī Bakr al-Marghīnānī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Sarakhsī",
+      "target": "Raḍī al-Dīn Muḥammad al-Sarakhsī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Ḥasan ibn Manṣūr QāḍīKhān",
+      "target": "Burhān al-Dīn Maḥmūd al-Bukhārī",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Ḥusām al-Dīn al-Ṣadr al-Shahīd",
+      "target": "Ḥasan ibn Manṣūr QāḍīKhān",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥusām al-Dīn al-Ṣadr al-Shahīd",
+      "target": "Rukn al-Dīn al-Kirānī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Fakhr al-Islām ʿAlī al-Bazdawī",
+      "target": "Ḥusām al-Dīn ʿAlī al-Rāzī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "ʿAlī ibn Abī Bakr al-Marghīnānī",
+      "target": "Majd al-Dīn Muḥammad al-Uṣrūshnī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Sarakhsī",
+      "target": "Najm al-Dīn Mukhtār al-Zāhidī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+      "target": "Aḥmad ibn Yūnus Ibn al-Shilbī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Akmal al-Dīn Muḥammad al-Bābartī",
+      "target": "Abū al-Ḥasan ʿAlī al-Ṭarābulusī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū al-Ḥasan ʿAlī al-Ṭarābulusī",
+      "target": "Ibrāhīm ibn Mūsā al-Ṭarābulusī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Fakhr al-Dīn ʿUthmān al-Zaylaʿī",
+      "target": "Abū Bakr ibn ʿAlī al-Ḥaddād",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Akmal al-Dīn Muḥammad al-Bābartī",
+      "target": "Maḥmūd ibn Isrāʾīl Ibn Qāḍī Samāwna",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Kamāl al-Dīn Ibn al-Humām",
+      "target": "Abū al-Baqāʾ Muḥammad Ibn al-Diyāʾ",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Kardarī",
+      "target": "Muḥammad al-Bazzāzī al-Kardarī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Aḥmad ibn Sulaymān Ibn Kamāl Pāshā",
+      "target": "ʿAbd al-Raḥmān Shaykhī Zādah al-Dāmād",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Aḥmad ibn Sulaymān Ibn Kamāl Pāshā",
+      "target": "Shaykh al-Islām Muḥammad al-Anqarawī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "ʿAbd al-Raḥmān Shaykhī Zādah al-Dāmād",
+      "target": "ʿAbd al-Qādir ibn Yūsuf Qadrī Afandī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shihāb al-Dīn al-Tumurtāshī al-Ghazzī",
+      "target": "Aḥmad ibn Muḥammad al-Ḥamawī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Dīn Muḥammad al-Quhustānī",
+      "target": "Ibrāhīm ibn Ḥusayn ibn Aḥmad Ibn Bīrī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shihāb al-Dīn al-Tumurtāshī al-Ghazzī",
+      "target": "Ibrāhīm ibn Muṣṭafā al-Madhārī al-Ḥalabī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū Saʿīd Muḥammad al-Khādimī",
+      "target": "Muṣṭafā ibn Muḥammad al-Tāʾī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shāh Walī Allāh al-Dihlawī",
+      "target": "Muḥammad ʿĀbid al-Sindī al-Madanī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Abū Saʿīd Muḥammad al-Khādimī",
+      "target": "Shihāb al-Dīn al-Marjānī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "ʿAbd al-Fattāḥ Abū Ghuddah",
+      "target": "Muḥammad Bakhīt al-Muṭīʿī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Muḥammad Bakhīt al-Muṭīʿī",
+      "target": "Ashraf ʿAlī Thānawī",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "ʿAbd al-Ghanī al-Ghunaymī al-Maydānī",
+      "target": "Aḥmad ibn Muḥammad al-Kurdī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Kamāl al-Dīn Ibn al-Humām",
+      "target": "Ṣarī al-Dīn ʿAbd al-Barr Ibn Shihnah",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū al-Baqāʾ Muḥammad Ibn al-Diyāʾ",
+      "target": "Raḥmat Allāh al-Sindī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ibrāhīm ibn Ḥusayn ibn Aḥmad Ibn Bīrī",
+      "target": "Asʿad ibn Abī Bakr al-Uskudārī al-Madanī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ibrāhīm ibn Muḥammad al-Ḥalabī",
+      "target": "Aḥmad ibn Maḥmūd Qāḍī Zādah",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shihāb al-Dīn al-Tumurtāshī al-Ghazzī",
+      "target": "Ismāʿīl ibn ʿAbd al-Ghanī al-Nābulusī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Dīn al-Fanārī (Mollā Fenārī)",
+      "target": "Khwājazādah",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Khwājazādah",
+      "target": "Aḥmad ibn Sulaymān Ibn Kamāl Pāshā",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "target": "Akmal al-Dīn Muḥammad al-Bābartī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "target": "Badr al-Dīn Maḥmūd al-ʿAynī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "target": "Fakhr al-Dīn ʿUthmān al-Zaylaʿī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Kardarī",
+      "target": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shams al-Aʾimmah al-Sarakhsī",
+      "target": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "type": "teacher",
+      "label": "influenced"
+    },
+    {
+      "source": "Najm al-Dīn ʿUmar al-Nasafī",
+      "target": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Nāṣir al-Dīn Muḥammad al-Samarqandī",
+      "target": "ʿAlāʾ al-Dīn Muḥammad al-Samarqandī",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Burhān al-Dīn Maḥmūd al-Bukhārī",
+      "target": "Ṭāhir ibn Aḥmad al-Bukhārī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Burhān al-Dīn Maḥmūd al-Bukhārī",
+      "target": "Zahīr al-Dīn Muḥammad al-Bukhārī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Burhān al-Dīn Maḥmūd al-Bukhārī",
+      "target": "ʿAlāʾ al-Dīn al-Tarjumānī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥusām al-Dīn ʿAlī al-Rāzī",
+      "target": "Zayn al-Dīn Muḥammad al-Rāzī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Jalāl al-Dīn al-Karlānī",
+      "target": "Abū al-Faḍl ʿAbd Allāh al-Mawṣilī",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Majd al-Dīn Muḥammad al-Uṣrūshnī",
+      "target": "Muḥammad ibn Muḥammad al-Kāshgharī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Burhān al-Dīn Maḥmūd al-Bukhārī",
+      "target": "ʿUmar ibn Muḥammad al-Sunnāmī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "target": "Dāwūd ibn Yūsuf al-Khaṭīb",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "target": "Qiwām al-Dīn Muḥammad al-Kākī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Akmal al-Dīn Muḥammad al-Bābartī",
+      "target": "Ibrāhīm ibn ʿAlī al-Tarasūsī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Jamāl al-Dīn ʿAbd Allāh al-Zaylaʿī",
+      "target": "ʿAbd al-Wahhāb ibn Aḥmad Ibn Wahbān",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "target": "Ṭāhir ibn Islām al-Khāwrizmī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Najm al-Dīn ʿUmar al-Nasafī",
+      "target": "Sirāj al-Dīn ʿUmar al-Ghaznawī al-Hindī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "target": "ʿĀlim ibn al-ʿAlāʾ al-Andarpātī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shihāb al-Dīn al-Tumurtāshī al-Ghazzī",
+      "target": "Abū Muḥammad al-Baghdādī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
+      "target": "Muḥammad al-ʿAbbāsī al-Mahdī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ibrāhīm ibn Mūsā al-Ṭarābulusī",
+      "target": "Muḥammad Kāmil al-Ṭarābulusī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Muṣṭafā ibn Muḥammad al-Tāʾī",
+      "target": "Amīn ʿAlī Ḥaydar Afandī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Muḥammad Bakhīt al-Muṭīʿī",
+      "target": "ʿAbd al-Qādir al-Rāfiʿī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Aḥmad ibn Muḥammad al-Ḥamawī",
+      "target": "Muḥammad Khālid al-Atāsī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Muḥammad Bakhīt al-Muṭīʿī",
+      "target": "Khalīl ibn ʿAbd al-Qādir al-Nahlawī",
+      "type": "teacher",
+      "label": "taught"
     }
   ]
 }
