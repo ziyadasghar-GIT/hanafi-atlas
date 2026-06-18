@@ -1234,7 +1234,14 @@ map.on('load', async () => {
 
   placeMarkers();
   updateMarkerStates();
-  flyToChapter(0, true);
+  // Fly to chapter 0 once the map is fully ready (tiles + first render complete)
+  map.once('idle', () => {
+    flyToChapter(0, true);
+    // Also handle case where tiles load before JS runs
+    if (activeChapterIdx === 0 && map.getZoom() < 3) {
+      flyToChapter(0, true);
+    }
+  });
 
   // Toggles
   document.getElementById('toggleRoutes').addEventListener('click', (e) => {
