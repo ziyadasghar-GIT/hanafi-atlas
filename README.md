@@ -20,6 +20,8 @@ Light parchment-themed interactive map (MapLibre GL). Click city markers to fly 
 
 ### 🔗 Network (`network.html`)
 Interactive force-directed graph showing teacher↔student chains and peer connections across all 167 scholars. Colour-coded by century, with hover tooltips showing scholarly relationships. Filter by century, search by name (Unicode-aware), and toggle teacher/peer/external edge types.
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/d157b3ec-def5-409e-84fa-781a48c87491" />
+
 
 - **159 teacher→student links** (gold arrows) tracing isnād chains
 - **25 peer connections** (dashed green lines) showing contemporary colleagues
