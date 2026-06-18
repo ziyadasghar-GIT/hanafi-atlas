@@ -653,6 +653,60 @@ body::before {
 }
 
 /* Print styles */
+
+@media (max-width: 600px) {
+  .bio-modal {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    max-height: 100dvh;
+    border-radius: 0;
+    padding: 20px 16px;
+    margin: 0;
+  }
+  .bio-modal-overlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+  .bio-modal-overlay.open {
+    animation: slideUp 0.25s ease;
+  }
+  .bio-modal .bio-header {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .bio-modal .bio-header h3 {
+    font-size: 1.15rem;
+  }
+  .bio-modal .bio-text {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+  .bio-modal-close {
+    top: 8px;
+    right: 12px;
+    font-size: 1.4rem;
+  }
+  .controls {
+    padding: 8px 10px;
+    gap: 6px;
+  }
+  .century-filters, #regionFilters {
+    gap: 4px;
+  }
+  .century-btn, .region-btn {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+  .search-box input {
+    font-size: 0.85rem;
+  }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
 @media print {
   body::before { display: none; }
   .controls { display: none; }
@@ -830,6 +884,8 @@ body.horizontal .scroll-hint {
   justify-content: center;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .bio-modal-overlay.open {
@@ -843,10 +899,13 @@ body.horizontal .scroll-hint {
   border: 1px solid var(--border);
   border-radius: 16px;
   max-width: 680px;
-  width: 92%;
+  width: 94%;
   max-height: 85vh;
+  max-height: -webkit-fill-available;
   overflow-y: auto;
-  padding: 32px 36px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  padding: 28px 24px;
   box-shadow: 0 8px 40px rgba(0,0,0,0.6), 0 0 80px rgba(201,168,76,0.08);
 }
 
@@ -942,6 +1001,8 @@ body.horizontal .scroll-hint {
   font-size: 0.95rem;
   line-height: 1.8;
   color: var(--text-primary);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .bio-modal .bio-scroll-indicator {
