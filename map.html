@@ -1161,19 +1161,26 @@ function buildRouteGeoJSON() {
   return { type: 'FeatureCollection', features };
 }
 
-map.on('load', async () => {
-  // Load data from external JSON files
-  try {
-    // Load from inline data (works on file:// protocol)
-    const _raw = JSON.parse(document.getElementById('inlineData').textContent);
-    PLACES = _raw.PLACES;
-    SCHOLARS = _raw.SCHOLARS;
-    CHAPTERS = _raw.CHAPTERS;
-  } catch (err) {
-    console.error('Failed to load map data:', err);
-    return;
-  }
+// ── Load data synchronously (inline JSON always available) ──
+try {
+  const _raw = JSON.parse(document.getElementById('inlineData').textContent);
+  PLACES = _raw.PLACES;
+  SCHOLARS = _raw.SCHOLARS;
+  CHAPTERS = _raw.CHAPTERS;
+} catch (err) {
+  console.error('Failed to parse map data:', err);
+}
 
+// ── Set up scrubber IMMEDIATELY so it's ready before map loads ──
+const scrubberEl = document.getElementById('scrubber');
+scrubberValueEl = document.getElementById('scrubberValue');
+scrubberEl.addEventListener('input', (e) => setScrubberValue(parseInt(e.target.value)));
+scrubberValueEl.addEventListener('click', () => {
+  scrubberEl.value = 2;
+  setScrubberValue(2);
+});
+
+map.on('load', async () => {
   // Build region chips
   const regionList = getRegions();
   const chipsEl = document.getElementById('regionChips');
@@ -1228,15 +1235,6 @@ map.on('load', async () => {
   placeMarkers();
   updateMarkerStates();
   flyToChapter(0, true);
-
-  // Scrubber — set up immediately (elements exist in HTML before this script)
-  const scrubberEl = document.getElementById('scrubber');
-  scrubberValueEl = document.getElementById('scrubberValue');
-  scrubberEl.addEventListener('input', (e) => setScrubberValue(parseInt(e.target.value)));
-  scrubberValueEl.addEventListener('click', () => {
-    scrubberEl.value = 2;
-    setScrubberValue(2);
-  });
 
   // Toggles
   document.getElementById('toggleRoutes').addEventListener('click', (e) => {
