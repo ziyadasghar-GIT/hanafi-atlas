@@ -3722,6 +3722,30 @@
       "target": "Khalīl ibn ʿAbd al-Qādir al-Nahlawī",
       "type": "teacher",
       "label": "taught"
+    },
+    {
+      "source": "Mawlānā Muḥammad Yāqūb Nanawtawī",
+      "target": "Ashraf ʿAlī Thānawī",
+      "type": "teacher-external",
+      "label": "taught"
+    },
+    {
+      "source": "Shaykh al-Hind Maḥmūd al-Ḥasan",
+      "target": "Ashraf ʿAlī Thānawī",
+      "type": "teacher-external",
+      "label": "taught"
+    },
+    {
+      "source": "Qārī Muḥammad ʿAbd Allāh Muhājir Makkī",
+      "target": "Ashraf ʿAlī Thānawī",
+      "type": "teacher-external",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥājī Imdād Allāh Muhājir Makkī",
+      "target": "Ashraf ʿAlī Thānawī",
+      "type": "teacher-external",
+      "label": "taught"
     }
   ]
 }
