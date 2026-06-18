@@ -9,8 +9,16 @@ A dual-view web app tracing 1,400 years of Ḥanafī scholarship across 167 scho
 ### 📜 Timeline (`index.html`)
 Dark-themed chronological scrollytelling. Browse scholars by century, filter by region, search by name/works. Each scholar card shows dates, key works, biography, and notable highlights.
 
+<img width="1898" height="908" alt="image" src="https://github.com/user-attachments/assets/49641b10-ed53-4751-966d-25fc06e33d95" />
+
+
 ### 🗺 Map (`map.html`)
 Light parchment-themed interactive map (MapLibre GL). Click city markers to fly between chapters, filter by region and century, and open the side panel to read scholar bios for each city.
+
+<img width="1904" height="908" alt="image" src="https://github.com/user-attachments/assets/0794ca3f-8e25-4399-826f-f776e648d342" />
+
+<img width="1899" height="909" alt="image" src="https://github.com/user-attachments/assets/87ecc099-79c7-48e5-b556-eb208cfefd96" />
+
 
 ## Data
 
