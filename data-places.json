@@ -710,5 +710,9 @@
     ],
     "modern": "Kazan, Russia",
     "region": "Volga Bulgaria"
+  },
+  "Amman, Jordan": {
+    "lat": 31.9454,
+    "lon": 35.9263
   }
 }
