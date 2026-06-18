@@ -735,7 +735,7 @@ html, body {
       <div class="scrubber-inner">
         <span class="scrubber-label">Century</span>
         <input type="range" min="2" max="15" value="2" step="1" class="scrubber-slider" id="scrubber">
-        <span class="scrubber-value" id="scrubberValue">2nd AH</span>
+        <span class="scrubber-value" id="scrubberValue">All AH</span>
       </div>
     </div>
   </div>
@@ -871,7 +871,7 @@ map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePi
 
 let activeChapterIdx = 0;
 let activeRegion = 'all';
-let activeCentury = 2;
+let activeCentury = 'all';
 let showRoutes = true;
 let showHeatmap = false;
 const markersByCity = new Map();
@@ -884,6 +884,15 @@ function setScrubberValue(c) {
   else if (c === 3) suffix = 'rd';
   const sv = document.getElementById('scrubberValue');
   if (sv) sv.textContent = c + suffix + ' AH';
+  if (typeof updateMarkerStates === 'function') updateMarkerStates();
+}
+
+function setScrubberAll() {
+  activeCentury = 'all';
+  const sv = document.getElementById('scrubberValue');
+  if (sv) sv.textContent = 'All AH';
+  const sl = document.getElementById('scrubber');
+  if (sl) sl.value = 2;
   if (typeof updateMarkerStates === 'function') updateMarkerStates();
 }
 
@@ -1176,8 +1185,7 @@ const scrubberEl = document.getElementById('scrubber');
 scrubberValueEl = document.getElementById('scrubberValue');
 scrubberEl.addEventListener('input', (e) => setScrubberValue(parseInt(e.target.value)));
 scrubberValueEl.addEventListener('click', () => {
-  scrubberEl.value = 2;
-  setScrubberValue(2);
+  setScrubberAll();
 });
 
 map.on('load', async () => {
