@@ -1,8 +1,8 @@
 # Ḥanafī Atlas
 
-**Timeline & Interactive Map of the Ḥanafī School**
+**Timeline · Map · Network of the Ḥanafī School**
 
-A dual-view web app tracing 1,400 years of Ḥanafī scholarship across 167 scholars, 89 cities, and 16 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
+A triple-view web app tracing 1,400 years of Ḥanafī scholarship across 167 scholars, 89 cities, and 16 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
 
 ## Views
 
@@ -11,14 +11,20 @@ Dark-themed chronological scrollytelling. Browse scholars by century, filter by 
 
 <img width="1898" height="908" alt="image" src="https://github.com/user-attachments/assets/49641b10-ed53-4751-966d-25fc06e33d95" />
 
-
 ### 🗺 Map (`map.html`)
 Light parchment-themed interactive map (MapLibre GL). Click city markers to fly between chapters, filter by region and century, and open the side panel to read scholar bios for each city.
 
-<img width="1904" height="908" alt="image" src="https://github.com/user-attachments/assets/0794ca3f-8e25-4399-826f-f776e648d342" />
+<img width="1904" height="908" alt="image" src="https://github.com/user-attachments/assets/0794ca3f-8e25-4399-866f-f776e648d342" />
 
 <img width="1899" height="909" alt="image" src="https://github.com/user-attachments/assets/87ecc099-79c7-48e5-b556-eb208cfefd96" />
 
+### 🔗 Network (`network.html`)
+Interactive force-directed graph showing teacher↔student chains and peer connections across all 167 scholars. Colour-coded by century, with hover tooltips showing scholarly relationships. Filter by century, search by name (Unicode-aware), and toggle teacher/peer/external edge types.
+
+- **75 teacher→student links** (solid purple arrows) tracing isnād chains
+- **15 peer connections** (dashed cyan lines) showing contemporary colleagues
+- **130 external links** (dotted grey) connecting to scholars outside the 167-scholar dataset
+- Drag nodes, zoom/pan, and click century buttons to isolate eras
 
 ## Data
 
@@ -27,12 +33,14 @@ Light parchment-themed interactive map (MapLibre GL). Click city markers to fly 
 | `data-scholars.json` | 167 scholars with name, dates (AH), century, place, bio, works, note |
 | `data-places.json` | 89 cities with coordinates (lng/lat), modern name, region |
 | `data-chapters.json` | 10 map chapter definitions (center, zoom, pitch, bearing, text) |
+| `data-graph.json` | 167 nodes + 220 edges for the network graph (century, place, relations) |
 
-Both pages have all data embedded inline (works offline, no server needed). The JSON files in the repo are the source of truth for editing — run the embed script to update the HTML after edits.
+All pages have data embedded inline (works offline, no server needed). The JSON files are the source of truth — run the embed script to update HTML after edits.
 
 ## Tech Stack
 
 - **MapLibre GL JS v4** — interactive map with flyTo animations
+- **D3.js v7** — force-directed network graph with zoom/pan/drag
 - **Vanilla JS** — no frameworks, no build step
 - **Amiri + Inter** — Arabic + Latin typography
 - **OpenFreeMap (Positron tiles)** — no API key needed
@@ -49,16 +57,23 @@ cd hanafi-atlas
 # Open
 open index.html    # Timeline
 open map.html      # Map
+open network.html  # Network
 ```
 
 ## Editing Data
 
-1. Edit the JSON files (`data-scholars.json`, `data-places.json`, `data-chapters.json`)
+1. Edit the JSON files (`data-scholars.json`, `data-places.json`, `data-chapters.json`, `data-graph.json`)
 2. Re-embed into HTML:
    ```bash
    python3 embed_data.py
    ```
-   This updates the `<script id="inlineData">` tags in both `index.html` and `map.html`.
+   This updates the `<script id="inlineData">` tags in `index.html`, `map.html`, and `network.html`.
+3. For the network graph, also edit `fill_relations.py` if adding new teacher/student/peer data, then:
+   ```bash
+   python3 fill_relations.py   # regenerates scholars-teachers-peers.md
+   python3 build_graph_data.py  # regenerates data-graph.json from scholars data
+   python3 embed_data.py        # re-embeds into HTML
+   ```
 
 ## Credits
 
