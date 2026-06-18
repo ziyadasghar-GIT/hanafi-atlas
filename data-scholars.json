@@ -166,12 +166,13 @@
   },
   {
     "name": "Abū al-Layth al-Samarqandī (al-Faqīh)",
-    "ah": "d. 373",
+    "ah": "300–373",
     "century": 4,
     "sortDeath": 373,
     "place": "Samarqand, Transoxiana",
-    "bio": "A major Hanafi jurist and exegete from Samarqand, known as ",
-    "works": "Al-Nawāzil / ʿUyūn al-Masāʾil"
+    "bio": "Born in Samarqand circa 300 AH, Abu al-Layth al-Samarqandi — known as Imam al-Huda (Imam of Guidance) — was one of the most important Hanafi jurists and Quranic exegetes of the 4th century. He studied under Abu Ja'far al-Hinduvani of Balkh, Muhammad ibn al-Fadl al-Balkhi, and other eminent scholars of Transoxiana and Baghdad. Though he did not hold judicial office, he was a renowned jurist, preacher, and teacher whose circle of students transmitted his knowledge widely. His Tafsir al-Samarqandi (Baḥr al-'Ulum) is one of the earliest classical Quranic commentaries, and his works on fiqh — including Khizanat al-Fiqh, 'Uyun al-Masa'il, and al-Nawazil — established him as a foundational figure in the development of Hanafi comparative jurisprudence and nawazil literature. He played a crucial role in preserving and systematising the legal views of Abu Hanifa and his contemporaries. Died 373 AH (983 CE) in Samarqand, aged 38.",
+    "works": "Tafsir al-Samarqandi (Baḥr al-'Ulum); Khizanat al-Fiqh; 'Uyun al-Masa'il; al-Nawazil; Muqaddima fi al-Salat",
+    "note": "Imam al-Huda — key figure in the development of Hanafi fiqh literature"
   },
   {
     "name": "Abū al-Ḥusayn Aḥmad al-Qudūrī",
