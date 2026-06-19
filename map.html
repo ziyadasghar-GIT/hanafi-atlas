@@ -888,49 +888,66 @@ const map = new maplibregl.Map({
 map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'bottom-right');
 
 // ── Override map labels: rename Israel → Palestine ──
-map.on('style.load', () => {
-  // Walk layers looking for country labels with "Israel"
-  const style = map.getStyle();
-  style.layers.forEach(layer => {
-    if (layer.layout && layer.layout['text-field']) {
-      const tf = JSON.stringify(layer.layout['text-field']);
-      // Check if this layer shows country names (contains 'name' field)
-      if (tf.includes('name') || tf.includes('Name')) {
-        try {
-          // Filter OUT features named "Israel" from this layer
-          const currentFilter = map.getFilter(layer.id) || ['!', ['has', 'point_count']];
-          map.setFilter(layer.id, ['all', currentFilter, ['!=', ['get', 'name'], 'Israel']]);
-        } catch(e) { /* skip layers that can't be filtered */ }
+map.once('idle', () => {
+  const layers = map.getStyle().layers;
+  let filtered = 0;
+  layers.forEach(layer => {
+    try {
+      const tf = layer.layout && layer.layout['text-field'];
+      if (!tf) return;
+      const tfStr = JSON.stringify(tf);
+      // Skip if not a name-bearing layer
+      if (!tfStr.match(/name/i)) return;
+      // Filter out "Israel" on any of the common name properties
+      const props = ['name', 'name:en', 'name_int', 'name:latin', 'name_en', 'name:ar'];
+      const conditions = [['!=', ['get', 'name'], 'Israel']];
+      props.forEach(p => conditions.push(['!=', ['get', p], 'Israel']));
+      const currentFilter = map.getFilter(layer.id);
+      const base = currentFilter || ['!', ['has', 'point_count']];
+      map.setFilter(layer.id, ['all', base, ...conditions]);
+      filtered++;
+    } catch(e) { /* skip problematic layers */ }
+  });
+
+  // Add Palestine label at a central position (Ramla area)
+  try {
+    // Remove old source if exists
+    if (map.getSource('palestine-label')) map.removeLayer('palestine-label-layer');
+    if (map.getSource('palestine-label')) map.removeSource('palestine-label');
+    
+    map.addSource('palestine-label', {
+      type: 'geojson',
+      data: {
+        type: 'FeatureCollection',
+        features: [{
+          type: 'Feature',
+          geometry: { type: 'Point', coordinates: [35.2, 31.9] },
+          properties: {}
+        }]
       }
-    }
-  });
-  // Add "Palestine" label at Ramla's coordinates
-  map.addSource('palestine-label', {
-    type: 'geojson',
-    data: {
-      type: 'Feature',
-      geometry: { type: 'Point', coordinates: [34.8667, 31.9333] },
-      properties: { name: 'Palestine' }
-    }
-  });
-  map.addLayer({
-    id: 'palestine-label-layer',
-    type: 'symbol',
-    source: 'palestine-label',
-    layout: {
-      'text-field': 'Palestine',
-      'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
-      'text-size': 11,
-      'text-transform': 'uppercase',
-      'text-letter-spacing': 0.08,
-      'text-offset': [0, -1.5]
-    },
-    paint: {
-      'text-color': '#666',
-      'text-halo-color': '#fff',
-      'text-halo-width': 1.5
-    }
-  });
+    });
+    // Insert at the very top (last drawn = on top of everything)
+    map.addLayer({
+      id: 'palestine-label-layer',
+      type: 'symbol',
+      source: 'palestine-label',
+      layout: {
+        'text-field': 'Palestine',
+        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+        'text-size': 13,
+        'text-transform': 'uppercase',
+        'text-letter-spacing': 0.12
+      },
+      paint: {
+        'text-color': '#444',
+        'text-halo-color': '#fff',
+        'text-halo-width': 2.5
+      }
+    });
+    console.log('Palestine label added, filtered ' + filtered + ' layers for Israel');
+  } catch(e) {
+    console.warn('Failed to add Palestine label:', e);
+  }
 });
 
 let activeChapterIdx = 0;
