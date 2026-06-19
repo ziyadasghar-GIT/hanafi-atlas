@@ -1847,6 +1847,61 @@
       "works": "Zikr Allāh, Niʿmat Allāh, Ḥujjat Allāh, Tafsīr Sūrat al-Balad",
       "bio": "An Indian Barelvi Ḥanafī scholar, jurist, and Sufi mystic.",
       "color": "#8e44ad"
+    },
+    {
+      "id": "Shāh ʿAbd al-ʿAzīz al-Dihlawī",
+      "name": "Shāh ʿAbd al-ʿAzīz al-Dihlawī",
+      "century": 13,
+      "death": 1239,
+      "place": "Delhi, India",
+      "note": "Muhaddith al-Aʿẓam; son and successor of Shāh Walī Allāh",
+      "works": "Fatḥ al-ʿAzīz, Tuḥfah-yi Ithnā ʿAshariyyah",
+      "bio": "Eldest son and successor of Shāh Walī Allāh.",
+      "color": "#8e44ad"
+    },
+    {
+      "id": "Shāh Muḥammad Isḥāq al-Dihlawī",
+      "name": "Shāh Muḥammad Isḥāq al-Dihlawī",
+      "century": 13,
+      "death": 1262,
+      "place": "Delhi, India",
+      "note": "Grandson of Shāh ʿAbd al-ʿAzīz; foremost muhaddith of his generation",
+      "works": "",
+      "bio": "Maternal grandson of Shāh ʿAbd al-ʿAzīz.",
+      "color": "#8e44ad"
+    },
+    {
+      "id": "ʿAbd al-Ghanī al-Mujaddidī al-Dihlawī",
+      "name": "ʿAbd al-Ghanī al-Mujaddidī al-Dihlawī",
+      "century": 13,
+      "death": 1296,
+      "place": "Delhi, India",
+      "note": "Student of Shāh Muḥammad Isḥāq; teacher of Deoband founders",
+      "works": "Ḥāshiyah ʿalā Sunan Ibn Mājah",
+      "bio": "Major muhaddith of India.",
+      "color": "#8e44ad"
+    },
+    {
+      "id": "Mamlūk ʿAlī Nanāwtawī",
+      "name": "Mamlūk ʿAlī Nanāwtawī",
+      "century": 13,
+      "death": 1267,
+      "place": "Nanauta, India",
+      "note": "Student of Shāh ʿAbd al-ʿAzīz; teacher of Deoband founders",
+      "works": "",
+      "bio": "Prominent Waliullāhī scholar and teacher.",
+      "color": "#8e44ad"
+    },
+    {
+      "id": "Shāh Āl-i Rasūl Marahrawī",
+      "name": "Shāh Āl-i Rasūl Marahrawī",
+      "century": 13,
+      "death": 1296,
+      "place": "Marehra, India",
+      "note": "Teacher of Aḥmad Riḍā Khān Barelwī",
+      "works": "",
+      "bio": "Qādirī saint and teacher.",
+      "color": "#8e44ad"
     }
   ],
   "edges": [
@@ -2164,12 +2219,6 @@
     },
     {
       "source": "Shāh Walī Allāh al-Dihlawī",
-      "target": "Shāh ʿAbd al-ʿAzīz (his son)",
-      "type": "teacher-external",
-      "label": "taught"
-    },
-    {
-      "source": "Shāh Walī Allāh al-Dihlawī",
       "target": "Shāh Rafīʿ al-Dīn (his son)",
       "type": "teacher-external",
       "label": "taught"
@@ -2213,13 +2262,13 @@
     {
       "source": "Mamlūk ʿAlī Nanāwtawī",
       "target": "Muḥammad Qāsim Nanāwtawī",
-      "type": "teacher-external",
+      "type": "teacher",
       "label": "taught"
     },
     {
-      "source": "ʿAbd al-Ghanī al-Mujaddidī",
+      "source": "ʿAbd al-Ghanī al-Mujaddidī al-Dihlawī",
       "target": "Muḥammad Qāsim Nanāwtawī",
-      "type": "teacher-external",
+      "type": "teacher",
       "label": "taught"
     },
     {
@@ -2279,13 +2328,13 @@
     {
       "source": "Mamlūk ʿAlī Nanāwtawī",
       "target": "Rashīd Aḥmad Gangohī",
-      "type": "teacher-external",
+      "type": "teacher",
       "label": "taught"
     },
     {
-      "source": "ʿAbd al-Ghanī al-Mujaddidī",
+      "source": "ʿAbd al-Ghanī al-Mujaddidī al-Dihlawī",
       "target": "Rashīd Aḥmad Gangohī",
-      "type": "teacher-external",
+      "type": "teacher",
       "label": "taught"
     },
     {
@@ -2313,9 +2362,9 @@
       "label": "taught"
     },
     {
-      "source": "Shāh Āl-i Rasūl",
+      "source": "Shāh Āl-i Rasūl Marahrawī",
       "target": "Aḥmad Riḍā Khān Barelwī",
-      "type": "teacher-external",
+      "type": "teacher",
       "label": "taught"
     },
     {
@@ -3763,6 +3812,33 @@
       "target": "Ibrāhīm Riḍā Khān",
       "type": "teacher-external",
       "label": "grandfather and teacher"
+    },
+    {
+      "source": "Shāh ʿAbd al-ʿAzīz al-Dihlawī",
+      "target": "Shāh Muḥammad Isḥāq al-Dihlawī",
+      "type": "teacher",
+      "label": "grandfather and teacher"
+    },
+    {
+      "source": "Shāh ʿAbd al-ʿAzīz al-Dihlawī",
+      "target": "Mamlūk ʿAlī Nanāwtawī",
+      "type": "teacher"
+    },
+    {
+      "source": "Shāh Muḥammad Isḥāq al-Dihlawī",
+      "target": "ʿAbd al-Ghanī al-Mujaddidī al-Dihlawī",
+      "type": "teacher"
+    },
+    {
+      "source": "Shāh Muḥammad Isḥāq al-Dihlawī",
+      "target": "Shāh Āl-i Rasūl Marahrawī",
+      "type": "teacher"
+    },
+    {
+      "source": "Shāh Walī Allāh al-Dihlawī",
+      "target": "Shāh ʿAbd al-ʿAzīz al-Dihlawī",
+      "type": "teacher",
+      "label": "father and teacher"
     }
   ]
 }

@@ -1216,6 +1216,16 @@
     "works": "Ḥāshiyat al-Taḥtāwī ʿalā al-Durr"
   },
   {
+    "name": "Shāh ʿAbd al-ʿAzīz al-Dihlawī",
+    "ah": "1159–1239",
+    "century": 13,
+    "sortDeath": 1239,
+    "place": "Delhi, India",
+    "bio": "Eldest son and successor of Shāh Walī Allāh al-Dihlawī, known as Muhaddith al-Aʿẓam. Born in Delhi in 1159 AH (1746 CE), he studied under his father and succeeded him as head of Madrasah Rahimiyyah. He was a leading muḥaddith who taught for over 50 years and issued fatāwā that shaped the intellectual response of Indian Sunnīs to British colonial rule. He is regarded as the central figure connecting Shāh Walī Allāh's legacy to all subsequent Indian Ḥanafī lineages — both Deobandī and Barelwī. He authored over 50 works in Arabic, Persian, and Urdu, including the exegesis Fatḥ al-ʿAzīz and Tuḥfah-yi Ithnā ʿAshariyyah. He died in 1239 AH (1824 CE).",
+    "works": "Fatḥ al-ʿAzīz, Tuḥfah-yi Ithnā ʿAshariyyah, ʿUjālah-yi Nāfiʿah, Sirr al-Shahādatayn",
+    "note": "Muhaddith al-Aʿẓam; eldest son and successor of Shāh Walī Allāh; pivotal link between Shah Wali Allah and all later Indian Ḥanafī schools; taught for 50+ years"
+  },
+  {
     "name": "Muḥammad Amīn Ibn ʿĀbidīn al-Shāmī",
     "ah": "1198–1252",
     "century": 13,
@@ -1233,6 +1243,46 @@
     "place": "Madīnah, Hejaz",
     "bio": "A renowned Indian-origin Hanafi hadith scholar who settled in Madina. He wrote a large commentary on the *Musnad* of Imam Abū Ḥanīfah and was known for his expertise in hadith and Hanafi jurisprudence in the Hejaz.",
     "works": "Tawāliʿ al-Anwār"
+  },
+  {
+    "name": "Shāh Muḥammad Isḥāq al-Dihlawī",
+    "ah": "1196–1262",
+    "century": 13,
+    "sortDeath": 1262,
+    "place": "Delhi, India",
+    "bio": "Maternal grandson and student of Shāh ʿAbd al-ʿAzīz al-Dihlawī and great-grandson of Shāh Walī Allāh. Born in Delhi in 1196 AH (1783 CE), he inherited the position of his grandfather at Madrasah Rahimiyyah. He was the foremost muḥaddith of his generation in India, and his students — including ʿAbd al-Ghanī al-Mujaddidī, Sayyid Naẓīr Ḥusayn al-Dihlawī, and Aḥmad ʿAlī Sahāranpūrī — transmitted his ḥadīth sanad throughout South Asia. He travelled to Makkah for Hajj in 1240 AH and permanently migrated there in 1258 AH. He died in Makkah in 1262 AH (1846 CE) and was buried in Jannat al-Muʿallā next to Khadījah bint Khuwaylid.",
+    "works": "",
+    "note": "Grandson and student of Shāh ʿAbd al-ʿAzīz; key link in the Waliullahi sanad chain; taught virtually all the great muhaddithin of 19th-century India"
+  },
+  {
+    "name": "Mamlūk ʿAlī Nanāwtawī",
+    "ah": "1204–1267",
+    "century": 13,
+    "sortDeath": 1267,
+    "place": "Nanauta, India",
+    "bio": "A prominent scholar of the Waliullāhī tradition and teacher of Arabic at Delhi College for 25 years. He was a student of Shāh ʿAbd al-ʿAzīz al-Dihlawī and in turn taught the founding generation of Deoband — Muḥammad Qāsim Nanāwtawī and Rashīd Aḥmad Gangohī. He was the father of Muḥammad Yāʿqūb Nanāwtawī. He died in 1267 AH (1851 CE).",
+    "works": "",
+    "note": "Student of Shāh ʿAbd al-ʿAzīz; teacher of Muḥammad Qāsim Nanāwtawī and Rashīd Aḥmad Gangohī; father of Yaʿqūb Nanāwtawī"
+  },
+  {
+    "name": "ʿAbd al-Ghanī al-Mujaddidī al-Dihlawī",
+    "ah": "ca. 1235–1296",
+    "century": 13,
+    "sortDeath": 1296,
+    "place": "Delhi, India",
+    "bio": "A major muhaddith of India and a key transmitter in the Waliullahi ḥadīth chain. He was a student of Shāh Muḥammad Isḥāq al-Dihlawī and in turn taught the founding generation of Darul Uloom Deoband — Muḥammad Qāsim Nanāwtawī and Rashīd Aḥmad Gangohī. He migrated to Madīnah in his later years and died there in Muḥarram 1296 AH (1878 CE). His sanad links Shah Wali Allah's ḥadīth transmission directly to the founders of Deoband.",
+    "works": "Ḥāshiyah ʿalā Sunan Ibn Mājah (incomplete)",
+    "note": "Student of Shāh Muḥammad Isḥāq; teacher of Muḥammad Qāsim Nanāwtawī and Rashīd Aḥmad Gangohī; key sanad link between Waliullāhī chain and Deoband"
+  },
+  {
+    "name": "Shāh Āl-i Rasūl Marahrawī",
+    "ah": "1209–1296",
+    "century": 13,
+    "sortDeath": 1296,
+    "place": "Marehra, India",
+    "bio": "An Indian Ḥanafī scholar and spiritual guide of the Qādirī-Barkātī order, regarded as the 37th imam of the Qadiri order in South Asia. He was born in Marehra, Uttar Pradesh in 1209 AH (February 1795 CE). He studied religious sciences from his father Shāh Āl-i Barkāt and attended the lectures of Shāh ʿAbd al-ʿAzīz al-Dihlawī, obtaining a certificate of hadith. He is best known as the primary teacher and spiritual preceptor (murshid) of Aḥmad Riḍā Khān Barelwī. He died in Marehra in 1296 AH (December 1879 CE).",
+    "works": "",
+    "note": "37th imam of the Qādirī order in South Asia; teacher of Aḥmad Riḍā Khān Barelwī; known as Khatam al-Akbar"
   },
   {
     "name": "Muḥammad Qāsim Nanāwtawī",
