@@ -1902,6 +1902,61 @@
       "works": "",
       "bio": "Qādirī saint and teacher.",
       "color": "#8e44ad"
+    },
+    {
+      "id": "Abū Muṭīʿ al-Ḥakam ibn ʿAbd Allāh al-Balkhī",
+      "name": "Abū Muṭīʿ al-Ḥakam ibn ʿAbd Allāh al-Balkhī",
+      "century": 2,
+      "death": 199,
+      "place": "Balkh, Khurāsān",
+      "note": "Student of Abū Ḥanīfah; narrator of al-Fiqh al-Akbar (later known as al-Fiqh al-Absaṭ)",
+      "works": "Narrated al-Fiqh al-Akbar / al-Fiqh al-Absaṭ from Abū Ḥanīfah",
+      "bio": "A direct student of Imam Abū Ḥanīfah and the primary narrator of the theological treatise 'al-Fiqh al-Akbar' (also called al-Fiqh al-Absaṭ). His transmission of the Imam's creedal statements became a foundational text for the Māturīdī school of theology. While some hadith critics questioned his reliability as a narrator, Hanafī scholars have consistently defended his trustworthiness, and his transmission of Abū Ḥanīfah's ʿaqīda has been accepted by the mainstream tradition. His chain of transmission reaches down to Imam Abū Manṣūr al-Māturīdī, linking the eponym of the school to the codifier of its theology.",
+      "color": "#d4a574"
+    },
+    {
+      "id": "Naṣīr (Nusayr) ibn Yaḥyā al-Balkhī",
+      "name": "Naṣīr (Nusayr) ibn Yaḥyā al-Balkhī",
+      "century": 3,
+      "death": 268,
+      "place": "Balkh, Khurāsān",
+      "note": "Hanafī jurist and theologian; teacher of Imam al-Māturīdī; studied under Abū Sulaymān al-Jūzajānī and Abū Muṭīʿ al-Balkhī",
+      "works": "Transmitted al-Fiqh al-Absaṭ; authored works in fiqh and kalām",
+      "bio": "A prominent Hanafī faqīh, muḥaqqiq, and ascetic of Balkh. He studied jurisprudence under Abū Sulaymān Mūsā al-Jūzajānī and also learned from Abū Muṭīʿ al-Ḥakam al-Balkhī and Abū Muqātil Ḥafṣ ibn Muslim al-Samarqandī. Well-versed in both Hanafī fiqh and kalām (theology), he was one of the key teachers of Imam Abū Manṣūr al-Māturīdī. He is recorded to have engaged in scholarly debate with Aḥmad ibn Ḥanbal. His transmission of Abū Ḥanīfah's theological legacy was instrumental in the formation of the Māturīdiyya school.",
+      "color": "#c4956a"
+    },
+    {
+      "id": "Muḥammad ibn Muqātil al-Rāzī",
+      "name": "Muḥammad ibn Muqātil al-Rāzī",
+      "century": 3,
+      "death": 248,
+      "place": "Rayy, Persia",
+      "note": "Qāḍī of Rayy; Hanafī jurist; teacher of Imam al-Māturīdī",
+      "works": "al-Muddaʿī wa al-Muddaʿā ʿalayh (fiqh)",
+      "bio": "A leading Hanafī jurist who served as qāḍī (judge) of Rayy. He studied under Muḥammad ibn al-Ḥasan al-Shaybānī and was a close companion of his circle. A reliable narrator of ḥadīth according to some scholars, though criticized by Bukhārī due to his association with the Ahl al-Ray. Ibn Ḥajar al-ʿAsqalānī dismissed this criticism as stemming from madhhab bias, stating: 'I believe because he [ibn Muqātil] was inclined to Ray, Bukhārī said this.' Imām Abū Manṣūr al-Māturīdī studied fiqh and ḥadīth under him.",
+      "color": "#b5845a"
+    },
+    {
+      "id": "Abū Bakr Aḥmad ibn Isḥāq ibn Ṣāliḥ al-Jūzajānī",
+      "name": "Abū Bakr Aḥmad ibn Isḥāq ibn Ṣāliḥ al-Jūzajānī",
+      "century": 3,
+      "death": 285,
+      "place": "Jūzjān, Khurāsān",
+      "note": "Hanafī jurist of Samarkand; one of the earliest teachers of Imam al-Māturīdī",
+      "works": "al-Farq wa al-Tamyīz; Kitāb al-Tawba",
+      "bio": "A major Hanafī jurist in Samarkand who was among the earliest teachers of Imam Abū Manṣūr al-Māturīdī. He studied under Abū Sulaymān Mūsā al-Jūzajānī and taught fiqh to al-Māturīdī. He authored two known works: 'al-Farq wa al-Tamyīz' on jurisprudence and 'Kitāb al-Tawba', a didactic work. Scholarly opinion differs on whether he was primarily a jurist or also a theologian; the modern scholar U. Rudolf considers him a classical scholar from whom al-Māturīdī learned fiqh and piety rather than theological speculation.",
+      "color": "#a4744a"
+    },
+    {
+      "id": "Abū Naṣr Aḥmad ibn al-ʿAbbās al-ʿIyāḍī al-Anṣārī",
+      "name": "Abū Naṣr Aḥmad ibn al-ʿAbbās al-ʿIyāḍī al-Anṣārī",
+      "century": 3,
+      "death": 275,
+      "place": "Samarkand, Transoxiana",
+      "note": "Qāḍī of Samarkand; the primary theological teacher of Imam al-Māturīdī",
+      "works": "al-Ṣifāt (divine attributes); al-Sayf al-Maslūl ʿalā man Sabba Aṣḥāb al-Rasūl",
+      "bio": "A distinguished Hanafī theologian and judge who served as qāḍī of Samarkand. He was the foremost theological teacher of Imam Abū Manṣūr al-Māturīdī, from whom al-Māturīdī learned kalām (speculative theology). He produced approximately forty students and was highly respected in Samarkand. He authored works on divine attributes (al-Ṣifāt) and on the honour of the Companions. He is considered an early representative of Eastern Hanafī theology, with a focus on the divine attributes that anticipated the Māturīdī theological project. He was martyred while on a military campaign.",
+      "color": "#94643a"
     }
   ],
   "edges": [
@@ -3839,6 +3894,48 @@
       "target": "Shāh ʿAbd al-ʿAzīz al-Dihlawī",
       "type": "teacher",
       "label": "father and teacher"
+    },
+    {
+      "source": "Abū Ḥanīfah al-Nuʿmān ibn Thābit",
+      "target": "Abū Muṭīʿ al-Ḥakam ibn ʿAbd Allāh al-Balkhī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū Muṭīʿ al-Ḥakam ibn ʿAbd Allāh al-Balkhī",
+      "target": "Abū Sulaymān Mūsā al-Jūzajānī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū Sulaymān Mūsā al-Jūzajānī",
+      "target": "Naṣīr (Nusayr) ibn Yaḥyā al-Balkhī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Naṣīr (Nusayr) ibn Yaḥyā al-Balkhī",
+      "target": "Muḥammad ibn Muqātil al-Rāzī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Muḥammad ibn Muqātil al-Rāzī",
+      "target": "Abū Bakr Aḥmad ibn Isḥāq ibn Ṣāliḥ al-Jūzajānī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū Bakr Aḥmad ibn Isḥāq ibn Ṣāliḥ al-Jūzajānī",
+      "target": "Abū Naṣr Aḥmad ibn al-ʿAbbās al-ʿIyāḍī al-Anṣārī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Abū Naṣr Aḥmad ibn al-ʿAbbās al-ʿIyāḍī al-Anṣārī",
+      "target": "Abū Manṣūr al-Māturīdī",
+      "type": "teacher",
+      "label": "taught"
     }
   ]
 }
