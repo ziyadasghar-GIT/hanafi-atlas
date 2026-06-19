@@ -241,6 +241,35 @@ body {
 
 .ornament { color: #c9a84c; margin: 0 0.3em; font-size: 0.8em; }
 .atlas-nav { border-bottom: 1px solid #1e3028; }
+
+/* ── Fullscreen toggle ── */
+#fullscreen-toggle {
+  margin-left: auto;
+  background: none;
+  border: 1px solid rgba(201,168,76,0.15);
+  color: #a0997e;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  padding: 5px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+#fullscreen-toggle:hover {
+  border-color: #e0c872;
+  color: #e0c872;
+  background: rgba(224,200,114,0.08);
+}
+#fullscreen-toggle.active {
+  border-color: #e0c872;
+  color: #e0c872;
+  background: rgba(224,200,114,0.12);
+}
+
+/* Controls hidden state */
+body.controls-hidden #controls { display: none; }
+body.controls-hidden #graph-container { left: 0; }
 </style>
 </head>
 <body>
@@ -253,6 +282,7 @@ body {
     <a href="map.html">Map</a>
     <a href="network.html" class="active">Network</a>
   </div>
+  <button id="fullscreen-toggle" title="Hide filters for fullscreen view">⛶ Fullscreen</button>
 </div>
 
 <div id="controls">
@@ -715,12 +745,24 @@ document.getElementById('show-external').addEventListener('change', () => {
 });
 
 // ── Resize handler ──
-window.addEventListener('resize', () => {
+function onResize() {
   width = container.clientWidth;
   height = container.clientHeight;
   svg.attr('viewBox', [0, 0, width, height]);
   simulation.force('center', d3.forceCenter(width / 2, height / 2));
   simulation.alpha(0.3).restart();
+}
+
+window.addEventListener('resize', onResize);
+
+// ── Fullscreen toggle ──
+const fsBtn = document.getElementById('fullscreen-toggle');
+fsBtn.addEventListener('click', () => {
+  document.body.classList.toggle('controls-hidden');
+  fsBtn.classList.toggle('active');
+  fsBtn.textContent = document.body.classList.contains('controls-hidden') ? '⛶ Exit Fullscreen' : '⛶ Fullscreen';
+  // Reflow: wait a frame for DOM to update
+  requestAnimationFrame(onResize);
 });
 
 // ── Initial render ──
