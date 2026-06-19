@@ -1071,112 +1071,199 @@ body.print-mode #print-layout {
   display: block;
   font-family: 'Inter', sans-serif;
   color: #222;
-  padding: 4px 12px;
+  padding: 6px 4px;
   max-width: 100%;
 }
 
-/* Print trigger button */
 body.print-mode #a3PrintBtn { display: block; }
 
-/* ── Print layout: compact century rows ── */
-body.print-mode #print-layout .print-row {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  padding: 3px 0;
-  border-bottom: 1px dotted #ccc;
-  page-break-inside: avoid;
+/* ── Gantt header ── */
+body.print-mode #print-layout .gantt-header {
+  text-align: center;
+  margin-bottom: 4px;
 }
-
-body.print-mode #print-layout .print-century {
+body.print-mode #print-layout .gantt-title {
   font-family: 'Amiri', serif;
+  font-size: 14pt;
   font-weight: 700;
-  font-size: 8pt;
-  color: #333;
-  min-width: 110px;
-  flex-shrink: 0;
-  text-align: right;
-  padding-right: 10px;
-  border-right: 2.5px solid #c9a84c;
-  line-height: 1.4;
+  color: #1a1a2e;
+  letter-spacing: 0.5px;
 }
-
-body.print-mode #print-layout .print-century .ce-range {
-  display: block;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 6pt;
-  color: #888;
+body.print-mode #print-layout .gantt-subtitle {
+  font-size: 7pt;
+  color: #666;
   margin-top: 1px;
 }
 
-body.print-mode #print-layout .print-scholars {
-  font-size: 6.5pt;
-  color: #444;
-  line-height: 1.6;
+/* ── Gantt time axis (CE, top) ── */
+body.print-mode #print-layout .gantt-axis {
+  position: relative;
+  height: 14px;
+  border-bottom: 1.5px solid #c9a84c;
+  margin: 0 38px 0 140px;
+  font-size: 5.5pt;
+  color: #888;
 }
-
-body.print-mode #print-layout .print-scholars .ps {
+body.print-mode #print-layout .gantt-axis-bottom {
+  border-bottom: none;
+  border-top: 1.5px solid #c9a84c;
+  margin-top: 2px;
+}
+body.print-mode #print-layout .gantt-ce-tick,
+body.print-mode #print-layout .gantt-ah-tick {
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 5pt;
   white-space: nowrap;
 }
+body.print-mode #print-layout .gantt-ah-tick {
+  font-size: 4.5pt;
+  color: #aaa;
+}
 
-body.print-mode #print-layout .print-scholars .ps-sep {
-  color: #c9a84c;
+/* ── Gantt body ── */
+body.print-mode #print-layout .gantt-body {
+  position: relative;
+  margin: 0;
+}
+
+/* Vertical gridlines */
+body.print-mode #print-layout .gantt-gridlines {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  right: 38px;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+body.print-mode #print-layout .gantt-gridline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #e8e4dc;
+}
+
+/* Era heading */
+body.print-mode #print-layout .gantt-era {
+  font-family: 'Amiri', serif;
+  font-size: 5.5pt;
+  font-weight: 700;
+  color: #1a1a2e;
+  background: #f0ece4;
+  padding: 1px 4px 1px 2px;
+  margin: 2px 0 0px 0;
+  border-left: 3px solid #c9a84c;
+}
+
+/* Scholar row */
+body.print-mode #print-layout .gantt-row {
+  display: flex;
+  align-items: center;
+  height: 7.5px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Label (name + city) */
+body.print-mode #print-layout .gantt-label {
+  width: 140px;
+  flex-shrink: 0;
+  font-size: 4.5pt;
+  line-height: 1;
+  padding-right: 3px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body.print-mode #print-layout .gantt-city {
+  font-size: 3.5pt;
+  color: #999;
+  margin-left: 1px;
+}
+
+/* Track (bar area) */
+body.print-mode #print-layout .gantt-track {
+  flex: 1;
+  position: relative;
+  height: 5px;
   margin: 0 3px;
 }
 
-body.print-mode #print-layout .print-scholars .ps .ah-date {
-  font-size: 6pt;
-  color: #777;
+/* Bar */
+body.print-mode #print-layout .gantt-bar {
+  position: absolute;
+  top: 1.5px;
+  height: 4px;
+  border-radius: 1px;
+  min-width: 2px;
+  opacity: 0.85;
 }
 
-body.print-mode #print-layout .print-scholars .ps .ps-place {
-  font-size: 5.5pt;
+/* Date (right side) */
+body.print-mode #print-layout .gantt-date {
+  width: 38px;
+  flex-shrink: 0;
+  font-size: 3.5pt;
   color: #999;
-  font-style: italic;
-  margin-left: 2px;
+  text-align: right;
+  white-space: nowrap;
 }
 
-body.print-mode #print-layout .print-row:first-child {
-  border-top: 2px solid #222;
+/* Legend */
+body.print-mode #print-layout .gantt-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  padding: 4px 0 2px;
+  margin-top: 4px;
+  border-top: 0.5px solid #ddd;
+}
+body.print-mode #print-layout .gantt-legend-item {
+  font-size: 4.5pt;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+body.print-mode #print-layout .gantt-legend-swatch {
+  display: inline-block;
+  width: 8px;
+  height: 4px;
+  border-radius: 1px;
 }
 
-body.print-mode #print-layout .print-row:last-child {
-  border-bottom: 2px solid #222;
-}
-
-body.print-mode #print-layout .print-footer {
+/* Footer */
+body.print-mode #print-layout .gantt-footer {
   text-align: center;
-  font-size: 6pt;
-  color: #999;
-  padding-top: 8px;
-  font-style: italic;
+  font-size: 5pt;
+  color: #bbb;
+  padding-top: 3px;
 }
 
+/* ── Print-mode header override ── */
 body.print-mode .header {
   background: none !important;
-  padding: 0 0 6px 0 !important;
+  padding: 0 0 4px 0 !important;
   animation: none !important;
   text-align: center !important;
 }
-
 body.print-mode .header-ornament { display: none !important; }
-
 body.print-mode .header h1 {
-  font-size: 14pt !important;
+  font-size: 12pt !important;
   color: #000 !important;
   text-shadow: none !important;
+  margin-bottom: 1px !important;
+}
+body.print-mode .header .subtitle {
+  font-size: 7pt !important;
+  color: #444 !important;
   margin-bottom: 2px !important;
 }
-
-body.print-mode .header .subtitle {
-  font-size: 8pt !important;
-  color: #444 !important;
-  margin-bottom: 4px !important;
-}
-
 body.print-mode .header .meta {
-  font-size: 6.5pt !important;
+  font-size: 6pt !important;
   color: #888 !important;
 }
 
@@ -2483,12 +2570,52 @@ document.getElementById('btnHorizontal').addEventListener('click', () => {
   const firstGroup = document.querySelector('.h-century-group');
   if (firstGroup) firstGroup.scrollIntoView({ behavior: 'smooth', inline: 'start' });
 });
-// ── Print layout generation ────────────────────────────────────────
+// ── Print layout generation (Gantt-chart style) ──────────────────────
 function generatePrintLayout() {
   const container = document.getElementById('print-layout');
   if (!container) return;
 
-  // Group by century
+  // Parse AH date range → {start, end} in CE years
+  function parseAH(ahStr) {
+    const m = String(ahStr || '').match(/(\d+)/g);
+    if (!m) return null;
+    const nums = m.map(Number);
+    const startAH = Math.min(...nums);
+    const endAH = Math.max(...nums);
+    return { startAH, endAH, startCE: ahToCe(startAH), endCE: ahToCe(endAH) };
+  }
+
+  // Timeline range: 80 AH (699 CE) to ~1500 CE (covers all scholars)
+  const MIN_CE = 680;
+  const MAX_CE = 2050;
+  const ceSpan = MAX_CE - MIN_CE;
+
+  // Region color map
+  const regionColors = {
+    'Transoxiana': '#4a90d9',
+    'Iraq': '#d4a843',
+    'Khurāsān': '#e07b39',
+    'Syria': '#c0392b',
+    'Egypt': '#27ae60',
+    'Anatolia': '#8e44ad',
+    'India': '#2c3e50',
+    'Persia': '#16a085',
+    'Hejaz': '#d35400',
+    'Maghrib': '#7f8c8d',
+    'Andalusia': '#c0392b',
+    'Yemen': '#2980b9',
+    'East Africa': '#1abc9c',
+    'Volga Bulgaria': '#34495e',
+    'South Africa': '#7f8c8d',
+    'Jordan': '#c0392b'
+  };
+
+  function getRegion(place) {
+    if (!place) return 'Unknown';
+    return place.split(',').slice(1).join(',').trim() || 'Unknown';
+  }
+
+  // Group scholars by century
   const centuryMap = new Map();
   scholars.forEach(s => {
     if (!centuryMap.has(s.century)) centuryMap.set(s.century, []);
@@ -2497,27 +2624,106 @@ function generatePrintLayout() {
   const centuryOrder = [...centuryMap.keys()].sort((a, b) => a - b);
   centuryOrder.forEach(c => centuryMap.get(c).sort((a, b) => a.sortDeath - b.sortDeath));
 
+  // Count total rows for height calculation
+  let totalRows = 0;
+  centuryOrder.forEach(c => { totalRows += centuryMap.get(c).length; });
+
+  // Build Gantt chart HTML
   let html = '';
+
+  // ── Header ──
+  html += `<div class="gantt-header">`;
+  html += `<div class="gantt-title">Al-Madhhab al-Ḥanafī — Scholarly Timeline</div>`;
+  html += `<div class="gantt-subtitle">167 Scholars across 14 Centuries of Ḥanafī Jurisprudence · Source: Hadith Notes</div>`;
+  html += `</div>`;
+
+  // ── Time axis (CE) ──
+  html += `<div class="gantt-axis">`;
+  const ceMarkers = [700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000];
+  const ahMarkers = [
+    {ah: 80, ce: 699}, {ah: 132, ce: 750}, {ah: 200, ce: 816}, {ah: 300, ce: 913},
+    {ah: 400, ce: 1010}, {ah: 500, ce: 1107}, {ah: 600, ce: 1204}, {ah: 700, ce: 1301},
+    {ah: 800, ce: 1398}, {ah: 900, ce: 1495}, {ah: 1000, ce: 1592}
+  ];
+  for (const ce of ceMarkers) {
+    const pct = ((ce - MIN_CE) / ceSpan * 100).toFixed(2);
+    html += `<span class="gantt-ce-tick" style="left:${pct}%">${ce}</span>`;
+  }
+  html += `</div>`;
+
+  // ── Gantt body (grouped by century) ──
+  html += `<div class="gantt-body">`;
+
+  // Vertical gridlines
+  html += `<div class="gantt-gridlines">`;
+  for (const ce of ceMarkers) {
+    const pct = ((ce - MIN_CE) / ceSpan * 100).toFixed(2);
+    html += `<span class="gantt-gridline" style="left:${pct}%"></span>`;
+  }
+  html += `</div>`;
 
   centuryOrder.forEach(c => {
     const scholarsList = centuryMap.get(c);
     const ceRange = getCenturyCE(c);
     const ordinal = getOrdinal(c);
 
-    html += `<div class="print-row">`;
-    html += `<div class="print-century">${ordinal} C AH<span class="ce-range">${ceRange}</span></div>`;
-    html += `<div class="print-scholars">`;
+    // Era heading row
+    html += `<div class="gantt-era">${ordinal} Century AH · ${ceRange}</div>`;
 
-    scholarsList.forEach((s, i) => {
-      if (i > 0) html += `<span class="ps-sep">·</span>`;
-      const placeSpan = s.place ? ` <span class="ps-place">${s.place.split(',')[0]}</span>` : '';
-      html += `<span class="ps">${s.name}${placeSpan} <span class="ah-date">${s.ah}</span></span>`;
+    scholarsList.forEach(s => {
+      const parsed = parseAH(s.ah);
+      const region = getRegion(s.place);
+      const color = regionColors[region] || '#888';
+      const city = s.place ? s.place.split(',')[0].trim() : '';
+
+      // Bar position as percentage of total span
+      let leftPct, widthPct;
+      if (parsed) {
+        leftPct = Math.max(0, ((parsed.startCE - MIN_CE) / ceSpan) * 100);
+        widthPct = Math.max(0.4, ((parsed.endCE - parsed.startCE) / ceSpan) * 100);
+      } else {
+        // Fallback for unparseable dates: place at century start
+        const estCE = ahToCe(s.sortDeath || ((s.century - 1) * 100 + 50));
+        leftPct = Math.max(0, ((estCE - 5 - MIN_CE) / ceSpan) * 100);
+        widthPct = 0.6;
+      }
+
+      // Abbreviate name for print
+      const shortName = s.name.length > 28 ? s.name.substring(0, 26) + '…' : s.name;
+      const dateStr = s.ah;
+
+      html += `<div class="gantt-row">`;
+      html += `<div class="gantt-label">${shortName}<span class="gantt-city">${city}</span></div>`;
+      html += `<div class="gantt-track">`;
+      html += `<span class="gantt-bar" style="left:${leftPct.toFixed(2)}%;width:${widthPct.toFixed(2)}%;background:${color}" title="${s.name} · ${dateStr} · ${s.place || ''}"></span>`;
+      html += `</div>`;
+      html += `<div class="gantt-date">${dateStr}</div>`;
+      html += `</div>`;
     });
-
-    html += `</div></div>`;
   });
 
-  html += `<div class="print-footer">✦ ❖ ✦  ${scholars.length} scholars across ${centuryOrder.length} centuries of the Ḥanafī school  ✦ ❖ ✦</div>`;
+  html += `</div>`; // gantt-body
+
+  // ── AH axis (bottom) ──
+  html += `<div class="gantt-axis gantt-axis-bottom">`;
+  for (const m of ahMarkers) {
+    const pct = ((m.ce - MIN_CE) / ceSpan * 100).toFixed(2);
+    html += `<span class="gantt-ah-tick" style="left:${pct}%">${m.ah} AH</span>`;
+  }
+  html += `</div>`;
+
+  // ── Legend ──
+  html += `<div class="gantt-legend">`;
+  const usedRegions = new Set();
+  scholars.forEach(s => usedRegions.add(getRegion(s.place)));
+  const legendRegions = Object.entries(regionColors).filter(([r]) => usedRegions.has(r));
+  legendRegions.forEach(([region, color]) => {
+    html += `<span class="gantt-legend-item"><span class="gantt-legend-swatch" style="background:${color}"></span>${region}</span>`;
+  });
+  html += `</div>`;
+
+  // ── Footer ──
+  html += `<div class="gantt-footer">✦ ❖ ✦  ${scholars.length} scholars across ${centuryOrder.length} centuries of the Ḥanafī school  ✦ ❖ ✦</div>`;
 
   container.innerHTML = html;
 }
