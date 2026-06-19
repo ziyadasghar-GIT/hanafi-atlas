@@ -1071,42 +1071,49 @@ body.print-mode #print-layout {
   display: block;
   font-family: 'Inter', sans-serif;
   color: #222;
-  padding-top: 4px;
+  padding: 4px 12px;
+  max-width: 100%;
 }
 
+/* Print trigger button */
+body.print-mode #a3PrintBtn { display: block; }
+
+/* ── Print layout: compact century rows ── */
 body.print-mode #print-layout .print-row {
   display: flex;
   align-items: baseline;
-  gap: 6px;
-  padding: 2.5px 0;
-  border-bottom: 1px dotted #ddd;
+  gap: 8px;
+  padding: 3px 0;
+  border-bottom: 1px dotted #ccc;
   page-break-inside: avoid;
 }
 
 body.print-mode #print-layout .print-century {
   font-family: 'Amiri', serif;
   font-weight: 700;
-  font-size: 7pt;
+  font-size: 8pt;
   color: #333;
-  min-width: 100px;
+  min-width: 110px;
   flex-shrink: 0;
   text-align: right;
-  padding-right: 8px;
-  border-right: 2px solid #c9a84c;
+  padding-right: 10px;
+  border-right: 2.5px solid #c9a84c;
+  line-height: 1.4;
 }
 
 body.print-mode #print-layout .print-century .ce-range {
   display: block;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 5.5pt;
+  font-size: 6pt;
   color: #888;
+  margin-top: 1px;
 }
 
 body.print-mode #print-layout .print-scholars {
-  font-size: 6pt;
+  font-size: 6.5pt;
   color: #444;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
 body.print-mode #print-layout .print-scholars .ps {
@@ -1115,19 +1122,19 @@ body.print-mode #print-layout .print-scholars .ps {
 
 body.print-mode #print-layout .print-scholars .ps-sep {
   color: #c9a84c;
-  margin: 0 2px;
+  margin: 0 3px;
 }
 
 body.print-mode #print-layout .print-scholars .ps .ah-date {
-  font-size: 5.5pt;
+  font-size: 6pt;
   color: #777;
 }
 
 body.print-mode #print-layout .print-scholars .ps .ps-place {
-  font-size: 5pt;
+  font-size: 5.5pt;
   color: #999;
   font-style: italic;
-  margin-left: 1px;
+  margin-left: 2px;
 }
 
 body.print-mode #print-layout .print-row:first-child {
@@ -1140,15 +1147,15 @@ body.print-mode #print-layout .print-row:last-child {
 
 body.print-mode #print-layout .print-footer {
   text-align: center;
-  font-size: 5.5pt;
+  font-size: 6pt;
   color: #999;
-  padding-top: 6px;
+  padding-top: 8px;
   font-style: italic;
 }
 
 body.print-mode .header {
   background: none !important;
-  padding: 0 0 4px 0 !important;
+  padding: 0 0 6px 0 !important;
   animation: none !important;
   text-align: center !important;
 }
@@ -1156,20 +1163,20 @@ body.print-mode .header {
 body.print-mode .header-ornament { display: none !important; }
 
 body.print-mode .header h1 {
-  font-size: 13pt !important;
+  font-size: 14pt !important;
   color: #000 !important;
   text-shadow: none !important;
   margin-bottom: 2px !important;
 }
 
 body.print-mode .header .subtitle {
-  font-size: 7.5pt !important;
+  font-size: 8pt !important;
   color: #444 !important;
   margin-bottom: 4px !important;
 }
 
 body.print-mode .header .meta {
-  font-size: 6pt !important;
+  font-size: 6.5pt !important;
   color: #888 !important;
 }
 
@@ -1199,12 +1206,20 @@ body.print-mode .print-mode-btn {
   box-shadow: 0 0 12px var(--shadow-green);
 }
 
+/* ── A3 page setup for print ── */
+@media print {
+  @page {
+    size: A3 landscape;
+    margin: 12mm;
+  }
+}
+
 /* ── Print styles (chrome cleanup only) ── */
 @media print {
   body::before, .scroll-top, .scroll-hint, .layout-toggle,
   .bio-modal-overlay, .bismillah, .expand-hint, .year-scale,
   .timeline-line, .no-results, .footer, .search-box, .century-filters,
-  .stats, .print-mode-btn,
+  .stats, .print-mode-btn, #a3PrintBtn,
   body.horizontal .scroll-hint,
   body.horizontal .timeline-container::-webkit-scrollbar {
     display: none !important;
@@ -1219,6 +1234,11 @@ body.print-mode .print-mode-btn {
   .header .meta {
     font-size: 7pt !important;
     color: #888 !important;
+  }
+
+  /* Ensure print layout fills the page */
+  #print-layout {
+    display: block !important;
   }
 }
 
@@ -1515,7 +1535,7 @@ body.print-mode .print-mode-btn {
     <div class="timeline-line"></div>
   </div>
 
-  <div id="print-layout" style="display:none"></div>
+  <div id="print-layout"></div>
 
   <div class="bio-modal-overlay" id="bioModal" onclick="if(event.target===this)closeBioModal()">
     <div class="bio-modal">
@@ -2086,7 +2106,6 @@ map.on('load', () => {
   });
 
   // Print
-  document.getElementById('btnPrint').addEventListener('click', () => window.print());
 
   // Side panel close handlers
   document.getElementById('panelClose').addEventListener('click', closePanel);
@@ -2506,14 +2525,25 @@ function generatePrintLayout() {
 // ── Print mode toggle ──────────────────────────────────────────────
 document.getElementById('btnPrintMode').addEventListener('click', () => {
   const isActive = document.body.classList.toggle('print-mode');
-  document.getElementById('btnPrintMode').textContent = isActive ? '🖨 A3 ✓' : '🖨 A3';
+  document.getElementById('btnPrintMode').textContent = isActive ? '✕ Exit A3' : '🖨 A3';
+  const printLayout = document.getElementById('print-layout');
 
-  // Regenerate print layout with current data when entering print mode
-  if (isActive) generatePrintLayout();
-
-  // When leaving print mode, restore normal controls layout
-  if (!isActive) {
-    // Ensure vertical/horizontal layout toggle buttons still work properly
+  if (isActive) {
+    generatePrintLayout();
+    printLayout.style.display = 'block';
+    // Add a print trigger button at the top of the print layout
+    if (!document.getElementById('a3PrintBtn')) {
+      const printBtn = document.createElement('button');
+      printBtn.id = 'a3PrintBtn';
+      printBtn.textContent = '🖨 Print A3';
+      printBtn.style.cssText = 'display:block;margin:0 auto 8px auto;padding:8px 24px;background:#c9a84c;color:#000;font:bold 9pt Inter,sans-serif;border:none;border-radius:4px;cursor:pointer;';
+      printBtn.addEventListener('click', () => window.print());
+      printLayout.insertBefore(printBtn, printLayout.firstChild);
+    }
+  } else {
+    printLayout.style.display = 'none';
+    const printBtn = document.getElementById('a3PrintBtn');
+    if (printBtn) printBtn.remove();
     renderTimeline();
   }
 });
