@@ -887,6 +887,52 @@ const map = new maplibregl.Map({
 
 map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: true }), 'bottom-right');
 
+// ── Override map labels: rename Israel → Palestine ──
+map.on('style.load', () => {
+  // Walk layers looking for country labels with "Israel"
+  const style = map.getStyle();
+  style.layers.forEach(layer => {
+    if (layer.layout && layer.layout['text-field']) {
+      const tf = JSON.stringify(layer.layout['text-field']);
+      // Check if this layer shows country names (contains 'name' field)
+      if (tf.includes('name') || tf.includes('Name')) {
+        try {
+          // Filter OUT features named "Israel" from this layer
+          const currentFilter = map.getFilter(layer.id) || ['!', ['has', 'point_count']];
+          map.setFilter(layer.id, ['all', currentFilter, ['!=', ['get', 'name'], 'Israel']]);
+        } catch(e) { /* skip layers that can't be filtered */ }
+      }
+    }
+  });
+  // Add "Palestine" label at Ramla's coordinates
+  map.addSource('palestine-label', {
+    type: 'geojson',
+    data: {
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [34.8667, 31.9333] },
+      properties: { name: 'Palestine' }
+    }
+  });
+  map.addLayer({
+    id: 'palestine-label-layer',
+    type: 'symbol',
+    source: 'palestine-label',
+    layout: {
+      'text-field': 'Palestine',
+      'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+      'text-size': 11,
+      'text-transform': 'uppercase',
+      'text-letter-spacing': 0.08,
+      'text-offset': [0, -1.5]
+    },
+    paint: {
+      'text-color': '#666',
+      'text-halo-color': '#fff',
+      'text-halo-width': 1.5
+    }
+  });
+});
+
 let activeChapterIdx = 0;
 let activeRegion = 'all';
 let activeCentury = 'all';
