@@ -1836,6 +1836,17 @@
       "works": "Al-Madkhal al-Mufassal ila al-Fiqh al-Hanafi; al-Fiqh al-Muqaran; Is'ad al-Mufti; Removing the Confusion",
       "bio": "Born 1974 in Amman, Jordan, Salah Abu al-Haj is one of the leading contemporary scholars of Hanafi jurisprudence. He holds bachelor's, master's, and doctoral degrees from the University of Baghdad, ha...",
       "color": "#607d8b"
+    },
+    {
+      "id": "Ibrāhīm Riḍā Khān",
+      "name": "Ibrāhīm Riḍā Khān",
+      "century": 14,
+      "death": 1385,
+      "place": "Bareilly, India",
+      "note": "Mufassir-i Aʿẓam-i Hind; grandson of Aḥmad Riḍā Khān; father of Akhtar Riḍā Khān",
+      "works": "Zikr Allāh, Niʿmat Allāh, Ḥujjat Allāh, Tafsīr Sūrat al-Balad",
+      "bio": "An Indian Barelvi Ḥanafī scholar, jurist, and Sufi mystic.",
+      "color": "#8e44ad"
     }
   ],
   "edges": [
@@ -3746,6 +3757,12 @@
       "target": "Ashraf ʿAlī Thānawī",
       "type": "teacher-external",
       "label": "taught"
+    },
+    {
+      "source": "Aḥmad Riḍā Khān Barelwī",
+      "target": "Ibrāhīm Riḍā Khān",
+      "type": "teacher-external",
+      "label": "grandfather and teacher"
     }
   ]
 }
