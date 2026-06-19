@@ -2604,7 +2604,7 @@
     {
       "source": "Ibrāhīm Riḍā Khān",
       "target": "Akhtar Riḍā Khān",
-      "type": "teacher-external",
+      "type": "teacher",
       "label": "taught"
     },
     {
@@ -3810,7 +3810,7 @@
     {
       "source": "Aḥmad Riḍā Khān Barelwī",
       "target": "Ibrāhīm Riḍā Khān",
-      "type": "teacher-external",
+      "type": "teacher",
       "label": "grandfather and teacher"
     },
     {
