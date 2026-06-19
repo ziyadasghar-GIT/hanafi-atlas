@@ -865,6 +865,13 @@ html, body {
 <script src="https://unpkg.com/@turf/turf@7.1.0/turf.min.js"></script>
 
 <script>
+// ── Enable RTL text rendering for Arabic map labels ──
+maplibregl.setRTLTextPlugin(
+  'https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.2.3/mapbox-gl-rtl-text.js',
+  null,
+  true
+);
+
 // ── Data (loaded from external JSON) ──
 let PLACES, SCHOLARS, CHAPTERS;
 
