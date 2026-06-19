@@ -2,7 +2,7 @@
 
 **Timeline · Map · Network of the Ḥanafī School**
 
-A triple-view web app tracing 1,400 years of Ḥanafī scholarship across 167 scholars, 89 cities, and 16 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
+A triple-view web app tracing 1,400 years of Ḥanafī scholarship across 167 scholars, 90 cities, and 15 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
 
 ## Views
 
@@ -25,7 +25,8 @@ Interactive force-directed graph showing teacher↔student chains and peer conne
 
 - **159 teacher→student links** (gold arrows) tracing isnād chains
 - **25 peer connections** (dashed green lines) showing contemporary colleagues
-- **130 external links** (dotted gold) connecting to scholars outside the 167-scholar dataset
+- **134 external links** (dotted gold) connecting to scholars outside the 167-scholar dataset
+- All 167 scholars are now connected in the network graph
 - Drag nodes, zoom/pan, and click century buttons to isolate eras
 
 ## Data
@@ -33,9 +34,9 @@ Interactive force-directed graph showing teacher↔student chains and peer conne
 | File | Contents |
 |---|---|
 | `data-scholars.json` | 167 scholars with name, dates (AH), century, place, bio, works, note |
-| `data-places.json` | 89 cities with coordinates (lng/lat), modern name, region |
+| `data-places.json` | 90 cities with coordinates (lng/lat), modern name, region |
 | `data-chapters.json` | 10 map chapter definitions (center, zoom, pitch, bearing, text) |
-| `data-graph.json` | 167 nodes + 220 edges for the network graph (century, place, relations) |
+| `data-graph.json` | 167 nodes + 318 edges for the network graph (century, place, relations) |
 
 All pages have data embedded inline (works offline, no server needed). The JSON files are the source of truth — run the embed script to update HTML after edits.
 
