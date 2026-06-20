@@ -718,5 +718,21 @@
     ],
     "modern": "Amman, Jordan",
     "region": "Syria"
+  },
+  "Golra Sharif": {
+    "coords": [
+      72.93,
+      33.67
+    ],
+    "modern": "Golra Sharif, Islamabad, Pakistan",
+    "region": "India"
+  },
+  "Jhang": {
+    "coords": [
+      72.32,
+      31.27
+    ],
+    "modern": "Jhang, Punjab, Pakistan",
+    "region": "India"
   }
 }
