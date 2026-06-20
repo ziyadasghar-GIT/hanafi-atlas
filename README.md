@@ -25,7 +25,7 @@ Interactive force-directed graph showing teacher↔student chains and peer conne
 
 - **178 teacher→student links** (gold arrows) tracing isnād chains
 - **25 peer connections** (dashed green lines) showing contemporary colleagues
-- **127 external links** (dotted gold) connecting to scholars outside the 178-scholar dataset
+- **25 external links** (dotted gold) connecting to scholars outside the 178-scholar dataset
 - All 178 scholars are now connected in the network graph
 - Drag nodes, zoom/pan, and click century buttons to isolate eras
 

@@ -1957,6 +1957,39 @@
       "works": "al-Ṣifāt (divine attributes); al-Sayf al-Maslūl ʿalā man Sabba Aṣḥāb al-Rasūl",
       "bio": "A distinguished Hanafī theologian and judge who served as qāḍī of Samarkand. He was the foremost theological teacher of Imam Abū Manṣūr al-Māturīdī, from whom al-Māturīdī learned kalām (speculative theology). He produced approximately forty students and was highly respected in Samarkand. He authored works on divine attributes (al-Ṣifāt) and on the honour of the Companions. He is considered an early representative of Eastern Hanafī theology, with a focus on the divine attributes that anticipated the Māturīdī theological project. He was martyred while on a military campaign.",
       "color": "#94643a"
+    },
+    {
+      "id": "Anwar Shāh al-Kashmīrī",
+      "name": "Anwar Shāh al-Kashmīrī",
+      "century": 14,
+      "death": 1352,
+      "place": "Deoband, India",
+      "note": "Imām al-ʿAṣr; 4th Principal and Shaykh al-Ḥadīth of Darul Uloom Deoband; one of the greatest ḥadīth scholars of the modern era",
+      "works": "Fayḍ al-Bārī, Anwār al-Bārī, al-ʿArf al-Shadhī",
+      "bio": "Born in 1292 AH (1875 CE) in the village of Dudwan, Kashmir, Anwar Shāh al-Kashmīrī was one of the greatest ḥadīth scholars of the modern era. He studied at Darul Uloom Deoband under Shaykh al-Hind Ma...",
+      "color": "#3498db"
+    },
+    {
+      "id": "Pīr Meher ʿAlī Shāh",
+      "name": "Pīr Meher ʿAlī Shāh",
+      "century": 14,
+      "death": 1356,
+      "place": "Golra Sharif, Punjab (present-day Islamabad, Pakistan)",
+      "note": "Punjabi Sufi scholar; led the anti-Aḥmadiyya movement; disciple of Ḥājī Imdād Allāh and Khwāja Shams al-Dīn Siyālvī",
+      "works": "Saif-e-Chishtiyai, Shams al-Hidāyah, Taḥqīq al-Ḥaqq fī Kalimat al-Ḥaqq, Fatāwā Meḥriyya",
+      "bio": "Born on 1 Ramaḍān 1275 AH (14 April 1859 CE) in Golra Sharif, Pīr Meher ʿAlī Shāh was a Punjabi Sufi scholar and mystic poet of the Chishtī-Qādirī order. He received his early education at a khānqāh i...",
+      "color": "#3498db"
+    },
+    {
+      "id": "Muḥammad Ṭāhir al-Qādirī",
+      "name": "Muḥammad Ṭāhir al-Qādirī",
+      "century": 15,
+      "death": 1500,
+      "place": "Jhang, Punjab, Pakistan",
+      "note": "Shaykh al-Islām; founder of Minhāj al-Qurʾān International; prolific author of 1,000+ works; holder of 500+ ijāzāt",
+      "works": "ʿIrfān al-Qurʾān (translation), al-Mawsuʿāt al-Qurʾāniyya (8 vols.), al-Jawāhir al-Bāhira fī al-Asānīd al-Ṭāhira",
+      "bio": "Born on 19 February 1951 (12 Jumādā al-Ūlā 1370 AH) in Jhang, Pakistan, Muḥammad Ṭāhir al-Qādirī is a leading contemporary Ḥanafī scholar, former professor of international constitutional law at the U...",
+      "color": "#3498db"
     }
   ],
   "edges": [
@@ -3936,6 +3969,42 @@
       "target": "Abū Manṣūr al-Māturīdī",
       "type": "teacher",
       "label": "taught"
+    },
+    {
+      "source": "Rashīd Aḥmad Gangohī",
+      "target": "Anwar Shāh al-Kashmīrī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Shaykh al-Hind Maḥmūd al-Ḥasan",
+      "target": "Anwar Shāh al-Kashmīrī",
+      "type": "teacher-external",
+      "label": "taught"
+    },
+    {
+      "source": "Anwar Shāh al-Kashmīrī",
+      "target": "Muḥammad Shafīʿ Deobandī",
+      "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Ḥājī Imdād Allāh Muhājir Makkī",
+      "target": "Pīr Meher ʿAlī Shāh",
+      "type": "teacher-external",
+      "label": "gave khilāfah"
+    },
+    {
+      "source": "Pīr Meher ʿAlī Shāh",
+      "target": "Anwar Shāh al-Kashmīrī",
+      "type": "peer",
+      "label": "contemporary"
+    },
+    {
+      "source": "Ashraf ʿAlī Thānawī",
+      "target": "Pīr Meher ʿAlī Shāh",
+      "type": "peer",
+      "label": "peers through Ḥājī Imdād Allāh"
     }
   ]
 }

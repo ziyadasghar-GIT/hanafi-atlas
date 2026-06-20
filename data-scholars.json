@@ -1652,5 +1652,35 @@
     "works": "al-Ṣifāt (divine attributes); al-Sayf al-Maslūl ʿalā man Sabba Aṣḥāb al-Rasūl",
     "bio": "A distinguished Hanafī theologian and judge who served as qāḍī of Samarkand. He was the foremost theological teacher of Imam Abū Manṣūr al-Māturīdī, from whom al-Māturīdī learned kalām (speculative theology). He produced approximately forty students and was highly respected in Samarkand. He authored works on divine attributes (al-Ṣifāt) and on the honour of the Companions. He is considered an early representative of Eastern Hanafī theology, with a focus on the divine attributes that anticipated the Māturīdī theological project. He was martyred while on a military campaign.",
     "color": "#94643a"
+  },
+  {
+    "name": "Anwar Shāh al-Kashmīrī",
+    "ah": "1292–1352",
+    "century": 14,
+    "sortDeath": 1352,
+    "place": "Deoband, India",
+    "bio": "Born in 1292 AH (1875 CE) in the village of Dudwan, Kashmir, Anwar Shāh al-Kashmīrī was one of the greatest ḥadīth scholars of the modern era. He studied at Darul Uloom Deoband under Shaykh al-Hind Maḥmūd al-Ḥasan and was also a disciple of Rashīd Aḥmad Gangohī. Appointed the 4th Principal and Shaykh al-Ḥadīth of Darul Uloom Deoband (1915–1927), he produced a generation of leading scholars including Muḥammad Shafīʿ Deobandī, Yūsuf Bānūrī, Manzoor Nuʿmānī, and Idrīs Kāndhlawī. His magnum opus Fayḍ al-Bārī is one of the most celebrated commentaries on Ṣaḥīḥ al-Bukhārī, while al-ʿArf al-Shadhī is a major commentary on Sunan al-Tirmidhī. He was titled Imām al-ʿAṣr (Imam of the Age). He died in Deoband in 1352 AH (1933 CE).",
+    "works": "Fayḍ al-Bārī, Anwār al-Bārī, al-ʿArf al-Shadhī",
+    "note": "Imām al-ʿAṣr; 4th Principal and Shaykh al-Ḥadīth of Darul Uloom Deoband; one of the greatest ḥadīth scholars of the modern era"
+  },
+  {
+    "name": "Pīr Meher ʿAlī Shāh",
+    "ah": "1275–1356",
+    "century": 14,
+    "sortDeath": 1356,
+    "place": "Golra Sharif, Punjab (present-day Islamabad, Pakistan)",
+    "bio": "Born on 1 Ramaḍān 1275 AH (14 April 1859 CE) in Golra Sharif, Pīr Meher ʿAlī Shāh was a Punjabi Sufi scholar and mystic poet of the Chishtī-Qādirī order. He received his early education at a khānqāh in Golra before travelling to the United Provinces to study under various ʿulamā. He became a disciple and khalīfa of Khwāja Shams al-Dīn Siyālvī and was also made a khalīfa by Ḥājī Imdād Allāh Muhājir Makkī. He was a leading Hanafi scholar and a descendant of ʿAbd al-Qādir al-Jīlānī in the 25th generation. He led the anti-Aḥmadiyya movement and authored the polemical Saif-e-Chishtiyai. His other works include Shams al-Hidāyah, Taḥqīq al-Ḥaqq, and the fatwa collection Fatāwā Meḥriyya. He died in Ṣafar 1356 AH (May 1937 CE).",
+    "works": "Saif-e-Chishtiyai, Shams al-Hidāyah, Taḥqīq al-Ḥaqq fī Kalimat al-Ḥaqq, Fatāwā Meḥriyya",
+    "note": "Punjabi Sufi scholar; led the anti-Aḥmadiyya movement; disciple of Ḥājī Imdād Allāh and Khwāja Shams al-Dīn Siyālvī"
+  },
+  {
+    "name": "Muḥammad Ṭāhir al-Qādirī",
+    "ah": "b. 1370",
+    "century": 15,
+    "sortDeath": 1500,
+    "place": "Jhang, Punjab, Pakistan",
+    "bio": "Born on 19 February 1951 (12 Jumādā al-Ūlā 1370 AH) in Jhang, Pakistan, Muḥammad Ṭāhir al-Qādirī is a leading contemporary Ḥanafī scholar, former professor of international constitutional law at the University of the Punjab, and founder of Minhāj al-Qurʾān International (1980). He studied classical Islamic sciences under numerous scholars across the Muslim world, receiving over 500 ijāzāt and isnāds. His chains of transmission connect him through five teachers to ʿAbd al-Qādir al-Jīlānī, Ibn ʿArabī, and Ibn Ḥajar al-ʿAsqalānī. He has authored over 1,000 books, including the 8-volume Qurʾānic Encyclopaedia (al-Mawsuʿāt al-Qurʾāniyya) and the Urdu translation ʿIrfān al-Qurʾān. He also founded the Pakistan Awāmī Taḥrīk (PAT) political party and served as a jurist consultant to the Supreme Court of Pakistan on Sharīʿa law. He currently holds Canadian citizenship and continues to lecture and write.",
+    "works": "ʿIrfān al-Qurʾān (translation), al-Mawsuʿāt al-Qurʾāniyya (8 vols.), al-Jawāhir al-Bāhira fī al-Asānīd al-Ṭāhira",
+    "note": "Shaykh al-Islām; founder of Minhāj al-Qurʾān International; prolific author of 1,000+ works; holder of 500+ ijāzāt"
   }
 ]
