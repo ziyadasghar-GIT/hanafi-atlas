@@ -14,8 +14,6 @@ Dark-themed chronological scrollytelling. Browse scholars by century, filter by 
 ### 🗺 Map (`map.html`)
 Light parchment-themed interactive map (MapLibre GL). Click city markers to fly between chapters, filter by region and century, and open the side panel to read scholar bios for each city.
 
-<img width="1904" height="908" alt="image" src="https://github.com/user-attachments/assets/0794ca3f-8e25-4399-866f-f776e648d342" />
-
 <img width="1899" height="909" alt="image" src="https://github.com/user-attachments/assets/87ecc099-79c7-48e5-b556-eb208cfefd96" />
 
 ### 🔗 Network (`network.html`)
