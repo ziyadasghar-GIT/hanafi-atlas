@@ -734,5 +734,13 @@
     ],
     "modern": "Jhang, Punjab, Pakistan",
     "region": "India"
+  },
+  "Takia Kalan": {
+    "coords": [
+      81.05,
+      26.15
+    ],
+    "modern": "Takia Kalan, Raebareli, Uttar Pradesh, India",
+    "region": "India"
   }
 }

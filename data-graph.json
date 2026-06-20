@@ -1990,6 +1990,17 @@
       "works": "ʿIrfān al-Qurʾān (translation), al-Mawsuʿāt al-Qurʾāniyya (8 vols.), al-Jawāhir al-Bāhira fī al-Asānīd al-Ṭāhira",
       "bio": "Born on 19 February 1951 (12 Jumādā al-Ūlā 1370 AH) in Jhang, Pakistan, Muḥammad Ṭāhir al-Qādirī is a leading contemporary Ḥanafī scholar, former professor of international constitutional law at the U...",
       "color": "#3498db"
+    },
+    {
+      "id": "Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī",
+      "name": "Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī",
+      "century": 15,
+      "death": 1420,
+      "place": "Takia Kalan (Raebareli), India",
+      "note": "Leading Ḥanafī scholar and historian; 7th Chancellor of Nadwat al-ʿUlamāʾ; recipient of King Fayṣal International Prize (1980); influential public intellectual bridging Arab and South Asian scholarship",
+      "works": "Mādhā Khasira al-ʿĀlam (Islam and the World), Saviours of Islamic Spirit (6 vols.), Sīrat-i-Sayyid Aḥmad Shahīd, Kārwān-e-Zindagī (7 vols.)",
+      "bio": "Born on 5 December 1913 (6 Muḥarram 1332 AH) in Takia Kalan, Raebareli, India, Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī — known as ʿAlī Mīyān — was a leading Ḥanafī scholar, historian, and public intellec...",
+      "color": "#3498db"
     }
   ],
   "edges": [
@@ -4005,6 +4016,12 @@
       "target": "Pīr Meher ʿAlī Shāh",
       "type": "peer",
       "label": "peers through Ḥājī Imdād Allāh"
+    },
+    {
+      "source": "Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī",
+      "target": "ʿAbd al-Fattāḥ Abū Ghuddah",
+      "type": "peer",
+      "label": "contemporary"
     }
   ]
 }
