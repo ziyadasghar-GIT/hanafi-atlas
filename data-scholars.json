@@ -1692,5 +1692,15 @@
     "bio": "Born on 5 December 1913 (6 Muḥarram 1332 AH) in Takia Kalan, Raebareli, India, Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī — known as ʿAlī Mīyān — was a leading Ḥanafī scholar, historian, and public intellectual of the 20th century. He studied at Dār al-ʿUlūm Nadwat al-ʿUlamāʾ and Dār al-ʿUlūm Deoband before serving as the 7th Chancellor of Nadwat al-ʿUlamāʾ from 1961 until his death. His magnum opus 'Mādhā Khasira al-ʿĀlam bi-Inḥiṭāṭ al-Muslimīn' (Islam and the World) diagnosed the causes of Muslim decline and was translated into dozens of languages. He authored over 50 books including 'Saviours of Islamic Spirit', 'Sīrat-i-Sayyid Aḥmad Shahīd', and his multi-volume autobiography 'Kārwān-e-Zindagī'. He was deeply influenced by Shiblī Nuʿmānī, Muḥammad Iqbāl, Mawlānā Ilyās Kāndhlawī, and Ḥusayn Aḥmad Madanī. He received the King Fayṣal International Prize (1980) and served as a bridge between Arab and South Asian Islamic scholarship. He died on 31 December 1999 (22 Ramaḍān 1420 AH).",
     "works": "Mādhā Khasira al-ʿĀlam (Islam and the World), Saviours of Islamic Spirit (6 vols.), Sīrat-i-Sayyid Aḥmad Shahīd, Kārwān-e-Zindagī (7 vols.)",
     "note": "Leading Ḥanafī scholar and historian; 7th Chancellor of Nadwat al-ʿUlamāʾ; recipient of King Fayṣal International Prize (1980); influential public intellectual bridging Arab and South Asian scholarship"
+  },
+  {
+    "name": "Muḥammad Akram al-Nadwī",
+    "ah": "b. 1383",
+    "century": 15,
+    "sortDeath": 1500,
+    "place": "Jaunpur (Uttar Pradesh), India",
+    "bio": "Born circa 1963 (1383 AH) in Jaunpur, India, Muḥammad Akram al-Nadwī is a British-Ḥanafī scholar and the author of the monumental 43-volume al-Wafā bi-Asmāʾ al-Nisāʾ (Biographical Dictionary of Women Narrators of Ḥadīth), documenting 10,000 female ḥadīth scholars. He studied at Dār al-ʿUlūm Nadwat al-ʿUlamāʾ under Shaykh Abū al-Ḥasan ʿAlī al-Nadwī and later earned a PhD in Arabic literature. He was a research fellow at the Oxford Centre for Islamic Studies and is the founder of the ASI Research Centre and Al-Salam Institute. He has authored over 60 books in Arabic, English, and Urdu covering ḥadīth, fiqh, biography, and Arabic grammar — including Abū Ḥanīfah: His Life, His Method, His Legacy and al-Muḥaddithāt: The Women Scholars in Islam.",
+    "works": "Al-Wafā bi-Asmāʾ al-Nisāʾ (43 vols.), Abū Ḥanīfah: His Life, His Method, His Legacy, al-Muḥaddithāt",
+    "note": "British-Ḥanafī scholar; author of the 43-volume biographical dictionary of 10,000 female ḥadīth scholars; student of Abū al-Ḥasan al-Nadwī"
   }
 ]

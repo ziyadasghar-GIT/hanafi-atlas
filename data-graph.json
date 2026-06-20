@@ -2001,6 +2001,17 @@
       "works": "Mādhā Khasira al-ʿĀlam (Islam and the World), Saviours of Islamic Spirit (6 vols.), Sīrat-i-Sayyid Aḥmad Shahīd, Kārwān-e-Zindagī (7 vols.)",
       "bio": "Born on 5 December 1913 (6 Muḥarram 1332 AH) in Takia Kalan, Raebareli, India, Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī — known as ʿAlī Mīyān — was a leading Ḥanafī scholar, historian, and public intellec...",
       "color": "#3498db"
+    },
+    {
+      "id": "Muḥammad Akram al-Nadwī",
+      "name": "Muḥammad Akram al-Nadwī",
+      "century": 15,
+      "death": 1500,
+      "place": "Jaunpur (Uttar Pradesh), India",
+      "note": "British-Ḥanafī scholar; author of the 43-volume biographical dictionary of 10,000 female ḥadīth scholars; student of Abū al-Ḥasan al-Nadwī",
+      "works": "Al-Wafā bi-Asmāʾ al-Nisāʾ (43 vols.), Abū Ḥanīfah: His Life, His Method, His Legacy, al-Muḥaddithāt",
+      "bio": "Born circa 1963 (1383 AH) in Jaunpur, India, Muḥammad Akram al-Nadwī is a British-Ḥanafī scholar and the author of the monumental 43-volume al-Wafā bi-Asmāʾ al-Nisāʾ (Biographical Dictionary of Women ...",
+      "color": "#3498db"
     }
   ],
   "edges": [
@@ -4022,6 +4033,12 @@
       "target": "ʿAbd al-Fattāḥ Abū Ghuddah",
       "type": "peer",
       "label": "contemporary"
+    },
+    {
+      "source": "Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī",
+      "target": "Muḥammad Akram al-Nadwī",
+      "type": "teacher",
+      "label": "taught"
     }
   ]
 }

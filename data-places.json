@@ -742,5 +742,13 @@
     ],
     "modern": "Takia Kalan, Raebareli, Uttar Pradesh, India",
     "region": "India"
+  },
+  "Jaunpur": {
+    "coords": [
+      82.68,
+      25.73
+    ],
+    "modern": "Jaunpur, Uttar Pradesh, India",
+    "region": "India"
   }
 }
