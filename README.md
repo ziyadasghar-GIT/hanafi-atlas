@@ -2,7 +2,7 @@
 
 **Timeline · Map · Network of the Ḥanafī School**
 
-A triple-view web app tracing 1,400 years of Ḥanafī scholarship across 178 scholars, 90 cities, and 15 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
+A triple-view web app tracing 1,400 years of Ḥanafī scholarship across 183 scholars, 94 cities, and 16 regions — from the Kūfan circle of Abū Ḥanīfah to the modern global diaspora.
 
 ## Views
 
@@ -19,24 +19,24 @@ Light parchment-themed interactive map (MapLibre GL). Click city markers to fly 
 <img width="1899" height="909" alt="image" src="https://github.com/user-attachments/assets/87ecc099-79c7-48e5-b556-eb208cfefd96" />
 
 ### 🔗 Network (`network.html`)
-Interactive force-directed graph showing teacher↔student chains and peer connections across all 178 scholars. Colour-coded by century, with hover tooltips showing scholarly relationships. Filter by century, search by name (Unicode-aware), and toggle teacher/peer/external edge types.
+Interactive force-directed graph showing teacher↔student chains and peer connections across all 183 scholars. Colour-coded by century, with hover tooltips showing scholarly relationships. Filter by century, search by name (Unicode-aware), and toggle teacher/peer/external edge types.
 <img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/d157b3ec-def5-409e-84fa-781a48c87491" />
 
 
-- **178 teacher→student links** (gold arrows) tracing isnād chains
-- **25 peer connections** (dashed green lines) showing contemporary colleagues
-- **25 external links** (dotted gold) connecting to scholars outside the 178-scholar dataset
-- All 178 scholars are now connected in the network graph
+- **181 teacher→student links** (gold arrows) tracing isnād chains
+- **28 peer connections** (dashed green lines) showing contemporary colleagues
+- **129 external links** (dotted gold) connecting to scholars outside the 183-scholar dataset
+- All 183 scholars are now connected in the network graph
 - Drag nodes, zoom/pan, and click century buttons to isolate eras
 
 ## Data
 
 | File | Contents |
 |---|---|
-| `data-scholars.json` | 178 scholars with name, dates (AH), century, place, bio, works, note |
-| `data-places.json` | 90 cities with coordinates (lng/lat), modern name, region |
+| `data-scholars.json` | 183 scholars with name, dates (AH), century, place, bio, works, note |
+| `data-places.json` | 94 cities with coordinates (lng/lat), modern name, region |
 | `data-chapters.json` | 10 map chapter definitions (center, zoom, pitch, bearing, text) |
-| `data-graph.json` | 178 nodes + 330 edges for the network graph (century, place, relations) |
+| `data-graph.json` | 183 nodes + 338 edges for the network graph (century, place, relations) |
 
 All pages have data embedded inline (works offline, no server needed). The JSON files are the source of truth — run the embed script to update HTML after edits.
 
