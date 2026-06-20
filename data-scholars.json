@@ -1499,6 +1499,86 @@
     "works": "Imdād al-Aḥkām / Iʿlāʾ al-Sunan"
   },
   {
+    "name": "Abū Muṭīʿ al-Ḥakam ibn ʿAbd Allāh al-Balkhī",
+    "ah": "120–199",
+    "century": 2,
+    "sortDeath": 199,
+    "place": "Balkh, Khurāsān",
+    "title": "al-Ḥakam ibn ʿAbd Allāh",
+    "note": "Student of Abū Ḥanīfah; narrator of al-Fiqh al-Akbar (later known as al-Fiqh al-Absaṭ)",
+    "works": "Narrated al-Fiqh al-Akbar / al-Fiqh al-Absaṭ from Abū Ḥanīfah",
+    "bio": "A direct student of Imam Abū Ḥanīfah and the primary narrator of the theological treatise 'al-Fiqh al-Akbar' (also called al-Fiqh al-Absaṭ). His transmission of the Imam's creedal statements became a foundational text for the Māturīdī school of theology. While some hadith critics questioned his reliability as a narrator, Hanafī scholars have consistently defended his trustworthiness, and his transmission of Abū Ḥanīfah's ʿaqīda has been accepted by the mainstream tradition. His chain of transmission reaches down to Imam Abū Manṣūr al-Māturīdī, linking the eponym of the school to the codifier of its theology.",
+    "color": "#d4a574"
+  },
+  {
+    "name": "Naṣīr (Nusayr) ibn Yaḥyā al-Balkhī",
+    "ah": "195–268",
+    "century": 3,
+    "sortDeath": 268,
+    "place": "Balkh, Khurāsān",
+    "title": "Nusayr ibn Yaḥyā",
+    "note": "Hanafī jurist and theologian; teacher of Imam al-Māturīdī; studied under Abū Sulaymān al-Jūzajānī and Abū Muṭīʿ al-Balkhī",
+    "works": "Transmitted al-Fiqh al-Absaṭ; authored works in fiqh and kalām",
+    "bio": "A prominent Hanafī faqīh, muḥaqqiq, and ascetic of Balkh. He studied jurisprudence under Abū Sulaymān Mūsā al-Jūzajānī and also learned from Abū Muṭīʿ al-Ḥakam al-Balkhī and Abū Muqātil Ḥafṣ ibn Muslim al-Samarqandī. Well-versed in both Hanafī fiqh and kalām (theology), he was one of the key teachers of Imam Abū Manṣūr al-Māturīdī. He is recorded to have engaged in scholarly debate with Aḥmad ibn Ḥanbal. His transmission of Abū Ḥanīfah's theological legacy was instrumental in the formation of the Māturīdiyya school.",
+    "color": "#c4956a"
+  },
+  {
+    "name": "Muḥammad ibn Muqātil al-Rāzī",
+    "ah": "190–248",
+    "century": 3,
+    "sortDeath": 248,
+    "place": "Rayy, Persia",
+    "title": "Ibn Muqātil",
+    "note": "Qāḍī of Rayy; Hanafī jurist; teacher of Imam al-Māturīdī",
+    "works": "al-Muddaʿī wa al-Muddaʿā ʿalayh (fiqh)",
+    "bio": "A leading Hanafī jurist who served as qāḍī (judge) of Rayy. He studied under Muḥammad ibn al-Ḥasan al-Shaybānī and was a close companion of his circle. A reliable narrator of ḥadīth according to some scholars, though criticized by Bukhārī due to his association with the Ahl al-Ray. Ibn Ḥajar al-ʿAsqalānī dismissed this criticism as stemming from madhhab bias, stating: 'I believe because he [ibn Muqātil] was inclined to Ray, Bukhārī said this.' Imām Abū Manṣūr al-Māturīdī studied fiqh and ḥadīth under him.",
+    "color": "#b5845a"
+  },
+  {
+    "name": "Abū Bakr Aḥmad ibn Isḥāq ibn Ṣāliḥ al-Jūzajānī",
+    "ah": "210–285",
+    "century": 3,
+    "sortDeath": 285,
+    "place": "Jūzjān, Khurāsān",
+    "title": "Abū Bakr al-Jūzajānī",
+    "note": "Hanafī jurist of Samarkand; one of the earliest teachers of Imam al-Māturīdī",
+    "works": "al-Farq wa al-Tamyīz; Kitāb al-Tawba",
+    "bio": "A major Hanafī jurist in Samarkand who was among the earliest teachers of Imam Abū Manṣūr al-Māturīdī. He studied under Abū Sulaymān Mūsā al-Jūzajānī and taught fiqh to al-Māturīdī. He authored two known works: 'al-Farq wa al-Tamyīz' on jurisprudence and 'Kitāb al-Tawba', a didactic work. Scholarly opinion differs on whether he was primarily a jurist or also a theologian; the modern scholar U. Rudolf considers him a classical scholar from whom al-Māturīdī learned fiqh and piety rather than theological speculation.",
+    "color": "#a4744a"
+  },
+  {
+    "name": "Abū Naṣr Aḥmad ibn al-ʿAbbās al-ʿIyāḍī al-Anṣārī",
+    "ah": "215–275",
+    "century": 3,
+    "sortDeath": 275,
+    "place": "Samarkand, Transoxiana",
+    "title": "Abū Naṣr al-ʿIyāḍī",
+    "note": "Qāḍī of Samarkand; the primary theological teacher of Imam al-Māturīdī",
+    "works": "al-Ṣifāt (divine attributes); al-Sayf al-Maslūl ʿalā man Sabba Aṣḥāb al-Rasūl",
+    "bio": "A distinguished Hanafī theologian and judge who served as qāḍī of Samarkand. He was the foremost theological teacher of Imam Abū Manṣūr al-Māturīdī, from whom al-Māturīdī learned kalām (speculative theology). He produced approximately forty students and was highly respected in Samarkand. He authored works on divine attributes (al-Ṣifāt) and on the honour of the Companions. He is considered an early representative of Eastern Hanafī theology, with a focus on the divine attributes that anticipated the Māturīdī theological project. He was martyred while on a military campaign.",
+    "color": "#94643a"
+  },
+  {
+    "name": "Anwar Shāh al-Kashmīrī",
+    "ah": "1292–1352",
+    "century": 14,
+    "sortDeath": 1352,
+    "place": "Deoband, India",
+    "bio": "Born in 1292 AH (1875 CE) in the village of Dudwan, Kashmir, Anwar Shāh al-Kashmīrī was one of the greatest ḥadīth scholars of the modern era. He studied at Darul Uloom Deoband under Shaykh al-Hind Maḥmūd al-Ḥasan and was also a disciple of Rashīd Aḥmad Gangohī. Appointed the 4th Principal and Shaykh al-Ḥadīth of Darul Uloom Deoband (1915–1927), he produced a generation of leading scholars including Muḥammad Shafīʿ Deobandī, Yūsuf Bānūrī, Manzoor Nuʿmānī, and Idrīs Kāndhlawī. His magnum opus Fayḍ al-Bārī is one of the most celebrated commentaries on Ṣaḥīḥ al-Bukhārī, while al-ʿArf al-Shadhī is a major commentary on Sunan al-Tirmidhī. He was titled Imām al-ʿAṣr (Imam of the Age). He died in Deoband in 1352 AH (1933 CE).",
+    "works": "Fayḍ al-Bārī, Anwār al-Bārī, al-ʿArf al-Shadhī",
+    "note": "Imām al-ʿAṣr; 4th Principal and Shaykh al-Ḥadīth of Darul Uloom Deoband; one of the greatest ḥadīth scholars of the modern era"
+  },
+  {
+    "name": "Pīr Meher ʿAlī Shāh",
+    "ah": "1275–1356",
+    "century": 14,
+    "sortDeath": 1356,
+    "place": "Golra Sharif, Punjab (present-day Islamabad, Pakistan)",
+    "bio": "Born on 1 Ramaḍān 1275 AH (14 April 1859 CE) in Golra Sharif, Pīr Meher ʿAlī Shāh was a Punjabi Sufi scholar and mystic poet of the Chishtī-Qādirī order. He received his early education at a khānqāh in Golra before travelling to the United Provinces to study under various ʿulamā. He became a disciple and khalīfa of Khwāja Shams al-Dīn Siyālvī and was also made a khalīfa by Ḥājī Imdād Allāh Muhājir Makkī. He was a leading Hanafi scholar and a descendant of ʿAbd al-Qādir al-Jīlānī in the 25th generation. He led the anti-Aḥmadiyya movement and authored the polemical Saif-e-Chishtiyai. His other works include Shams al-Hidāyah, Taḥqīq al-Ḥaqq, and the fatwa collection Fatāwā Meḥriyya. He died in Ṣafar 1356 AH (May 1937 CE).",
+    "works": "Saif-e-Chishtiyai, Shams al-Hidāyah, Taḥqīq al-Ḥaqq fī Kalimat al-Ḥaqq, Fatāwā Meḥriyya",
+    "note": "Punjabi Sufi scholar; led the anti-Aḥmadiyya movement; disciple of Ḥājī Imdād Allāh and Khwāja Shams al-Dīn Siyālvī"
+  },
+  {
     "name": "Muḥammad Shafīʿ Deobandī",
     "ah": "1314–1396",
     "century": 15,
@@ -1584,96 +1664,6 @@
     "note": "Most prominent living Ḥanafī jurist; Islamic Fiqh Academy member; pioneered Islamic finance jurisprudence"
   },
   {
-    "name": "Ṣalāḥ Abū al-Ḥājj",
-    "ah": "b. 1395",
-    "century": 15,
-    "sortDeath": 1500,
-    "place": "Amman, Jordan",
-    "bio": "Born 1974 in Amman, Jordan, Salah Abu al-Haj is one of the leading contemporary scholars of Hanafi jurisprudence. He holds bachelor's, master's, and doctoral degrees from the University of Baghdad, having studied under Shaykh Abd al-Malik al-Sa'di. He served as Assistant Professor at Al-Balqa Applied University from 2004 to 2010 and is currently Dean of Hanafi Jurisprudence at the World Islamic Science and Education University in Jordan. He is the author of over 30 works including al-Fiqh al-Muqaran (Comparative Islamic Jurisprudence), Is'ad al-Mufti, and his magnum opus al-Madkhal al-Mufassal ila al-Fiqh al-Hanafi — a comprehensive introduction to Hanafi jurisprudence.",
-    "works": "Al-Madkhal al-Mufassal ila al-Fiqh al-Hanafi; al-Fiqh al-Muqaran; Is'ad al-Mufti; Removing the Confusion",
-    "note": "Leading contemporary Hanafi scholar; Dean of Hanafi Jurisprudence at WISE University, Jordan"
-  },
-  {
-    "name": "Abū Muṭīʿ al-Ḥakam ibn ʿAbd Allāh al-Balkhī",
-    "ah": "120–199",
-    "century": 2,
-    "sortDeath": 199,
-    "place": "Balkh, Khurāsān",
-    "title": "al-Ḥakam ibn ʿAbd Allāh",
-    "note": "Student of Abū Ḥanīfah; narrator of al-Fiqh al-Akbar (later known as al-Fiqh al-Absaṭ)",
-    "works": "Narrated al-Fiqh al-Akbar / al-Fiqh al-Absaṭ from Abū Ḥanīfah",
-    "bio": "A direct student of Imam Abū Ḥanīfah and the primary narrator of the theological treatise 'al-Fiqh al-Akbar' (also called al-Fiqh al-Absaṭ). His transmission of the Imam's creedal statements became a foundational text for the Māturīdī school of theology. While some hadith critics questioned his reliability as a narrator, Hanafī scholars have consistently defended his trustworthiness, and his transmission of Abū Ḥanīfah's ʿaqīda has been accepted by the mainstream tradition. His chain of transmission reaches down to Imam Abū Manṣūr al-Māturīdī, linking the eponym of the school to the codifier of its theology.",
-    "color": "#d4a574"
-  },
-  {
-    "name": "Naṣīr (Nusayr) ibn Yaḥyā al-Balkhī",
-    "ah": "195–268",
-    "century": 3,
-    "sortDeath": 268,
-    "place": "Balkh, Khurāsān",
-    "title": "Nusayr ibn Yaḥyā",
-    "note": "Hanafī jurist and theologian; teacher of Imam al-Māturīdī; studied under Abū Sulaymān al-Jūzajānī and Abū Muṭīʿ al-Balkhī",
-    "works": "Transmitted al-Fiqh al-Absaṭ; authored works in fiqh and kalām",
-    "bio": "A prominent Hanafī faqīh, muḥaqqiq, and ascetic of Balkh. He studied jurisprudence under Abū Sulaymān Mūsā al-Jūzajānī and also learned from Abū Muṭīʿ al-Ḥakam al-Balkhī and Abū Muqātil Ḥafṣ ibn Muslim al-Samarqandī. Well-versed in both Hanafī fiqh and kalām (theology), he was one of the key teachers of Imam Abū Manṣūr al-Māturīdī. He is recorded to have engaged in scholarly debate with Aḥmad ibn Ḥanbal. His transmission of Abū Ḥanīfah's theological legacy was instrumental in the formation of the Māturīdiyya school.",
-    "color": "#c4956a"
-  },
-  {
-    "name": "Muḥammad ibn Muqātil al-Rāzī",
-    "ah": "190–248",
-    "century": 3,
-    "sortDeath": 248,
-    "place": "Rayy, Persia",
-    "title": "Ibn Muqātil",
-    "note": "Qāḍī of Rayy; Hanafī jurist; teacher of Imam al-Māturīdī",
-    "works": "al-Muddaʿī wa al-Muddaʿā ʿalayh (fiqh)",
-    "bio": "A leading Hanafī jurist who served as qāḍī (judge) of Rayy. He studied under Muḥammad ibn al-Ḥasan al-Shaybānī and was a close companion of his circle. A reliable narrator of ḥadīth according to some scholars, though criticized by Bukhārī due to his association with the Ahl al-Ray. Ibn Ḥajar al-ʿAsqalānī dismissed this criticism as stemming from madhhab bias, stating: 'I believe because he [ibn Muqātil] was inclined to Ray, Bukhārī said this.' Imām Abū Manṣūr al-Māturīdī studied fiqh and ḥadīth under him.",
-    "color": "#b5845a"
-  },
-  {
-    "name": "Abū Bakr Aḥmad ibn Isḥāq ibn Ṣāliḥ al-Jūzajānī",
-    "ah": "210–285",
-    "century": 3,
-    "sortDeath": 285,
-    "place": "Jūzjān, Khurāsān",
-    "title": "Abū Bakr al-Jūzajānī",
-    "note": "Hanafī jurist of Samarkand; one of the earliest teachers of Imam al-Māturīdī",
-    "works": "al-Farq wa al-Tamyīz; Kitāb al-Tawba",
-    "bio": "A major Hanafī jurist in Samarkand who was among the earliest teachers of Imam Abū Manṣūr al-Māturīdī. He studied under Abū Sulaymān Mūsā al-Jūzajānī and taught fiqh to al-Māturīdī. He authored two known works: 'al-Farq wa al-Tamyīz' on jurisprudence and 'Kitāb al-Tawba', a didactic work. Scholarly opinion differs on whether he was primarily a jurist or also a theologian; the modern scholar U. Rudolf considers him a classical scholar from whom al-Māturīdī learned fiqh and piety rather than theological speculation.",
-    "color": "#a4744a"
-  },
-  {
-    "name": "Abū Naṣr Aḥmad ibn al-ʿAbbās al-ʿIyāḍī al-Anṣārī",
-    "ah": "215–275",
-    "century": 3,
-    "sortDeath": 275,
-    "place": "Samarkand, Transoxiana",
-    "title": "Abū Naṣr al-ʿIyāḍī",
-    "note": "Qāḍī of Samarkand; the primary theological teacher of Imam al-Māturīdī",
-    "works": "al-Ṣifāt (divine attributes); al-Sayf al-Maslūl ʿalā man Sabba Aṣḥāb al-Rasūl",
-    "bio": "A distinguished Hanafī theologian and judge who served as qāḍī of Samarkand. He was the foremost theological teacher of Imam Abū Manṣūr al-Māturīdī, from whom al-Māturīdī learned kalām (speculative theology). He produced approximately forty students and was highly respected in Samarkand. He authored works on divine attributes (al-Ṣifāt) and on the honour of the Companions. He is considered an early representative of Eastern Hanafī theology, with a focus on the divine attributes that anticipated the Māturīdī theological project. He was martyred while on a military campaign.",
-    "color": "#94643a"
-  },
-  {
-    "name": "Anwar Shāh al-Kashmīrī",
-    "ah": "1292–1352",
-    "century": 14,
-    "sortDeath": 1352,
-    "place": "Deoband, India",
-    "bio": "Born in 1292 AH (1875 CE) in the village of Dudwan, Kashmir, Anwar Shāh al-Kashmīrī was one of the greatest ḥadīth scholars of the modern era. He studied at Darul Uloom Deoband under Shaykh al-Hind Maḥmūd al-Ḥasan and was also a disciple of Rashīd Aḥmad Gangohī. Appointed the 4th Principal and Shaykh al-Ḥadīth of Darul Uloom Deoband (1915–1927), he produced a generation of leading scholars including Muḥammad Shafīʿ Deobandī, Yūsuf Bānūrī, Manzoor Nuʿmānī, and Idrīs Kāndhlawī. His magnum opus Fayḍ al-Bārī is one of the most celebrated commentaries on Ṣaḥīḥ al-Bukhārī, while al-ʿArf al-Shadhī is a major commentary on Sunan al-Tirmidhī. He was titled Imām al-ʿAṣr (Imam of the Age). He died in Deoband in 1352 AH (1933 CE).",
-    "works": "Fayḍ al-Bārī, Anwār al-Bārī, al-ʿArf al-Shadhī",
-    "note": "Imām al-ʿAṣr; 4th Principal and Shaykh al-Ḥadīth of Darul Uloom Deoband; one of the greatest ḥadīth scholars of the modern era"
-  },
-  {
-    "name": "Pīr Meher ʿAlī Shāh",
-    "ah": "1275–1356",
-    "century": 14,
-    "sortDeath": 1356,
-    "place": "Golra Sharif, Punjab (present-day Islamabad, Pakistan)",
-    "bio": "Born on 1 Ramaḍān 1275 AH (14 April 1859 CE) in Golra Sharif, Pīr Meher ʿAlī Shāh was a Punjabi Sufi scholar and mystic poet of the Chishtī-Qādirī order. He received his early education at a khānqāh in Golra before travelling to the United Provinces to study under various ʿulamā. He became a disciple and khalīfa of Khwāja Shams al-Dīn Siyālvī and was also made a khalīfa by Ḥājī Imdād Allāh Muhājir Makkī. He was a leading Hanafi scholar and a descendant of ʿAbd al-Qādir al-Jīlānī in the 25th generation. He led the anti-Aḥmadiyya movement and authored the polemical Saif-e-Chishtiyai. His other works include Shams al-Hidāyah, Taḥqīq al-Ḥaqq, and the fatwa collection Fatāwā Meḥriyya. He died in Ṣafar 1356 AH (May 1937 CE).",
-    "works": "Saif-e-Chishtiyai, Shams al-Hidāyah, Taḥqīq al-Ḥaqq fī Kalimat al-Ḥaqq, Fatāwā Meḥriyya",
-    "note": "Punjabi Sufi scholar; led the anti-Aḥmadiyya movement; disciple of Ḥājī Imdād Allāh and Khwāja Shams al-Dīn Siyālvī"
-  },
-  {
     "name": "Muḥammad Ṭāhir al-Qādirī",
     "ah": "b. 1370",
     "century": 15,
@@ -1682,5 +1672,15 @@
     "bio": "Born on 19 February 1951 (12 Jumādā al-Ūlā 1370 AH) in Jhang, Pakistan, Muḥammad Ṭāhir al-Qādirī is a leading contemporary Ḥanafī scholar, former professor of international constitutional law at the University of the Punjab, and founder of Minhāj al-Qurʾān International (1980). He studied classical Islamic sciences under numerous scholars across the Muslim world, receiving over 500 ijāzāt and isnāds. His chains of transmission connect him through five teachers to ʿAbd al-Qādir al-Jīlānī, Ibn ʿArabī, and Ibn Ḥajar al-ʿAsqalānī. He has authored over 1,000 books, including the 8-volume Qurʾānic Encyclopaedia (al-Mawsuʿāt al-Qurʾāniyya) and the Urdu translation ʿIrfān al-Qurʾān. He also founded the Pakistan Awāmī Taḥrīk (PAT) political party and served as a jurist consultant to the Supreme Court of Pakistan on Sharīʿa law. He currently holds Canadian citizenship and continues to lecture and write.",
     "works": "ʿIrfān al-Qurʾān (translation), al-Mawsuʿāt al-Qurʾāniyya (8 vols.), al-Jawāhir al-Bāhira fī al-Asānīd al-Ṭāhira",
     "note": "Shaykh al-Islām; founder of Minhāj al-Qurʾān International; prolific author of 1,000+ works; holder of 500+ ijāzāt"
+  },
+  {
+    "name": "Ṣalāḥ Abū al-Ḥājj",
+    "ah": "b. 1395",
+    "century": 15,
+    "sortDeath": 1500,
+    "place": "Amman, Jordan",
+    "bio": "Born 1974 in Amman, Jordan, Salah Abu al-Haj is one of the leading contemporary scholars of Hanafi jurisprudence. He holds bachelor's, master's, and doctoral degrees from the University of Baghdad, having studied under Shaykh Abd al-Malik al-Sa'di. He served as Assistant Professor at Al-Balqa Applied University from 2004 to 2010 and is currently Dean of Hanafi Jurisprudence at the World Islamic Science and Education University in Jordan. He is the author of over 30 works including al-Fiqh al-Muqaran (Comparative Islamic Jurisprudence), Is'ad al-Mufti, and his magnum opus al-Madkhal al-Mufassal ila al-Fiqh al-Hanafi — a comprehensive introduction to Hanafi jurisprudence.",
+    "works": "Al-Madkhal al-Mufassal ila al-Fiqh al-Hanafi; al-Fiqh al-Muqaran; Is'ad al-Mufti; Removing the Confusion",
+    "note": "Leading contemporary Hanafi scholar; Dean of Hanafi Jurisprudence at WISE University, Jordan"
   }
 ]
