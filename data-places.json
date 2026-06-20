@@ -711,14 +711,6 @@
     "modern": "Kazan, Russia",
     "region": "Volga Bulgaria"
   },
-  "Amman, Jordan": {
-    "coords": [
-      35.9263,
-      31.9454
-    ],
-    "modern": "Amman, Jordan",
-    "region": "Syria"
-  },
   "Golra Sharif": {
     "coords": [
       72.93,
@@ -750,5 +742,13 @@
     ],
     "modern": "Jaunpur, Uttar Pradesh, India",
     "region": "India"
+  },
+  "Amman": {
+    "coords": [
+      35.9263,
+      31.9454
+    ],
+    "modern": "Amman, Jordan",
+    "region": "Syria"
   }
 }
