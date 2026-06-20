@@ -525,54 +525,7 @@ html, body {
   font-style: italic;
 }
 
-/* ── Scale legend (3D columns) ── */
-.col-legend {
-  position: absolute;
-  left: 16px;
-  bottom: 90px;
-  z-index: 6;
-  background: rgba(251, 246, 233, 0.95);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 10px 12px;
-  font-size: 0.7rem;
-  color: var(--text-secondary);
-  display: flex;
-  align-items: flex-end;
-  gap: 8px;
-  box-shadow: 0 2px 8px var(--shadow);
-}
-.col-legend .lbl {
-  font-weight: 600;
-  color: var(--gold);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.62rem;
-  margin-bottom: 4px;
-}
-.col-legend .col-set {
-  display: flex;
-  align-items: flex-end;
-  gap: 4px;
-  height: 56px;
-}
-.col-legend .col-set div {
-  width: 14px;
-  background: linear-gradient(180deg, #d4af37 0%, #b8941f 100%);
-  border: 1px solid var(--gold-dim);
-  border-bottom: none;
-  position: relative;
-}
-.col-legend .col-set div::after {
-  content: attr(data-n);
-  position: absolute;
-  bottom: -16px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.62rem;
-  color: var(--text-dim);
-  font-weight: 600;
-}
+/* ── Scale legend removed ── */
 
 /* ── Popup ── */
 .maplibregl-popup-content {
@@ -700,7 +653,7 @@ html, body {
 /* ── Print ── */
 @media print {
   @page { size: A3 portrait; margin: 12mm; }
-  .header, .scrubber, .toggles, .chips, .chapter-display, .maplibregl-ctrl, .panel, .panel-backdrop, .col-legend, .city-label { display: none !important; }
+  .header, .scrubber, .toggles, .chips, .chapter-display, .maplibregl-ctrl, .panel, .panel-backdrop, .city-label { display: none !important; }
   .main { display: block; padding-top: 0; }
   .map-wrap { position: relative; width: 100%; height: 50vh; top: 0; border-right: none; }
   .text-col { padding: 0; }
@@ -848,17 +801,6 @@ html, body {
   <div class="panel-body" id="panelBody"></div>
 </aside>
 
-<div class="col-legend" id="colLegend">
-  <div>
-    <div class="lbl">Scholars</div>
-    <div class="col-set">
-      <div style="height:6px" data-n="1"></div>
-      <div style="height:18px" data-n="5"></div>
-      <div style="height:36px" data-n="20"></div>
-      <div style="height:54px" data-n="44"></div>
-    </div>
-  </div>
-</div>
 
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
