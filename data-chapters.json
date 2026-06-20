@@ -10,7 +10,7 @@
     "zoom": 3.2,
     "pitch": 25,
     "bearing": -10,
-    "text": "From the Kūfan circle of Abū Ḥanīfah to the global diaspora of the modern era, follow the geographic spread of the Ḥanafī school through the lives of 167 scholars across 89 cities and 16 regions. Scroll to begin the journey."
+    "text": "From the Kūfan circle of Abū Ḥanīfah to the global diaspora of the modern era, follow the geographic spread of the Ḥanafī school through the lives of 182 scholars across 93 cities and 16 regions. Scroll to begin the journey."
   },
   {
     "id": "kufan",
@@ -119,7 +119,7 @@
   {
     "id": "all",
     "title": "Epilogue",
-    "subtitle": "All 167 scholars, 89 cities, 16 regions",
+    "subtitle": "All 182 scholars, 93 cities, 16 regions",
     "center": [
       50.0,
       30.0
@@ -127,6 +127,6 @@
     "zoom": 2.2,
     "pitch": 25,
     "bearing": 0,
-    "text": "From a single circle in Kūfah to a global network of scholarship: 167 scholars across 89 cities and 16 regions over 14 centuries. The Ḥanafī school's story is, in many ways, the story of Islamic civilisation itself."
+    "text": "From a single circle in Kūfah to a global network of scholarship: 182 scholars across 93 cities and 16 regions over 14 centuries. The Ḥanafī school's story is, in many ways, the story of Islamic civilisation itself."
   }
 ]
