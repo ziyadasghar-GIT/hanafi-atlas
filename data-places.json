@@ -1,11 +1,67 @@
 {
-  "Kūfah": {
+  "Aleppo": {
     "coords": [
-      44.7936,
-      32.0381
+      37.1611,
+      36.2027
     ],
-    "modern": "Kufa, Iraq",
-    "region": "Iraq"
+    "modern": "Aleppo, Syria",
+    "region": "Syria"
+  },
+  "Alexandria": {
+    "coords": [
+      29.9187,
+      31.2001
+    ],
+    "modern": "Alexandria, Egypt",
+    "region": "Egypt"
+  },
+  "Amasya": {
+    "coords": [
+      35.8333,
+      40.65
+    ],
+    "modern": "Amasya, Turkey",
+    "region": "Anatolia"
+  },
+  "Amman": {
+    "coords": [
+      35.9263,
+      31.9454
+    ],
+    "modern": "Amman, Jordan",
+    "region": "Syria"
+  },
+  "Andarpāt": {
+    "coords": [
+      76.15,
+      19.05
+    ],
+    "modern": "Andhar Patti, India",
+    "region": "India"
+  },
+  "Ankara": {
+    "coords": [
+      32.8597,
+      39.9334
+    ],
+    "modern": "Ankara, Turkey",
+    "region": "Anatolia"
+  },
+  "Anqara": {
+    "coords": [
+      32.8597,
+      39.9334
+    ],
+    "modern": "Ankara, Turkey",
+    "region": "Anatolia"
+  },
+  "Azaadville": {
+    "coords": [
+      27.7833,
+      -26.1667
+    ],
+    "modern": "Azaadville, South Africa",
+    "region": "South Africa"
   },
   "Baghdād": {
     "coords": [
@@ -15,68 +71,148 @@
     "modern": "Baghdad, Iraq",
     "region": "Iraq"
   },
-  "Mosul": {
+  "Bahraich": {
     "coords": [
-      43.13,
-      36.345
+      81.6,
+      27.5833
     ],
-    "modern": "Mosul, Iraq",
-    "region": "Iraq"
+    "modern": "Bahraich, India",
+    "region": "India"
   },
-  "Karkh": {
+  "Balıkesir": {
     "coords": [
-      44.35,
-      33.33
+      27.8833,
+      39.65
     ],
-    "modern": "Baghdad (Karkh), Iraq",
-    "region": "Iraq"
+    "modern": "Balıkesir, Turkey",
+    "region": "Anatolia"
   },
-  "Wasit": {
+  "Bareilly": {
     "coords": [
-      44.9833,
-      32.75
+      79.4304,
+      28.367
     ],
-    "modern": "Wasit, Iraq",
-    "region": "Iraq"
+    "modern": "Bareilly, India",
+    "region": "India"
   },
-  "Rayy": {
+  "Bazdāw": {
     "coords": [
-      51.4222,
-      35.5713
+      65.8667,
+      38.7667
     ],
-    "modern": "Rey, Iran",
-    "region": "Persia"
+    "modern": "Baysun, Uzbekistan",
+    "region": "Transoxiana"
   },
-  "Isfahan": {
+  "Bukhārā": {
     "coords": [
-      51.6751,
-      32.6539
+      64.4286,
+      39.7747
     ],
-    "modern": "Isfahan, Iran",
-    "region": "Persia"
+    "modern": "Bukhara, Uzbekistan",
+    "region": "Transoxiana"
   },
-  "Tabrīz": {
+  "Bursa": {
     "coords": [
-      46.2919,
-      38.0962
+      29.0667,
+      40.1833
     ],
-    "modern": "Tabriz, Iran",
-    "region": "Persia"
+    "modern": "Bursa, Turkey",
+    "region": "Anatolia"
   },
-  "Marw": {
+  "Bābart": {
     "coords": [
-      62.2,
-      37.65
+      35.8333,
+      40.4
     ],
-    "modern": "Mary, Turkmenistan",
-    "region": "Khurāsān"
+    "modern": "Bafra, Turkey",
+    "region": "Anatolia"
   },
-  "Herāt": {
+  "Cairo": {
     "coords": [
-      62.1925,
-      37.6628
+      31.2357,
+      30.0444
     ],
-    "modern": "Herat, Afghanistan",
+    "modern": "Cairo, Egypt",
+    "region": "Egypt"
+  },
+  "Constantinople": {
+    "coords": [
+      28.9784,
+      41.0082
+    ],
+    "modern": "Istanbul, Turkey",
+    "region": "Anatolia"
+  },
+  "Dabūsiyya": {
+    "coords": [
+      64.55,
+      40.8
+    ],
+    "modern": "Dabusiyya, Uzbekistan",
+    "region": "Transoxiana"
+  },
+  "Delhi": {
+    "coords": [
+      77.1025,
+      28.7041
+    ],
+    "modern": "Delhi, India",
+    "region": "India"
+  },
+  "Deoband": {
+    "coords": [
+      77.7833,
+      29.7
+    ],
+    "modern": "Deoband, India",
+    "region": "India"
+  },
+  "Dimashq": {
+    "coords": [
+      36.2765,
+      33.5138
+    ],
+    "modern": "Damascus, Syria",
+    "region": "Syria"
+  },
+  "Farghāna": {
+    "coords": [
+      71.7833,
+      40.3833
+    ],
+    "modern": "Fergana, Uzbekistan",
+    "region": "Transoxiana"
+  },
+  "Fenār": {
+    "coords": [
+      29.0667,
+      40.1833
+    ],
+    "modern": "Fenar (near Bursa), Turkey",
+    "region": "Anatolia"
+  },
+  "Fārāb": {
+    "coords": [
+      64.3667,
+      40.5
+    ],
+    "modern": "Farab, Uzbekistan",
+    "region": "Transoxiana"
+  },
+  "Gangoh": {
+    "coords": [
+      77.2667,
+      29.7667
+    ],
+    "modern": "Gangoh, India",
+    "region": "India"
+  },
+  "Ghazmīn": {
+    "coords": [
+      66.9,
+      36.5
+    ],
+    "modern": "Ghazmin area, Afghanistan",
     "region": "Khurāsān"
   },
   "Ghazna": {
@@ -87,13 +223,69 @@
     "modern": "Ghazni, Afghanistan",
     "region": "Khurāsān"
   },
-  "Sarakhs": {
+  "Ghazza": {
     "coords": [
-      61.0667,
-      36.5333
+      34.4667,
+      31.5
     ],
-    "modern": "Sarakhs, Iran",
+    "modern": "Gaza, Palestine",
+    "region": "Syria"
+  },
+  "Golra Sharif": {
+    "coords": [
+      72.93,
+      33.67
+    ],
+    "modern": "Golra Sharif, Islamabad, Pakistan",
+    "region": "India"
+  },
+  "Herāt": {
+    "coords": [
+      62.1925,
+      37.6628
+    ],
+    "modern": "Herat, Afghanistan",
     "region": "Khurāsān"
+  },
+  "Isbījāb": {
+    "coords": [
+      69.5833,
+      42.4667
+    ],
+    "modern": "Sairam, Kazakhstan",
+    "region": "Transoxiana"
+  },
+  "Isfahan": {
+    "coords": [
+      51.6751,
+      32.6539
+    ],
+    "modern": "Isfahan, Iran",
+    "region": "Persia"
+  },
+  "Istanbul": {
+    "coords": [
+      28.9784,
+      41.0082
+    ],
+    "modern": "Istanbul, Turkey",
+    "region": "Anatolia"
+  },
+  "Jaunpur": {
+    "coords": [
+      82.68,
+      25.73
+    ],
+    "modern": "Jaunpur, Uttar Pradesh, India",
+    "region": "India"
+  },
+  "Jhang": {
+    "coords": [
+      72.32,
+      31.27
+    ],
+    "modern": "Jhang, Punjab, Pakistan",
+    "region": "India"
   },
   "Jurjān": {
     "coords": [
@@ -111,93 +303,21 @@
     "modern": "Sheberghan, Afghanistan",
     "region": "Khurāsān"
   },
-  "Ghazmīn": {
-    "coords": [
-      66.9,
-      36.5
-    ],
-    "modern": "Ghazmin area, Afghanistan",
-    "region": "Khurāsān"
-  },
-  "Khwārizm": {
-    "coords": [
-      59.9667,
-      41.55
-    ],
-    "modern": "Khiva, Uzbekistan",
-    "region": "Khurāsān"
-  },
-  "Taftazān": {
-    "coords": [
-      60.5,
-      34.8667
-    ],
-    "modern": "Taftazan, Iran",
-    "region": "Khurāsān"
-  },
-  "Quhistān": {
-    "coords": [
-      59.5,
-      34.3
-    ],
-    "modern": "Quhistan, Iran",
-    "region": "Khurāsān"
-  },
-  "Bukhārā": {
-    "coords": [
-      64.4286,
-      39.7747
-    ],
-    "modern": "Bukhara, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Samarqand": {
-    "coords": [
-      66.975,
-      39.6542
-    ],
-    "modern": "Samarkand, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Marghīnān": {
-    "coords": [
-      71.7256,
-      40.4714
-    ],
-    "modern": "Margilan, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Nasaf": {
-    "coords": [
-      66.9667,
-      38.65
-    ],
-    "modern": "Qarshi, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Bazdāw": {
-    "coords": [
-      65.8667,
-      38.7667
-    ],
-    "modern": "Baysun, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Dabūsiyya": {
-    "coords": [
-      64.55,
-      40.8
-    ],
-    "modern": "Dabusiyya, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Walwālij": {
+  "Kardar": {
     "coords": [
       64.5,
-      39.8
+      39.9
     ],
-    "modern": "Vabkent, Uzbekistan",
+    "modern": "Kardar, Uzbekistan",
     "region": "Transoxiana"
+  },
+  "Karkh": {
+    "coords": [
+      44.35,
+      33.33
+    ],
+    "modern": "Baghdad (Karkh), Iraq",
+    "region": "Iraq"
   },
   "Kashsh": {
     "coords": [
@@ -207,37 +327,21 @@
     "modern": "Karshi area, Uzbekistan",
     "region": "Transoxiana"
   },
-  "Sughd": {
+  "Kazan": {
     "coords": [
-      69.0,
-      39.5
+      49.1064,
+      55.8304
     ],
-    "modern": "Sughd, Tajikistan",
-    "region": "Transoxiana"
+    "modern": "Kazan, Russia",
+    "region": "Volga Bulgaria"
   },
-  "Isbījāb": {
+  "Khwārizm": {
     "coords": [
-      69.5833,
-      42.4667
+      59.9667,
+      41.55
     ],
-    "modern": "Sairam, Kazakhstan",
-    "region": "Transoxiana"
-  },
-  "Ūsh": {
-    "coords": [
-      71.2333,
-      40.5667
-    ],
-    "modern": "Osh, Kyrgyzstan",
-    "region": "Transoxiana"
-  },
-  "Farghāna": {
-    "coords": [
-      71.7833,
-      40.3833
-    ],
-    "modern": "Fergana, Uzbekistan",
-    "region": "Transoxiana"
+    "modern": "Khiva, Uzbekistan",
+    "region": "Khurāsān"
   },
   "Kāk": {
     "coords": [
@@ -245,30 +349,6 @@
       38.3
     ],
     "modern": "Kak, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Fārāb": {
-    "coords": [
-      64.3667,
-      40.5
-    ],
-    "modern": "Farab, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Kardar": {
-    "coords": [
-      64.5,
-      39.9
-    ],
-    "modern": "Kardar, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Sighnāq": {
-    "coords": [
-      66.0,
-      41.95
-    ],
-    "modern": "Signak, Kazakhstan",
     "region": "Transoxiana"
   },
   "Kāshghar": {
@@ -287,285 +367,13 @@
     "modern": "Kasan, Uzbekistan",
     "region": "Transoxiana"
   },
-  "Shāsh": {
+  "Kūfah": {
     "coords": [
-      69.25,
-      41.3
+      44.7936,
+      32.0381
     ],
-    "modern": "Tashkent, Uzbekistan",
-    "region": "Transoxiana"
-  },
-  "Ushrusana": {
-    "coords": [
-      68.0,
-      39.4
-    ],
-    "modern": "Ustrushana, Tajikistan",
-    "region": "Transoxiana"
-  },
-  "Cairo": {
-    "coords": [
-      31.2357,
-      30.0444
-    ],
-    "modern": "Cairo, Egypt",
-    "region": "Egypt"
-  },
-  "Alexandria": {
-    "coords": [
-      29.9187,
-      31.2001
-    ],
-    "modern": "Alexandria, Egypt",
-    "region": "Egypt"
-  },
-  "Ṭaḥā": {
-    "coords": [
-      30.7,
-      27.1
-    ],
-    "modern": "Taha, Egypt",
-    "region": "Egypt"
-  },
-  "Taḥtā": {
-    "coords": [
-      31.05,
-      26.7833
-    ],
-    "modern": "Tahta, Egypt",
-    "region": "Egypt"
-  },
-  "Makkah": {
-    "coords": [
-      39.8262,
-      21.4225
-    ],
-    "modern": "Mecca, Saudi Arabia",
-    "region": "Hejaz"
-  },
-  "Madīnah": {
-    "coords": [
-      39.6142,
-      24.5247
-    ],
-    "modern": "Medina, Saudi Arabia",
-    "region": "Hejaz"
-  },
-  "Mecca": {
-    "coords": [
-      39.8262,
-      21.4225
-    ],
-    "modern": "Mecca, Saudi Arabia",
-    "region": "Hejaz"
-  },
-  "Aleppo": {
-    "coords": [
-      37.1611,
-      36.2027
-    ],
-    "modern": "Aleppo, Syria",
-    "region": "Syria"
-  },
-  "Dimashq": {
-    "coords": [
-      36.2765,
-      33.5138
-    ],
-    "modern": "Damascus, Syria",
-    "region": "Syria"
-  },
-  "Ḥamāh": {
-    "coords": [
-      36.755,
-      35.1333
-    ],
-    "modern": "Hama, Syria",
-    "region": "Syria"
-  },
-  "Nābulus": {
-    "coords": [
-      35.2544,
-      32.2211
-    ],
-    "modern": "Nablus, Palestine",
-    "region": "Syria"
-  },
-  "Ghazza": {
-    "coords": [
-      34.4667,
-      31.5
-    ],
-    "modern": "Gaza, Palestine",
-    "region": "Syria"
-  },
-  "Sarūj": {
-    "coords": [
-      38.467,
-      36.9
-    ],
-    "modern": "Suruç, Turkey",
-    "region": "Syria"
-  },
-  "Ramla": {
-    "coords": [
-      34.8667,
-      31.9333
-    ],
-    "modern": "Ramla, Palestine",
-    "region": "Syria"
-  },
-  "Ḥalab": {
-    "coords": [
-      37.1611,
-      36.2027
-    ],
-    "modern": "Aleppo, Syria",
-    "region": "Syria"
-  },
-  "Nahlé": {
-    "coords": [
-      35.9,
-      33.3833
-    ],
-    "modern": "Nehla, Lebanon",
-    "region": "Syria"
-  },
-  "Istanbul": {
-    "coords": [
-      28.9784,
-      41.0082
-    ],
-    "modern": "Istanbul, Turkey",
-    "region": "Anatolia"
-  },
-  "Bursa": {
-    "coords": [
-      29.0667,
-      40.1833
-    ],
-    "modern": "Bursa, Turkey",
-    "region": "Anatolia"
-  },
-  "Tarsus": {
-    "coords": [
-      34.9,
-      36.9167
-    ],
-    "modern": "Tarsus, Turkey",
-    "region": "Anatolia"
-  },
-  "Qunya": {
-    "coords": [
-      32.4833,
-      37.8833
-    ],
-    "modern": "Konya, Turkey",
-    "region": "Anatolia"
-  },
-  "Fenār": {
-    "coords": [
-      29.0667,
-      40.1833
-    ],
-    "modern": "Fenar (near Bursa), Turkey",
-    "region": "Anatolia"
-  },
-  "Ankara": {
-    "coords": [
-      32.8597,
-      39.9334
-    ],
-    "modern": "Ankara, Turkey",
-    "region": "Anatolia"
-  },
-  "Anqara": {
-    "coords": [
-      32.8597,
-      39.9334
-    ],
-    "modern": "Ankara, Turkey",
-    "region": "Anatolia"
-  },
-  "Tokat": {
-    "coords": [
-      36.554,
-      40.314
-    ],
-    "modern": "Tokat, Turkey",
-    "region": "Anatolia"
-  },
-  "Amasya": {
-    "coords": [
-      35.8333,
-      40.65
-    ],
-    "modern": "Amasya, Turkey",
-    "region": "Anatolia"
-  },
-  "Ḥaskaf": {
-    "coords": [
-      40.2333,
-      37.9167
-    ],
-    "modern": "Hasköy, Turkey",
-    "region": "Anatolia"
-  },
-  "Balıkesir": {
-    "coords": [
-      27.8833,
-      39.65
-    ],
-    "modern": "Balıkesir, Turkey",
-    "region": "Anatolia"
-  },
-  "Simāwna": {
-    "coords": [
-      29.45,
-      41.5833
-    ],
-    "modern": "Simav, Turkey",
-    "region": "Anatolia"
-  },
-  "Constantinople": {
-    "coords": [
-      28.9784,
-      41.0082
-    ],
-    "modern": "Istanbul, Turkey",
-    "region": "Anatolia"
-  },
-  "Üsküdar": {
-    "coords": [
-      29.0167,
-      41.0167
-    ],
-    "modern": "Üsküdar, Istanbul, Turkey",
-    "region": "Anatolia"
-  },
-  "Bābart": {
-    "coords": [
-      35.8333,
-      40.4
-    ],
-    "modern": "Bafra, Turkey",
-    "region": "Anatolia"
-  },
-  "ʿAyntāb": {
-    "coords": [
-      37.3833,
-      37.0833
-    ],
-    "modern": "Gaziantep, Turkey",
-    "region": "Anatolia"
-  },
-  "Delhi": {
-    "coords": [
-      77.1025,
-      28.7041
-    ],
-    "modern": "Delhi, India",
-    "region": "India"
+    "modern": "Kufa, Iraq",
+    "region": "Iraq"
   },
   "Lucknow": {
     "coords": [
@@ -573,78 +381,6 @@
       26.8467
     ],
     "modern": "Lucknow, India",
-    "region": "India"
-  },
-  "Deoband": {
-    "coords": [
-      77.7833,
-      29.7
-    ],
-    "modern": "Deoband, India",
-    "region": "India"
-  },
-  "Bareilly": {
-    "coords": [
-      79.4304,
-      28.367
-    ],
-    "modern": "Bareilly, India",
-    "region": "India"
-  },
-  "Sirhind": {
-    "coords": [
-      76.4333,
-      30.65
-    ],
-    "modern": "Sirhind, India",
-    "region": "India"
-  },
-  "Panipat": {
-    "coords": [
-      76.9667,
-      29.3833
-    ],
-    "modern": "Panipat, India",
-    "region": "India"
-  },
-  "Bahraich": {
-    "coords": [
-      81.6,
-      27.5833
-    ],
-    "modern": "Bahraich, India",
-    "region": "India"
-  },
-  "Gangoh": {
-    "coords": [
-      77.2667,
-      29.7667
-    ],
-    "modern": "Gangoh, India",
-    "region": "India"
-  },
-  "Thāna Bhawan": {
-    "coords": [
-      77.35,
-      29.7833
-    ],
-    "modern": "Thana Bhawan, India",
-    "region": "India"
-  },
-  "Andarpāt": {
-    "coords": [
-      76.15,
-      19.05
-    ],
-    "modern": "Andhar Patti, India",
-    "region": "India"
-  },
-  "Sind": {
-    "coords": [
-      68.45,
-      25.3833
-    ],
-    "modern": "Sind, Pakistan",
     "region": "India"
   },
   "Ludhyāna": {
@@ -655,29 +391,125 @@
     "modern": "Ludhiana, India",
     "region": "India"
   },
-  "Azaadville": {
+  "Madīnah": {
     "coords": [
-      27.7833,
-      -26.1667
+      39.6142,
+      24.5247
     ],
-    "modern": "Azaadville, South Africa",
-    "region": "South Africa"
+    "modern": "Medina, Saudi Arabia",
+    "region": "Hejaz"
   },
-  "Ṭarābulus": {
+  "Makkah": {
     "coords": [
-      10.45,
-      35.7833
+      39.8262,
+      21.4225
     ],
-    "modern": "Tripoli, Libya",
-    "region": "Maghrib"
+    "modern": "Mecca, Saudi Arabia",
+    "region": "Hejaz"
   },
-  "Zubayd": {
+  "Marghīnān": {
     "coords": [
-      43.15,
-      14.15
+      71.7256,
+      40.4714
     ],
-    "modern": "Zabid, Yemen",
-    "region": "Yemen"
+    "modern": "Margilan, Uzbekistan",
+    "region": "Transoxiana"
+  },
+  "Marw": {
+    "coords": [
+      62.2,
+      37.65
+    ],
+    "modern": "Mary, Turkmenistan",
+    "region": "Khurāsān"
+  },
+  "Mecca": {
+    "coords": [
+      39.8262,
+      21.4225
+    ],
+    "modern": "Mecca, Saudi Arabia",
+    "region": "Hejaz"
+  },
+  "Mosul": {
+    "coords": [
+      43.13,
+      36.345
+    ],
+    "modern": "Mosul, Iraq",
+    "region": "Iraq"
+  },
+  "Nahlé": {
+    "coords": [
+      35.9,
+      33.3833
+    ],
+    "modern": "Nehla, Lebanon",
+    "region": "Syria"
+  },
+  "Nasaf": {
+    "coords": [
+      66.9667,
+      38.65
+    ],
+    "modern": "Qarshi, Uzbekistan",
+    "region": "Transoxiana"
+  },
+  "Nābulus": {
+    "coords": [
+      35.2544,
+      32.2211
+    ],
+    "modern": "Nablus, Palestine",
+    "region": "Syria"
+  },
+  "Panipat": {
+    "coords": [
+      76.9667,
+      29.3833
+    ],
+    "modern": "Panipat, India",
+    "region": "India"
+  },
+  "Quhistān": {
+    "coords": [
+      59.5,
+      34.3
+    ],
+    "modern": "Quhistan, Iran",
+    "region": "Khurāsān"
+  },
+  "Qunya": {
+    "coords": [
+      32.4833,
+      37.8833
+    ],
+    "modern": "Konya, Turkey",
+    "region": "Anatolia"
+  },
+  "Ramla": {
+    "coords": [
+      34.8667,
+      31.9333
+    ],
+    "modern": "Ramla, Palestine",
+    "region": "Syria"
+  },
+  "Rayy": {
+    "coords": [
+      51.4222,
+      35.5713
+    ],
+    "modern": "Rey, Iran",
+    "region": "Persia"
+  },
+  "Samarqand": {
+    "coords": [
+      66.975,
+      39.6542
+    ],
+    "modern": "Samarkand, Uzbekistan",
+    "region": "Transoxiana"
   },
   "Sanʿāʾ": {
     "coords": [
@@ -687,13 +519,21 @@
     "modern": "Sana'a, Yemen",
     "region": "Yemen"
   },
-  "Zaylaʿ": {
+  "Sarakhs": {
     "coords": [
-      43.4833,
-      11.35
+      61.0667,
+      36.5333
     ],
-    "modern": "Zeila, Somaliland",
-    "region": "East Africa"
+    "modern": "Sarakhs, Iran",
+    "region": "Khurāsān"
+  },
+  "Sarūj": {
+    "coords": [
+      38.467,
+      36.9
+    ],
+    "modern": "Suruç, Turkey",
+    "region": "Syria"
   },
   "Shilbah": {
     "coords": [
@@ -703,29 +543,77 @@
     "modern": "Silves, Portugal",
     "region": "Andalusia"
   },
-  "Kazan": {
+  "Shāsh": {
     "coords": [
-      49.1064,
-      55.8304
+      69.25,
+      41.3
     ],
-    "modern": "Kazan, Russia",
-    "region": "Volga Bulgaria"
+    "modern": "Tashkent, Uzbekistan",
+    "region": "Transoxiana"
   },
-  "Golra Sharif": {
+  "Sighnāq": {
     "coords": [
-      72.93,
-      33.67
+      66.0,
+      41.95
     ],
-    "modern": "Golra Sharif, Islamabad, Pakistan",
+    "modern": "Signak, Kazakhstan",
+    "region": "Transoxiana"
+  },
+  "Simāwna": {
+    "coords": [
+      29.45,
+      41.5833
+    ],
+    "modern": "Simav, Turkey",
+    "region": "Anatolia"
+  },
+  "Sind": {
+    "coords": [
+      68.45,
+      25.3833
+    ],
+    "modern": "Sind, Pakistan",
     "region": "India"
   },
-  "Jhang": {
+  "Sirhind": {
     "coords": [
-      72.32,
-      31.27
+      76.4333,
+      30.65
     ],
-    "modern": "Jhang, Punjab, Pakistan",
+    "modern": "Sirhind, India",
     "region": "India"
+  },
+  "Srinagar": {
+    "coords": [
+      74.7973,
+      34.0837
+    ],
+    "modern": "Srinagar, Jammu & Kashmir, India",
+    "region": "India"
+  },
+  "Sughd": {
+    "coords": [
+      69.0,
+      39.5
+    ],
+    "modern": "Sughd, Tajikistan",
+    "region": "Transoxiana"
+  },
+  "Tabrīz": {
+    "coords": [
+      46.2919,
+      38.0962
+    ],
+    "modern": "Tabriz, Iran",
+    "region": "Persia"
+  },
+  "Taftazān": {
+    "coords": [
+      60.5,
+      34.8667
+    ],
+    "modern": "Taftazan, Iran",
+    "region": "Khurāsān"
   },
   "Takia Kalan": {
     "coords": [
@@ -735,20 +623,140 @@
     "modern": "Takia Kalan, Raebareli, Uttar Pradesh, India",
     "region": "India"
   },
-  "Jaunpur": {
+  "Tarsus": {
     "coords": [
-      82.68,
-      25.73
+      34.9,
+      36.9167
     ],
-    "modern": "Jaunpur, Uttar Pradesh, India",
+    "modern": "Tarsus, Turkey",
+    "region": "Anatolia"
+  },
+  "Taḥtā": {
+    "coords": [
+      31.05,
+      26.7833
+    ],
+    "modern": "Tahta, Egypt",
+    "region": "Egypt"
+  },
+  "Thāna Bhawan": {
+    "coords": [
+      77.35,
+      29.7833
+    ],
+    "modern": "Thana Bhawan, India",
     "region": "India"
   },
-  "Amman": {
+  "Tokat": {
     "coords": [
-      35.9263,
-      31.9454
+      36.554,
+      40.314
     ],
-    "modern": "Amman, Jordan",
+    "modern": "Tokat, Turkey",
+    "region": "Anatolia"
+  },
+  "Ushrusana": {
+    "coords": [
+      68.0,
+      39.4
+    ],
+    "modern": "Ustrushana, Tajikistan",
+    "region": "Transoxiana"
+  },
+  "Walwālij": {
+    "coords": [
+      64.5,
+      39.8
+    ],
+    "modern": "Vabkent, Uzbekistan",
+    "region": "Transoxiana"
+  },
+  "Wasit": {
+    "coords": [
+      44.9833,
+      32.75
+    ],
+    "modern": "Wasit, Iraq",
+    "region": "Iraq"
+  },
+  "Zaylaʿ": {
+    "coords": [
+      43.4833,
+      11.35
+    ],
+    "modern": "Zeila, Somaliland",
+    "region": "East Africa"
+  },
+  "Zubayd": {
+    "coords": [
+      43.15,
+      14.15
+    ],
+    "modern": "Zabid, Yemen",
+    "region": "Yemen"
+  },
+  "Üsküdar": {
+    "coords": [
+      29.0167,
+      41.0167
+    ],
+    "modern": "Üsküdar, Istanbul, Turkey",
+    "region": "Anatolia"
+  },
+  "Ūsh": {
+    "coords": [
+      71.2333,
+      40.5667
+    ],
+    "modern": "Osh, Kyrgyzstan",
+    "region": "Transoxiana"
+  },
+  "ʿAyntāb": {
+    "coords": [
+      37.3833,
+      37.0833
+    ],
+    "modern": "Gaziantep, Turkey",
+    "region": "Anatolia"
+  },
+  "Ḥalab": {
+    "coords": [
+      37.1611,
+      36.2027
+    ],
+    "modern": "Aleppo, Syria",
     "region": "Syria"
+  },
+  "Ḥamāh": {
+    "coords": [
+      36.755,
+      35.1333
+    ],
+    "modern": "Hama, Syria",
+    "region": "Syria"
+  },
+  "Ḥaskaf": {
+    "coords": [
+      40.2333,
+      37.9167
+    ],
+    "modern": "Hasköy, Turkey",
+    "region": "Anatolia"
+  },
+  "Ṭarābulus": {
+    "coords": [
+      10.45,
+      35.7833
+    ],
+    "modern": "Tripoli, Libya",
+    "region": "Maghrib"
+  },
+  "Ṭaḥā": {
+    "coords": [
+      30.7,
+      27.1
+    ],
+    "modern": "Taha, Egypt",
+    "region": "Egypt"
   }
 }
