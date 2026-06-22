@@ -12,6 +12,7 @@
 <link rel="apple-touch-icon" href="./icon-192x192.png">
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
 <link rel="stylesheet" href="./responsive.css">
+<link rel="stylesheet" href="./install-banner.css">
 <style>
 /* ─── Unified dark theme variables ─── */
 :root {
@@ -2871,6 +2872,61 @@ document.getElementById('btnPrintMode').addEventListener('click', () => {
     Created by Ziyad Asghar for the benefit of all students around the world, please remember me in your duas
   </div>
 </div>
+<!-- PWA Install Banner -->
+<div id="pwaInstallBanner" class="pwa-install-banner">
+  <img class="pwa-icon" src="./icon-192x192.png" alt="Ḥanafī Atlas" width="44" height="44">
+  <div class="pwa-text">
+    <div class="pwa-title">Install Ḥanafī Atlas</div>
+    <div class="pwa-sub">Add to home screen for offline access</div>
+  </div>
+  <button class="pwa-install-btn" id="pwaInstallBtn">Install</button>
+  <button class="pwa-dismiss" id="pwaDismissBtn" aria-label="Dismiss">✕</button>
+</div>
+<script>
+(function() {
+  var deferredPrompt;
+  var banner = document.getElementById('pwaInstallBanner');
+  var installBtn = document.getElementById('pwaInstallBtn');
+  var dismissBtn = document.getElementById('pwaDismissBtn');
+  var dismissed = sessionStorage.getItem('pwa-install-dismissed');
+
+  function showBanner() {
+    if (dismissed) return;
+    banner.classList.add('show');
+  }
+
+  function hideBanner() {
+    banner.classList.remove('show');
+    sessionStorage.setItem('pwa-install-dismissed', '1');
+  }
+
+  window.addEventListener('beforeinstallprompt', function(e) {
+    e.preventDefault();
+    deferredPrompt = e;
+    showBanner();
+  });
+
+  installBtn.addEventListener('click', function() {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then(function(result) {
+      if (result.outcome === 'accepted') {
+        hideBanner();
+      }
+    });
+  });
+
+  dismissBtn.addEventListener('click', hideBanner);
+
+  window.addEventListener('appinstalled', function() {
+    hideBanner();
+  });
+
+  if (window.matchMedia('(display-mode: standalone)').matches) {
+    hideBanner();
+  }
+})();
+</script>
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').catch(() => {});
