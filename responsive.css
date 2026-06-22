@@ -1,0 +1,366 @@
+/* ─────────────────────────────────────────────────
+   Ḥanafī Atlas — Responsive Styles (mobile-first overrides)
+   Tablet breakpoint: 768px | Phone breakpoint: 480px
+   ───────────────────────────────────────────────── */
+
+/* ═══════════════════════════════════════════════
+   INDEX.HTML — Timeline View
+   ═══════════════════════════════════════════════ */
+
+/* ── Tablet (≤768px) ── */
+@media (max-width: 768px) {
+  /* Nav: stack vertically, reduce padding */
+  .atlas-nav {
+    padding: 8px 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .atlas-brand h1 { font-size: 1rem; }
+  .atlas-brand .sub { font-size: 0.65rem; }
+  .atlas-brand .ornament { font-size: 0.85rem; letter-spacing: 0.3em; }
+
+  .atlas-toggle { width: 100%; justify-content: center; }
+  .atlas-toggle button {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+    flex: 1;
+    justify-content: center;
+  }
+
+  /* View container — less top padding */
+  .view { padding-top: 52px; }
+
+  /* Controls: stack vertically */
+  .timeline-controls {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 10px;
+  }
+  .filter-group {
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .filter-group button {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+    white-space: nowrap;
+  }
+
+  /* Search */
+  .search-box {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 10px 14px;
+  }
+
+  /* Cards: full width, smaller font */
+  .scholar-card {
+    width: 100%;
+    margin: 6px 0;
+    padding: 10px 12px;
+  }
+  .scholar-card .name {
+    font-size: 0.9rem;
+  }
+  .scholar-card .dates,
+  .scholar-card .place {
+    font-size: 0.7rem;
+  }
+
+  /* Bio modal: full-screen */
+  .bio-modal .modal-content {
+    width: 95vw;
+    max-width: none;
+    max-height: 90vh;
+    margin: 5vh auto;
+    padding: 16px;
+    border-radius: 12px;
+  }
+  .bio-modal .modal-content h2 { font-size: 1.1rem; }
+  .bio-modal .modal-content .bio-text { font-size: 0.82rem; line-height: 1.5; }
+
+  /* A3 print button: smaller */
+  .print-mode-btn,
+  #a3PrintBtn {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+
+  /* Sort toggle */
+  .sort-toggle { font-size: 0.75rem; }
+
+  /* Dedication */
+  .dedication { font-size: 0.6rem; padding: 0 8px; }
+}
+
+/* ── Phone (≤480px) ── */
+@media (max-width: 480px) {
+  .atlas-nav { padding: 6px 8px; gap: 4px; }
+  .atlas-brand {
+    gap: 6px;
+    width: 100%;
+    justify-content: center;
+  }
+  .atlas-brand h1 { font-size: 0.9rem; }
+  .atlas-brand .sub { display: none; }
+
+  .atlas-toggle button {
+    font-size: 0.7rem;
+    padding: 5px 8px;
+    gap: 4px;
+  }
+  .atlas-toggle button .icon { display: none; }
+
+  .view { padding-top: 44px; }
+
+  /* Cards: tighter */
+  .scholar-card {
+    padding: 8px 10px;
+    margin: 4px 0;
+  }
+  .scholar-card .name { font-size: 0.82rem; }
+  .scholar-card .dates,
+  .scholar-card .place { font-size: 0.65rem; }
+
+  /* Bio modal: edge-to-edge */
+  .bio-modal .modal-content {
+    width: 100vw;
+    max-height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  /* Stats bar: compact */
+  .stats-bar { font-size: 0.65rem; gap: 6px; }
+}
+
+
+/* ═══════════════════════════════════════════════
+   MAP.HTML — Interactive Map View
+   ═══════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  /* Stack layout: map on top, info below */
+  .main {
+    flex-direction: column;
+    padding-top: 52px;
+  }
+
+  .map-wrap {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Header: compact */
+  .header {
+    padding: 8px 12px;
+    gap: 6px;
+  }
+  .header-brand { gap: 6px; }
+  .header-ornament { font-size: 0.85rem; letter-spacing: 0.3em; }
+  .header h1 { font-size: 1rem; }
+  .header .subtitle { font-size: 0.65rem; }
+
+  .header-actions { gap: 4px; }
+  .header-btn {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+
+  /* Scrubber: fixed at bottom of map */
+  .scrubber {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 12px 12px;
+  }
+  .scrubber-inner { gap: 8px; }
+  .scrubber-label { font-size: 0.68rem; }
+
+  /* Side panel: full-screen overlay */
+  .panel {
+    width: 100% !important;
+    max-width: 100%;
+    height: 50vh;
+    position: relative;
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+  .panel.open {
+    height: 80vh;
+  }
+
+  /* Chapter nav: horizontal scroll */
+  .chapter-nav {
+    padding: 8px 10px;
+    gap: 6px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .chapter-nav button {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+    white-space: nowrap;
+  }
+
+  /* Region chips: scroll horizontally */
+  .region-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 4px 0;
+  }
+  .region-chip {
+    font-size: 0.68rem;
+    padding: 3px 8px;
+    white-space: nowrap;
+  }
+
+  /* Map controls: larger touch targets */
+  .maplibregl-ctrl-zoom-in,
+  .maplibregl-ctrl-zoom-out {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .maplibregl-ctrl-attrib {
+    font-size: 8px !important;
+  }
+
+  /* Chapter intro text */
+  .intro-main .name { font-size: 1.1rem; }
+  .intro-main .title { font-size: 0.75rem; }
+  .intro-text { font-size: 0.78rem; line-height: 1.5; }
+}
+
+@media (max-width: 480px) {
+  .main { padding-top: 44px; }
+  .map-wrap { height: 45vh; }
+  .header { padding: 6px 8px; }
+  .header h1 { font-size: 0.9rem; }
+  .header .subtitle { display: none; }
+
+  .panel { height: 55vh; }
+  .panel.open { height: 85vh; }
+
+  .scrubber-inner { gap: 4px; }
+  .header-btn { font-size: 0.65rem; padding: 3px 6px; }
+}
+
+
+/* ═══════════════════════════════════════════════
+   NETWORK.HTML — Scholar Network Graph
+   ═══════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  #topbar {
+    height: 48px;
+    padding: 0 10px;
+    gap: 8px;
+  }
+  #topbar h1 { font-size: 16px; }
+  #topbar .sep { display: none; }
+
+  #topbar .nav-links { gap: 6px; }
+  #topbar .nav-links a {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+
+  /* Controls: collapsible bottom bar instead of sidebar */
+  #controls {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 8px 10px;
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: rgba(10, 15, 13, 0.95);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(201,168,76,0.1);
+    z-index: 100;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .ctrl-group {
+    flex-shrink: 0;
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+  .ctrl-group h3 { display: none; }
+
+  #search-box {
+    width: 150px;
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  /* Graph container fills screen, leaves space for bottom bar */
+  #graph-container {
+    position: fixed;
+    top: 48px;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+  }
+
+  /* Century filter: horizontal scroll */
+  #century-filters {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+  }
+  #century-filters button {
+    font-size: 10px;
+    padding: 3px 7px;
+    white-space: nowrap;
+  }
+
+  /* Edge toggle: inline */
+  #edge-toggles {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  #edge-toggles label { font-size: 10px; }
+
+  /* Fullscreen button */
+  #fullscreen-toggle {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
+
+  /* Node tooltips: position near bottom */
+  .tooltip {
+    max-width: 90vw;
+    font-size: 11px;
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #topbar { height: 42px; padding: 0 8px; gap: 4px; }
+  #topbar h1 { font-size: 14px; }
+  #topbar .nav-links a { font-size: 10px; padding: 2px 4px; }
+
+  #controls {
+    padding: 6px 8px;
+    gap: 4px;
+  }
+  .ctrl-group { padding: 4px 6px; border-radius: 6px; }
+
+  #search-box { width: 120px; font-size: 11px; }
+  #graph-container { bottom: 52px; }
+
+  #century-filters button { font-size: 9px; padding: 2px 5px; }
+}
