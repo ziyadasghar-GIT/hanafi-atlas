@@ -2012,6 +2012,15 @@
       "works": "Al-Wafā bi-Asmāʾ al-Nisāʾ (43 vols.), Abū Ḥanīfah: His Life, His Method, His Legacy, al-Muḥaddithāt",
       "bio": "Born circa 1963 (1383 AH) in Jaunpur, India, Muḥammad Akram al-Nadwī is a British-Ḥanafī scholar and the author of the monumental 43-volume al-Wafā bi-Asmāʾ al-Nisāʾ (Biographical Dictionary of Women ...",
       "color": "#3498db"
+    },
+    {
+      "id": "Shiblī Nuʿmānī",
+      "name": "Shiblī Nuʿmānī",
+      "century": 14,
+      "death": 1333,
+      "place": "Azamgarh, India",
+      "color": "#1da194",
+      "bio": "Allāma Shiblī Nuʿmānī (1857–1914 CE) was a leading Indian Ḥanafī scholar, historian, and reformer."
     }
   ],
   "edges": [
@@ -4038,6 +4047,18 @@
       "source": "Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī",
       "target": "Muḥammad Akram al-Nadwī",
       "type": "teacher",
+      "label": "taught"
+    },
+    {
+      "source": "Aḥmad ʿAlī Sahāranpūrī",
+      "target": "Shiblī Nuʿmānī",
+      "type": "teacher-external",
+      "label": "taught"
+    },
+    {
+      "source": "Fayḍ al-Ḥasan Sahāranpūrī",
+      "target": "Shiblī Nuʿmānī",
+      "type": "teacher-external",
       "label": "taught"
     }
   ]
