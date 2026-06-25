@@ -1,10 +1,8 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.ziyad.hanafiatlas",
-      "sha256_cert_fingerprints": []
-    }
-  }
-]
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.ziyadasghar_git.twa",
+        "sha256_cert_fingerprints": ["00:87:6A:C1:68:9C:B6:CE:3D:D6:A8:B9:93:05:12:DC:49:90:47:64:25:8F:69:DF:A0:13:BB:15:FE:93:A9:E7"]
+      }
+    }]
