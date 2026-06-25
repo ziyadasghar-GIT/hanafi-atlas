@@ -9,7 +9,8 @@
       "note": "Founder of the Ḥanafī school",
       "works": "Kitāb al-Āthār",
       "bio": "Born in Kūfah circa 80 AH (699 CE) to a Persian silk merchant, Abū Ḥanīfah is the eponymous founder of the Ḥanafī school — though he himself never claimed to establish a madhhab. He studied under the ...",
-      "color": "#e74c3c"
+      "color": "#e74c3c",
+      "region": "Iraq"
     },
     {
       "id": "Zufr ibn al-Ḥudhayl",
@@ -20,7 +21,8 @@
       "note": "",
       "works": "—",
       "bio": "A leading student of Imam Abū Ḥanīfa and one of the foremost early jurists of the Hanafi school from Isfahan. Renowned for his exceptional skill in analogical reasoning (qiyās), he is frequently count...",
-      "color": "#e74c3c"
+      "color": "#e74c3c",
+      "region": "Persia"
     },
     {
       "id": "Abū Yūsuf Yaʿqūb ibn Ibrāhīm",
@@ -31,7 +33,8 @@
       "note": "",
       "works": "Al-Amālī / Kitāb al-Kharāj",
       "bio": "Born in Kūfah in 113 AH (731 CE), Abū Yūsuf was Abū Ḥanīfah's most senior student and the first Ḥanafī to hold the office of Qāḍī al-Quḍāt (Chief Judge) under the ʿAbbāsid caliph Hārūn al-Rashīd. His ...",
-      "color": "#e74c3c"
+      "color": "#e74c3c",
+      "region": "Iraq"
     },
     {
       "id": "Muḥammad ibn al-Ḥasan al-Shaybānī",
@@ -42,7 +45,8 @@
       "note": "",
       "works": "Al-Aṣl, al-Jāmiʿ al-Ṣaghīr/al-Kabīr, al-Ziyādāt, al-Siyar al-Kabīr",
       "bio": "Born in Wasit in 132 AH (749 CE) and raised in Kūfah, al-Shaybānī was the second great disciple of Abū Ḥanīfah and the true codifier of Ḥanafī law. He also studied under Mālik ibn Anas in Madīnah, gai...",
-      "color": "#e74c3c"
+      "color": "#e74c3c",
+      "region": "Iraq"
     },
     {
       "id": "Abū Sulaymān Mūsā al-Jūzajānī",
@@ -53,7 +57,8 @@
       "note": "",
       "works": "Nawādir Abī Sulaymān",
       "bio": "A student of Muḥammad al-Shaybānī and Abū Yūsuf, he was a respected Hanafi scholar of Transoxiana and Khurāsān. His compilation *Nawādir Abī Sulaymān* preserved important legal opinions of the school'...",
-      "color": "#e67e22"
+      "color": "#e67e22",
+      "region": "Khurāsān"
     },
     {
       "id": "al-Ḥasan ibn Ziyād al-Luʾluʾī",
@@ -64,7 +69,8 @@
       "note": "",
       "works": "Al-Mujarrad",
       "bio": "A prominent student of Abū Ḥanīfa and leading jurist of Kūfa, known for his work *al-Mujarrad*. He was one of the key early transmitters of the school's teachings in Iraq and his legal opinions were c...",
-      "color": "#e67e22"
+      "color": "#e67e22",
+      "region": "Iraq"
     },
     {
       "id": "Muʿallā ibn Manṣūr al-Rāzī",
@@ -75,7 +81,8 @@
       "note": "",
       "works": "Nawādir Muʿallā ibn Manṣūr",
       "bio": "A Hanafi jurist and hadith scholar from Rayy, known for his work *Nawādir Muʿallā ibn Manṣūr*. A contemporary of al-Shaybānī, he transmitted the school's teachings in the Jibāl region and was recogniz...",
-      "color": "#e67e22"
+      "color": "#e67e22",
+      "region": "Persia"
     },
     {
       "id": "Abū Ḥafṣ al-Kabīr al-Bukhārī",
@@ -86,7 +93,8 @@
       "note": "",
       "works": "—",
       "bio": "A major Hanafi scholar from Bukhara in Transoxiana, he was one of the principal early transmitters of the school in Central Asia. Known as ",
-      "color": "#e67e22"
+      "color": "#e67e22",
+      "region": "Transoxiana"
     },
     {
       "id": "ʿĪsā ibn Abān",
@@ -97,7 +105,8 @@
       "note": "",
       "works": "Al-Ḥujaj al-Ṣaghīr / al-Ḥujaj al-Kabīr",
       "bio": "A student of Muḥammad al-Shaybānī, he was an important early Hanafi jurist known for his works *al-Ḥujaj al-Ṣaghīr* and *al-Ḥujaj al-Kabīr*. His contributions to the principles of Hanafi jurisprudence...",
-      "color": "#e67e22"
+      "color": "#e67e22",
+      "region": "Iraq"
     },
     {
       "id": "Muḥammad ibn Samāʿah al-Tamīmī",
@@ -108,7 +117,8 @@
       "note": "",
       "works": "Kitāb Adab al-Qāḍī",
       "bio": "A student of Abū Yūsuf and a prominent jurist of Baghdad, he was a leading Hanafi authority in Iraq during his era. He authored *Kitāb Adab al-Qāḍī*, a foundational work on the ethics and procedure of...",
-      "color": "#e67e22"
+      "color": "#e67e22",
+      "region": "Iraq"
     },
     {
       "id": "Aḥmad ibn ʿAmr al-Khaṣṣāf",
@@ -119,7 +129,8 @@
       "note": "",
       "works": "Kitāb Aḥkām al-Awqāf",
       "bio": "A prominent Hanafi jurist of Baghdad, known as ",
-      "color": "#e67e22"
+      "color": "#e67e22",
+      "region": "Iraq"
     },
     {
       "id": "Muḥammad ibn Shujāʿ al-Thaljī",
@@ -130,7 +141,8 @@
       "note": "",
       "works": "Kitāb al-Manāsik",
       "bio": "A leading Hanafi jurist of Baghdad, known for his work *Kitāb al-Manāsik* on the rituals of Hajj. He was one of the prominent scholars of the Iraqi Hanafi tradition during the 3rd century AH. His writ...",
-      "color": "#e67e22"
+      "color": "#e67e22",
+      "region": "Iraq"
     },
     {
       "id": "Abū Jaʿfar Aḥmad al-Ṭaḥāwī",
@@ -141,7 +153,8 @@
       "note": "Master of ḥadīth and fiqh",
       "works": "Sharḥ Maʿānī al-Āthār / al-Mukhtaṣar",
       "bio": "Born in Ṭaḥā (Egypt) in 239 AH (853 CE), al-Ṭaḥāwī is one of the most revered scholars in Islamic history. Initially a Shāfiʿī under his maternal uncle al-Muzanī, he switched to the Ḥanafī madhhab and...",
-      "color": "#f39c12"
+      "color": "#f39c12",
+      "region": "Egypt"
     },
     {
       "id": "Abū Manṣūr al-Māturīdī",
@@ -152,7 +165,8 @@
       "note": "Founder of Māturīdī theology",
       "works": "Kitāb al-Tawḥīd / Taʾwīlāt Ahl al-Sunnah",
       "bio": "Born in Samarqand, Abū Manṣūr al-Māturīdī (d. 333 AH / 944 CE) is the founder of the Māturīdī theological school, one of the two mainstream Sunnī kalām traditions (alongside Ashʿarism). His Kitāb al-T...",
-      "color": "#f39c12"
+      "color": "#f39c12",
+      "region": "Transoxiana"
     },
     {
       "id": "Muḥammad al-Ḥākim al-Shahīd",
@@ -163,7 +177,8 @@
       "note": "",
       "works": "Al-Kāfī (Mukhtaṣar al-Aṣl)",
       "bio": "A distinguished Hanafi jurist from Merv who served as qāḍī in Bukhara and as vizier to the Sāmānids. He was given the epithet ",
-      "color": "#f39c12"
+      "color": "#f39c12",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū al-Ḥasan al-Karkhī",
@@ -174,7 +189,8 @@
       "note": "",
       "works": "Mukhtaṣar al-Karkhī",
       "bio": "A leading Hanafi jurist of Baghdad, renowned for his contributions to legal theory and his compilation of foundational legal maxims (*qawāʿid fiqhiyyah*), known as *Uṣūl al-Karkhī*. His work on genera...",
-      "color": "#f39c12"
+      "color": "#f39c12",
+      "region": "Iraq"
     },
     {
       "id": "Abū ʿAlī al-Shāshī",
@@ -185,7 +201,8 @@
       "note": "Wrote one of the earliest systematic Ḥanafī uṣūl al-fiqh treatises; foundational text cited by al-Jaṣṣāṣ, al-Bazdawī, and al-Sarakhsī",
       "works": "Uṣūl al-Shāshī (al-Uṣūl fī Uṣūl al-Fiqh)",
       "bio": "A Hanafi jurist from Shāsh (near modern Tashkent), known for his contributions to the principles of Hanafi jurisprudence. His work *Uṣūl al-Shāshī* was a significant text in the development of legal t...",
-      "color": "#f39c12"
+      "color": "#f39c12",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū Jaʿfar al-Hiduwānī",
@@ -196,7 +213,8 @@
       "note": "",
       "works": "Sharḥ al-Jāmiʿ al-Ṣaghīr",
       "bio": "A Hanafi jurist of the 4th century AH, recognized as one of the transmitters of the school's teachings in the generation following the early founders. His scholarly work contributed to the preservatio...",
-      "color": "#f39c12"
+      "color": "#f39c12",
+      "region": "Iraq"
     },
     {
       "id": "Abū Bakr al-Jaṣṣāṣ al-Rāzī",
@@ -207,7 +225,8 @@
       "note": "",
       "works": "Aḥkām al-Qurʾān, Sharḥ Mukhtaṣar al-Ṭaḥāwī",
       "bio": "Born in 305 AH (917 CE), al-Jaṣṣāṣ was a towering figure of Ḥanafī uṣūl al-fiqh. His Aḥkām al-Qurʾān is one of the great works of Qurʾānic legal exegesis, while his Sharḥ Mukhtaṣar al-Ṭaḥāwī establish...",
-      "color": "#f39c12"
+      "color": "#f39c12",
+      "region": "Persia"
     },
     {
       "id": "Abū al-Layth al-Samarqandī (al-Faqīh)",
@@ -218,7 +237,8 @@
       "note": "Imam al-Huda — key figure in the development of Hanafi fiqh literature",
       "works": "Tafsir al-Samarqandi (Baḥr al-'Ulum); Khizanat al-Fiqh; 'Uyun al-Masa'il; al-Nawazil; Muqaddima fi al-Salat",
       "bio": "Born in Samarqand circa 300 AH, Abu al-Layth al-Samarqandi — known as Imam al-Huda (Imam of Guidance) — was one of the most important Hanafi jurists and Quranic exegetes of the 4th century. He studied...",
-      "color": "#f39c12"
+      "color": "#f39c12",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū al-Ḥusayn Aḥmad al-Qudūrī",
@@ -229,7 +249,8 @@
       "note": "",
       "works": "Mukhtaṣar al-Qudūrī / al-Tajrīd",
       "bio": "Born in 362 AH (972 CE), al-Qudūrī's Mukhtaṣar is perhaps the single most widely-memorised Ḥanafī furūʿ text — the first book many students of the madhhab study after Arabic grammar. Its concise yet c...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Iraq"
     },
     {
       "id": "Abū Zayd ʿUbayd Allāh al-Dabūsī",
@@ -240,7 +261,8 @@
       "note": "",
       "works": "Taqwīm al-Adillah",
       "bio": "A central figure in Ḥanafī uṣūl al-fiqh, al-Dabūsī's Taqwīm al-Adillah was the first systematic work to establish legal-theoretical principles for the Ḥanafī school. He introduced the concept of takhṣ...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū al-ʿAbbās Aḥmad al-Nāṭifī",
@@ -251,7 +273,8 @@
       "note": "",
       "works": "Kitāb Jumal al-Aḥkām / al-Wāqiʿāt",
       "bio": "A Hanafi jurist from Jurjān (Nāṭif), known for his contributions to fiqh and legal theory. He was part of the generation of scholars who consolidated the Hanafi school's teachings in the eastern regio...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Khurāsān"
     },
     {
       "id": "Shams al-Aʾimmah al-Ḥalwānī",
@@ -262,7 +285,8 @@
       "note": "",
       "works": "Al-Mabsūṭ",
       "bio": "A towering Hanafi jurist of Bukhara, given the honorific ",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū al-Ḥasan ʿAlī al-Sughdī",
@@ -273,7 +297,8 @@
       "note": "",
       "works": "Al-Nuṭaf fī al-Fatāwā",
       "bio": "A Hanafi jurist from Sughd in Transoxiana, recognized as an important scholar in the Central Asian tradition. He contributed to the transmission and development of Hanafi legal doctrine in the region ...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū Naṣr Aḥmad al-Aqṭaʿ",
@@ -284,7 +309,8 @@
       "note": "",
       "works": "Sharḥ Mukhtaṣar al-Qudūrī",
       "bio": "A student of the famous Hanafi jurist al-Qudūrī, he was known for his commentary on *Mukhtaṣar al-Qudūrī*. He was an important figure in the 5th-century Hanafi scholarly tradition, contributing to the...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Iraq"
     },
     {
       "id": "al-Qāḍī Aḥmad ibn Manṣūr al-Isbījābī",
@@ -295,7 +321,8 @@
       "note": "",
       "works": "Sharḥ al-Jāmiʿ al-Ṣaghīr",
       "bio": "A Hanafi qāḍī and scholar from Isbījāb, known for his commentary on *Mukhtaṣar al-Ṭaḥāwī*. He served as a judge and was recognized for his expertise in both fiqh and legal procedure. His writings cont...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Transoxiana"
     },
     {
       "id": "Fakhr al-Islām ʿAlī al-Bazdawī",
@@ -306,7 +333,8 @@
       "note": "",
       "works": "ʿUṣūl al-Bazdawī",
       "bio": "A leading Hanafi jurist from Bazdāw (near Nasaf), renowned for his work in uṣūl al-fiqh. He authored *Uṣūl al-Bazdawī* (also known as *Kanz al-Wuṣūl*), which became a foundational text for the study o...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Transoxiana"
     },
     {
       "id": "Shaykh al-Islām Khuwāhar Zādah",
@@ -317,7 +345,8 @@
       "note": "",
       "works": "Al-Mabsūṭ",
       "bio": "A Hanafi jurist of the 5th century AH, recognized for his scholarly contributions to the school. He was part of the Central Asian Hanafi scholarly elite, and his legal opinions were considered authori...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Transoxiana"
     },
     {
       "id": "Shams al-Aʾimmah al-Sarakhsī",
@@ -328,7 +357,8 @@
       "note": "Author of the 30-volume Al-Mabsūṭ",
       "works": "Al-Mabsūṭ / Sharḥ al-Siyar al-Kabīr",
       "bio": "One of the most important Ḥanafī scholars of all time. Born in Saras, Transoxiana, he was imprisoned by the Qarakhanid ruler for defending a legal opinion that challenged state policy. During his five...",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Khurāsān"
     },
     {
       "id": "Abū al-Yusr al-Bazdawī",
@@ -339,7 +369,8 @@
       "note": "Major Ḥanafī theologian from the Bazdawī family; systematized Ḥanafī kalām methodology",
       "works": "Uṣūl al-Dīn",
       "bio": "A prominent Hanafi-Māturīdī scholar and qāḍī in Samarqand, known as ",
-      "color": "#f1c40f"
+      "color": "#f1c40f",
+      "region": "Transoxiana"
     },
     {
       "id": "Zahīr al-Dīn al-Marghīnānī al-Kabīr",
@@ -350,7 +381,8 @@
       "note": "",
       "works": "—",
       "bio": "A Hanafi jurist from Marghīnān in the Farghāna Valley, recognized as an early scholarly figure in the region before the fame of Burhan al-Dīn al-Marghīnānī. He contributed to the Hanafi legal traditio...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū al-Muʾīn al-Nasafī",
@@ -361,7 +393,8 @@
       "note": "Principal defender of Māturīdī theology; central to the Ḥanafī theological-juristic tradition",
       "works": "Tabṣirat al-Adillah, Bahr al-Kalām",
       "bio": "A preeminent Hanafi-Māturīdī theologian from Nasaf, considered the most important figure in the Māturīdī school after Imām al-Māturīdī himself. He authored *Tabṣirat al-Adilla* and *Bahr al-Kalām*, mo...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Shaykh al-Islām ʿAlī al-Isbījābī",
@@ -372,7 +405,8 @@
       "note": "",
       "works": "Sharḥ Mukhtaṣar al-Ṭaḥāwī",
       "bio": "A prominent Hanafi scholar from Isbījāb in Central Asia, honored with the title ",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Ḥusām al-Dīn al-Ṣadr al-Shahīd",
@@ -383,7 +417,8 @@
       "note": "",
       "works": "Al-Wāqiʿāt / Sharḥ Adab al-Qāḍī",
       "bio": "A major Hanafi jurist from the ʿAlī Mūzā family, known as ",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Najm al-Dīn ʿUmar al-Nasafī",
@@ -394,7 +429,8 @@
       "note": "",
       "works": "Ṭalabah al-Ṭalabah",
       "bio": "A towering Hanafi scholar from Nasaf, known as ",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Jār Allāh Maḥmūd al-Zamakhsharī",
@@ -405,7 +441,8 @@
       "note": "One of the greatest Arabic grammarians in history; author of al-Kashshāf",
       "works": "Al-Kashshāf ʿanḤaqāʾiq al-Tanzīl, al-Mufaṣṣal fī Ṣināʿat al-Iʿrāb",
       "bio": "Born 1074 in Zamakhshar, Khwārizm, al-Zamakhsharī was one of the greatest Arabic linguists and grammarians of the medieval period. A Muʿtazilī rationalist and Ḥanafī jurist, he traveled extensively th...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Khurāsān"
     },
     {
       "id": "ʿAlāʾ al-Dīn Muḥammad al-Samarqandī",
@@ -416,7 +453,8 @@
       "note": "",
       "works": "Tuḥfat al-Fuqahāʾ",
       "bio": "A leading Hanafi jurist of Central Asia, teacher of the famous ʿAlāʾ al-Dīn al-Kāsānī, who later married his daughter. He authored *Tuḥfat al-Fuqahāʾ*, an important foundational text in Hanafi jurispr...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū al-Fath ʿAbd al-Rashīd al-Walwālijī",
@@ -427,7 +465,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Walwālijiyyah",
       "bio": "A Hanafi jurist devoted to the study and transmission of Hanafi jurisprudence in the 6th century. He was part of the scholarly network that preserved the school's teachings in the eastern Islamic land...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Aḥmad ibn Mūsā al-Kashshī",
@@ -438,7 +477,8 @@
       "note": "",
       "works": "Majmūʿ al-Nawāzil",
       "bio": "A scholar from Kashsh in Transoxiana, known for his expertise in hadith and genealogical studies. His ascription to the region of Kashsh places him within the Central Asian scholarly tradition. His co...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Nāṣir al-Dīn Muḥammad al-Samarqandī",
@@ -449,7 +489,8 @@
       "note": "",
       "works": "Al-Fiqh al-Nāfiʿ / al-Multaqaṭ",
       "bio": "A Hanafi jurist of Samarqand in the 6th century, known for his contributions to the legal tradition of the school. He was part of the scholarly lineage that sustained the Hanafi school in Central Asia...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Rukn al-Dīn al-Kirānī",
@@ -460,7 +501,8 @@
       "note": "",
       "works": "Jawāhir al-Fatāwā",
       "bio": "A Hanafi scholar of the 6th century, known for his contributions to the jurisprudential and theological discourse of the school. He was part of the generation of scholars who continued the legacy of t...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Sirāj al-Dīn ʿAlī al-Ūshī",
@@ -471,7 +513,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Sirājiyyah, Badʾ al-Amālī",
       "bio": "A prominent Hanafi-Māturīdī scholar from Ūsh in the Farghāna Valley. He authored the famous *al-Qaṣīdah al-Lāmiyyah fī al-Tawḥīd* (known as *Badʾ al-Amālī*) and *al-Fatāwā al-Sirājiyyah*, which became...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū al-Muẓaffar Asʿad al-Karābīsī",
@@ -482,7 +525,8 @@
       "note": "",
       "works": "Al-Furūq",
       "bio": "A Hanafi scholar of the 6th century, recognized for his contributions to the legal and scholarly traditions of the school. He was part of the Central Asian scholarly community that preserved and trans...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Iraq"
     },
     {
       "id": "Raḍī al-Dīn Muḥammad al-Sarakhsī",
@@ -493,7 +537,8 @@
       "note": "",
       "works": "Al-Muḥīṭ al-Riḍawī",
       "bio": "A Hanafi scholar of the 6th century, from the region of Sarakhs. He represents the continuation of the Hanafi tradition in the lands of Khurāsān and Transoxiana. His contributions to fiqh and the tran...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Khurāsān"
     },
     {
       "id": "Abū Naṣr Aḥmad al-ʿAṭṭābī",
@@ -504,7 +549,8 @@
       "note": "",
       "works": "Al-Fatāwā al-ʿAṭṭābiyyah / Sharḥ al-Ziyādāt",
       "bio": "A Hanafi jurist known for his commentary on *Badāʾiʿ al-Ṣanāʾiʿ* of al-Kāsānī. He was an important scholar of the late 6th century who contributed to the exegesis of Hanafi legal texts. His work aided...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū Bakr ibn Masʿūd al-Kāsānī",
@@ -515,7 +561,8 @@
       "note": "",
       "works": "Badāʾiʿ al-Ṣanāʾiʿ",
       "bio": "Born in Kāsān, Transoxiana, al-Kāsānī was a student of al-Samarqandī and married his teacher's daughter. His Badāʾiʿ al-Ṣanāʾiʿ fī Tartīb al-Sharāʾiʿ is universally regarded as one of the greatest wor...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Ḥasan ibn Manṣūr QāḍīKhān",
@@ -526,7 +573,8 @@
       "note": "",
       "works": "Fatāwā QāḍīKhān",
       "bio": "Leading Hanafi jurist and chief judge (qāḍī) from Farghāna, Transoxiana. He authored the monumental *Fatāwā Qāḍīkhān*, a comprehensive multi-volume collection of Hanafi legal opinions that became a pr...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "ʿAlī ibn Abī Bakr al-Marghīnānī",
@@ -537,7 +585,8 @@
       "note": "Author of Al-Hidāyah, the most celebrated Ḥanafī text",
       "works": "Al-Hidāyah / al-Tajnīs",
       "bio": "Born in Marghīnān, Transoxiana, al-Marghīnānī is the author of Al-Hidāyah — arguably the most celebrated and widely-studied Ḥanafī text ever written. Composed as a commentary on his own al-Tajnīs, Al-...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Transoxiana"
     },
     {
       "id": "Jamāl al-Dīn Aḥmad al-Ghaznawī",
@@ -548,7 +597,8 @@
       "note": "",
       "works": "Al-Hāwī al-Qudsī",
       "bio": "Hanafi jurist, theologian, and Kalām scholar of the Maturīdī school from Ghazna. He studied under ʿAlāʾ al-Dīn al-Kāsānī and authored *Kitāb Uṣūl al-Dīn* and *Al-Ḥāwī al-Qudsī fī Furūʿ al-Fiqh al-Ḥana...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Khurāsān"
     },
     {
       "id": "Ḥusām al-Dīn ʿAlī al-Rāzī",
@@ -559,7 +609,8 @@
       "note": "",
       "works": "Khulāṣat al-Dalāʾil fī Tanqīḥ al-Masāʾil",
       "bio": "Hanafi jurist from Rayy, Persia, known for his contributions to the school's legal methodology in the late 12th century. He was part of the Central Asian-Persian Hanafi tradition that emphasized legal...",
-      "color": "#2ecc71"
+      "color": "#2ecc71",
+      "region": "Persia"
     },
     {
       "id": "Ṭāhir ibn Aḥmad al-Bukhārī",
@@ -570,7 +621,8 @@
       "note": "",
       "works": "Khulāṣat al-Fatāwā",
       "bio": "Hanafi scholar from Bukhārā in Transoxiana, active in the late 6th and early 7th centuries AH. He contributed to the transmission and teaching of Hanafi doctrine in Central Asia.",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "Burhān al-Dīn Maḥmūd al-Bukhārī",
@@ -581,7 +633,8 @@
       "note": "",
       "works": "Al-Muḥīṭ al-Burhānī / al-Dhakhīrah al-Burhāniyyah",
       "bio": "Distinguished Hanafi jurist from Bukhārā, known as Ibn Māza al-Bukhārī. He authored *Al-Muḥīṭ al-Burhānī fī al-Fiqh al-Nuʿmānī* and *Al-Dhakhīra al-Burhāniyya*, major works in Hanafi jurisprudence tha...",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "Zahīr al-Dīn Muḥammad al-Bukhārī",
@@ -592,7 +645,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Zahirīyyah",
       "bio": "Hanafi scholar from Bukhārā, Transoxiana, active in the early 13th century. He contributed to the scholarly environment of Bukhārā, a major Hanafi intellectual center.",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "Majd al-Dīn Muḥammad al-Uṣrūshnī",
@@ -603,7 +657,8 @@
       "note": "",
       "works": "Al-Fuṣūl",
       "bio": "Hanafi jurist from Uṣrūshna (Ushrusana) in Transoxiana. He was part of the Central Asian Hanafi tradition that produced many leading jurists during the 7th century AH.",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "Shams al-Aʾimmah al-Kardarī",
@@ -614,7 +669,8 @@
       "note": "",
       "works": "Sharḥ al-Muntakhab al-Ḥusāmī",
       "bio": "Hanafi scholar from Kardar in Transoxiana, known for his expertise in fiqh and kalām. He authored *Taʾsīs al-Qawāʿid* and wrote a *Risāla fī Radd ʿalā al-Mankhūl al-Ghazālī*, contributing to the doctr...",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "ʿAbd al-Raḥīm Ḥafīd Ṣāḥib al-Hidāyah",
@@ -625,7 +681,8 @@
       "note": "",
       "works": "Fuṣūl al-ʿImādī",
       "bio": "Hanafi scholar known as Ḥafīḍ al-Hidāyah for his mastery and transmission of al-Hidāyah, the foundational Hanafi legal text. He was active in the mid-7th century, contributing to the standardization o...",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "ʿAlāʾ al-Dīn al-Tarjumānī",
@@ -636,7 +693,8 @@
       "note": "",
       "works": "Yatīmat al-Dahr",
       "bio": "Hanafi scholar of the mid-7th century, known for his scholarly contributions to the Hanafi school in the eastern Islamic lands.",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "Najm al-Dīn Mukhtār al-Zāhidī",
@@ -647,7 +705,8 @@
       "note": "",
       "works": "Al-Qunyah / al-Hāwī / al-Mujtabā",
       "bio": "Hanafi scholar from Ghazmīn (al-Zāhidī). He authored *Al-Mujtabā Sharḥ Mukhtasar al-Qudūrī*, a major 5-volume commentary on al-Qudūrī's primer in Hanafi fiqh.",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Khurāsān"
     },
     {
       "id": "Zayn al-Dīn Muḥammad al-Rāzī",
@@ -658,7 +717,8 @@
       "note": "",
       "works": "Tuḥfat al-Mulūk",
       "bio": "Hanafi jurist from Rayy, Persia, active in the mid-7th century AH. He contributed to the Persian branch of Hanafi legal scholarship.",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Persia"
     },
     {
       "id": "Tāj al-Sharīʿah Maḥmūd ibn Aḥmad",
@@ -669,7 +729,8 @@
       "note": "",
       "works": "Al-Wiqāyah",
       "bio": "From the distinguished Maḥbūbī family of Hanafi scholars in Bukhārā. He was the grandfather of the famous Sadr al-Sharīʿah and contributed to the family's legacy of Hanafi jurisprudence in Transoxiana...",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "Jalāl al-Dīn al-Karlānī",
@@ -680,7 +741,8 @@
       "note": "",
       "works": "Al-Kifāyah (Sharḥ al-Hidāyah)",
       "bio": "Hanafi scholar of the late 7th century, contributing to the school's development in the eastern regions of the Islamic world.",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Iraq"
     },
     {
       "id": "Abū al-Faḍl ʿAbd Allāh al-Mawṣilī",
@@ -691,7 +753,8 @@
       "note": "",
       "works": "Al-Mukhtār li al-Fatwā / al-Ikhtiyār",
       "bio": "Prominent Hanafi jurist and muḥaddith from Mosul, Iraq (born 599 AH). He authored the reliable Hanafi matn *Al-Mukhtār* and its commentary *Al-Ikhtiyār*, which became standard texts in the Hanafi curr...",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Iraq"
     },
     {
       "id": "Muẓaffar al-Dīn Aḥmad Ibn al-Sāʿātī",
@@ -702,7 +765,8 @@
       "note": "",
       "works": "Majmaʿ al-Baḥrayn",
       "bio": "Hanafi scholar known for his expertise in legal theory. He authored *Sharḥ Majmūʿ al-Bahrayn wa Multaqā al-Nayrayn*, one of the four important Hanafi mutūn (principles) alongside *Al-Mukhtār*, *Al-Kan...",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Iraq"
     },
     {
       "id": "Muḥammad ibn Muḥammad al-Kāshgharī",
@@ -713,7 +777,8 @@
       "note": "",
       "works": "Munyat al-Muṣallī",
       "bio": "Hanafi scholar from Kāshghar in the eastern Islamic world. He authored *Munyat al-Muṣallī wa-Ghunyat al-Mubtadiʾ*, a recognized Hanafi work on prayer and worship.",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Transoxiana"
     },
     {
       "id": "ʿUmar ibn Muḥammad al-Sunnāmī",
@@ -724,7 +789,8 @@
       "note": "",
       "works": "Nisāb al-Iḥtisāb / al-Fatāwā al-Diyāʾiyyah",
       "bio": "Hanafi jurist active in the late 7th and early 8th centuries. He contributed to the transmission of Hanafi legal teachings.",
-      "color": "#1abc9c"
+      "color": "#1abc9c",
+      "region": "Transoxiana"
     },
     {
       "id": "Ḥāfiẓ al-Dīn Abū al-Barakāt al-Nasafī",
@@ -735,7 +801,8 @@
       "note": "",
       "works": "Al-Manār / Kanz al-Daqāʾiq / al-Kāfī",
       "bio": "Born circa 620 AH (1223 CE) in Nasaf, he produced three of the most widely-studied Ḥanafī texts: Al-Manār (uṣūl al-fiqh), Kanz al-Daqāʾiq (furūʿ — an abridgement of his own al-Wāfī), and al-Kāfī (supe...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Transoxiana"
     },
     {
       "id": "Abū al-ʿAbbās Aḥmad al-Sarūjī",
@@ -746,7 +813,8 @@
       "note": "",
       "works": "Al-Ghāyah (Sharḥ al-Hidāyah)",
       "bio": "Hanafi jurist and Chief Justice (Qāḍī al-Quḍāh) in Egypt. He authored *Al-Ghāyah fī Sharḥ al-Hidāyah*, a rare 14-volume commentary on al-Hidāyah notable for its discussion of hadith chains and inclusi...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Syria"
     },
     {
       "id": "Ḥusām al-Dīn Ḥusayn al-Sighnāqī",
@@ -757,7 +825,8 @@
       "note": "",
       "works": "Al-Nihāyah / al-Kāfī Sharḥ Uṣūl al-Bazdawī",
       "bio": "Prominent Hanafi jurist from Sighnāq (modern Kazakhstan), expert in fiqh, uṣūl al-fiqh, and Arabic linguistics. He laid solid foundations for Islamic scholarly traditions in Central Asia and the Golde...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Transoxiana"
     },
     {
       "id": "Dāwūd ibn Yūsuf al-Khaṭīb",
@@ -768,7 +837,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Ghiyāthiyyah",
       "bio": "Hanafi scholar and intellectual of the 8th century, known for his contributions to jurisprudence and theology during the Islamic Golden Age.",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Transoxiana"
     },
     {
       "id": "Fakhr al-Dīn ʿUthmān al-Zaylaʿī",
@@ -779,7 +849,8 @@
       "note": "",
       "works": "Tabyīn al-Ḥaqāʾiq",
       "bio": "Author of Tabyīn al-Ḥaqāʾiq, one of the four Muʿtamad (reliable) Ḥanafī works and a massive commentary on al-Qudūrī and al-Kāsānī. Al-Zaylaʿī was a leading Egyptian Ḥanafī scholar. Died 743 AH (1342 C...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "East Africa"
     },
     {
       "id": "Ṣadr al-Sharīʿah ʿUbayd Allāh ibn Maḥmūd",
@@ -790,7 +861,8 @@
       "note": "",
       "works": "Sharḥ al-Wiqāyah / al-Nuqāyah",
       "bio": "Major Hanafi jurist, theologian, and logician from the Maḥbūbī family of Bukhārā, known as Sadr al-Sharīʿah al-Thānī. His family migrated to Kirmān due to Mongol invasions; he later settled in Herāt a...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Transoxiana"
     },
     {
       "id": "Qiwām al-Dīn Muḥammad al-Kākī",
@@ -801,7 +873,8 @@
       "note": "",
       "works": "Miʿrāj al-Dirāyah",
       "bio": "Hanafi scholar from the Kākī family, active in the mid-8th century. He contributed to the Hanafi legal tradition in the post-Mongol period.",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Transoxiana"
     },
     {
       "id": "Amīr Kātib al-Itqānī",
@@ -812,7 +885,8 @@
       "note": "",
       "works": "Ghāyat al-Bayān / al-Shāmil",
       "bio": "Hanafi scholar known as a famous explainer of al-Hidāyah. He traveled to Damascus in 747 AH and was known for his expertise in Hanafi legal methodology. He is also referred to as Qiwām al-Dīn Amīr Kāt...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Transoxiana"
     },
     {
       "id": "Ibrāhīm ibn ʿAlī al-Tarasūsī",
@@ -823,7 +897,8 @@
       "note": "",
       "works": "Anfaʿ al-Wasāʾil (al-Fatāwā al-Tarasūsiyyah)",
       "bio": "Hanafi scholar from Tarsus (Tarāʿūs) in Anatolia. He contributed to the spread of Hanafi scholarship in the regions that would later become part of the Ottoman Empire.",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Anatolia"
     },
     {
       "id": "Jamāl al-Dīn ʿAbd Allāh al-Zaylaʿī",
@@ -834,7 +909,8 @@
       "note": "",
       "works": "Naṣb al-Rāyah",
       "bio": "Hanafi hadith master (muḥaddith) from Zaylaʿ (Somalia), born 672 AH. He authored *Naṣb al-Rāyah li Aḥādīth al-Hidāyah*, the definitive reference for the hadith evidence behind the Hanafi school's ruli...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "East Africa"
     },
     {
       "id": "ʿAbd al-Wahhāb ibn Aḥmad Ibn Wahbān",
@@ -845,7 +921,8 @@
       "note": "",
       "works": "Manẓūmat Ibn Wahbān",
       "bio": "Hanafi scholar and hadith expert from the Mizzī family. He authored a comprehensive commentary on *Tajrīd Asmāʾ al-Ṣaḥābah*, contributing to the intersection of Hanafi fiqh and hadith studies.",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Syria"
     },
     {
       "id": "Ṭāhir ibn Islām al-Khāwrizmī",
@@ -856,7 +933,8 @@
       "note": "",
       "works": "Jawāhir al-Fiqh",
       "bio": "Hanafi scholar from Khwārizm in Central Asia, active in the mid-8th century. He contributed to the Hanafi legal tradition in the region.",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Khurāsān"
     },
     {
       "id": "Sirāj al-Dīn ʿUmar al-Ghaznawī al-Hindī",
@@ -867,7 +945,8 @@
       "note": "",
       "works": "Zubdat al-Aḥkām",
       "bio": "Hanafi scholar, theologian, and Kalām scholar of the Maturīdī school from Ghazna (born ~704 AH). He served as Qāḍī al-Quḍāh and authored a renowned commentary on *al-ʿAqīda al-Ṭaḥāwiyya* that remains ...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Khurāsān"
     },
     {
       "id": "ʿĀlim ibn al-ʿAlāʾ al-Andarpātī",
@@ -878,7 +957,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Tātarkhāniyyah",
       "bio": "Hanafi scholar of the 8th century, contributing to the school's scholarly development in the eastern Islamic world.",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "India"
     },
     {
       "id": "Akmal al-Dīn Muḥammad al-Bābartī",
@@ -889,7 +969,8 @@
       "note": "",
       "works": "Al-ʿInāyah / al-Taqrīr",
       "bio": "Hanafi scholar from Bābirt (Bābartī) in Anatolia, born 710 AH. He was a prominent Hanafi jurist who wrote important works on Hanafi fiqh and hadith, and was known as a major scholar of his era in the ...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Anatolia"
     },
     {
       "id": "Shams al-Dīn Muḥammad al-Qūnawī",
@@ -900,7 +981,8 @@
       "note": "",
       "works": "Durar al-Biḥār / Sharḥ Majmaʿ al-Baḥrayn",
       "bio": "Hanafi scholar from Qūnaw (Qonya/Konya) in Anatolia. He contributed to the Hanafi intellectual tradition in the region before the Ottoman rise.",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Anatolia"
     },
     {
       "id": "Saʿd al-Dīn al-Taftazānī",
@@ -911,7 +993,8 @@
       "note": "Influential uṣūl al-fiqh and kalām authority; works are standard in Ḥanafī madrasa curricula worldwide",
       "works": "Sharḥ al-ʿAqāʾid al-Nasafiyyah, al-Talwīḥ",
       "bio": "Born in 722 AH (1322 CE) in Taftazān (near Nishapur), al-Taftazānī was a master of both uṣūl al-fiqh and kalām whose Sharḥ al-ʿAqāʾid al-Nasafiyyah is the standard commentary on al-Nasafī's creed text...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "Khurāsān"
     },
     {
       "id": "Abū Bakr ibn ʿAlī al-Ḥaddād",
@@ -922,7 +1005,8 @@
       "note": "",
       "works": "Al-Sirāj al-Wahhāj / al-Jawharah al-Nayyirah",
       "bio": "Yemeni Hanafi jurist from Zubayd, known as Abū Bakr ibn ʿAlī al-Ḥaddād al-Zubaydī al-Yamanī. He contributed to the spread of Hanafi jurisprudence in Yemen.",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Yemen"
     },
     {
       "id": "ʿAbd al-Laṭīf Ibn Malak",
@@ -933,7 +1017,8 @@
       "note": "",
       "works": "Sharḥ al-Manār",
       "bio": "Hanafi scholar (ʿAbd al-Laṭīf ibn ʿAbd al-ʿAzīz), known for his commentary *Sharḥ al-Wiqāyah*. He was a jurist and hadith scholar who died in 801 AH (1398 CE).",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Persia"
     },
     {
       "id": "Maḥmūd ibn Isrāʾīl Ibn Qāḍī Samāwna",
@@ -944,7 +1029,8 @@
       "note": "",
       "works": "Jāmiʿ al-Fuṣūlayn / Laṭāʾif al-Ishārāt",
       "bio": "Also known as Badr al-Dīn ibn Qāḍī Samāwna or Sheikh Bedreddin. Born in Simāwna (Ottoman Rumelia), he was a philosopher, theologian, and Hanafi jurist. He authored *Jāmiʿ al-Fuṣūlīn* and *Ḥaqīqa al-Ḥa...",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Anatolia"
     },
     {
       "id": "Muḥammad al-Bazzāzī al-Kardarī",
@@ -955,7 +1041,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Bazzāziyyah",
       "bio": "Hanafi jurist known as Ibn al-Bazzāzī or Ḥāfiẓ al-Dīn al-Kardarī al-Khwārizmī. He authored *Al-Fatāwā al-Bazzāziyya*, an important collection of Hanafi legal rulings. He died in 827 AH.",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Transoxiana"
     },
     {
       "id": "Sirāj al-Dīn Abū Ḥafṣ ʿUmar Qārīʾ al-Hidāyah",
@@ -966,7 +1053,8 @@
       "note": "",
       "works": "Fatāwā Qārīʾ al-Hidāyah",
       "bio": "Distinguished Hanafi scholar from Cairo, known as Qārīʾ al-Hidāyah. Full name: Sirāj al-Dīn Abū Ḥafṣ ʿUmar ibn ʿAlī al-Kināni al-Qāhirī al-Ḥusaynī. He was an expert in Hanafi jurisprudence and Quranic...",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Egypt"
     },
     {
       "id": "Shams al-Dīn al-Fanārī (Mollā Fenārī)",
@@ -977,7 +1065,8 @@
       "note": "First Shaykh al-Islām of the Ottoman Empire; institutionalised Ḥanafī fiqh as the state madhhab",
       "works": "Fuṣūl al-Badāyiʿ fī Uṣūl al-Dīn, ʿAyn al-Aykām",
       "bio": "Born in 751 AH (1350 CE) in Fenār, near Bursa, Mollā Fenārī was the first Shaykh al-Islām of the Ottoman Empire, a position he held under Murād I and Bāyezīd I. His Fuṣūl al-Badāyiʿ fī Uṣūl al-Dīn is ...",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Anatolia"
     },
     {
       "id": "Abū al-Ḥasan ʿAlī al-Ṭarābulusī",
@@ -988,7 +1077,8 @@
       "note": "",
       "works": "Muʿīn al-Ḥukkām",
       "bio": "Distinguished Hanafi scholar from Tripoli (Ṭarābulus). He authored *Muʿīn al-Ḥukkām fīmā Yatardad bayna al-Khaṣmayn min al-Aḥkām*, an important work on judicial procedure and legal rulings.",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Maghrib"
     },
     {
       "id": "Abū al-Baqāʾ Muḥammad Ibn al-Diyāʾ",
@@ -999,7 +1089,8 @@
       "note": "",
       "works": "Al-Baḥr al-ʿAmīq / Tārīkh Makkah",
       "bio": "Hanafi jurist from Mecca, born 789 AH (Bahāʾ al-Dīn Abū al-Baqāʾ Muḥammad ibn Aḥmad al-Qurashī al-ʿUmarī al-Makkī). He served as Qāḍī al-Quḍāh and Muḥtasib of Mecca, and authored *Al-Ḍiyāʾ al-Maʿnawī ...",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Hejaz"
     },
     {
       "id": "Badr al-Dīn Maḥmūd al-ʿAynī",
@@ -1010,7 +1101,8 @@
       "note": "",
       "works": "Al-Bināyah / Ramz al-Ḥaqāʾiq",
       "bio": "Born in ʿAyntāb (Gaziantep) in 762 AH (1360 CE), al-ʿAynī was a polymath who produced landmark works across multiple disciplines: Al-Bināyah (Ḥanafī fiqh commentary on al-Hidāyah), Ramz al-Ḥaqāʾiq, an...",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Anatolia"
     },
     {
       "id": "Kamāl al-Dīn Ibn al-Humām",
@@ -1021,7 +1113,8 @@
       "note": "One of the greatest Ḥanafī commentators",
       "works": "Fatḥ al-Qadīr / Zād al-Faqīr",
       "bio": "Born in Alexandria in 788 AH (1386 CE), Ibn al-Humām is widely regarded as one of the greatest Ḥanafī commentators and mujtahids. His Fatḥ al-Qadīr — a supercommentary on al-Hidāyah — is the single mo...",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Egypt"
     },
     {
       "id": "Abū al-Fidāʾ Qāsim ibn Qutlūbughā",
@@ -1032,7 +1125,8 @@
       "note": "",
       "works": "Al-Taṣḥīḥ wa al-Tarjīḥ / Munyat al-Almaʿī",
       "bio": "Hanafi jurist and scholar known for his works in legal methodology and hadith. He authored *Tashīḥ wa al-Tarjīḥ ʿalā Mukhtasar al-Qudūrī* and *Munyat al-Almaʾī fīmā Fāta min Takhrij Aḥādīth al-Hidāyah...",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Egypt"
     },
     {
       "id": "Shams al-Dīn Ibn Amīr Hājj",
@@ -1043,7 +1137,8 @@
       "note": "",
       "works": "Ḥalabat al-Mujallī / al-Taqrīr wa al-Taḥbīr",
       "bio": "Hanafi scholar from Aleppo, born 823 AH. He authored *Al-Taqrīr wa al-Taḥbīr*, an important commentary on Hanafi uṣūl al-fiqh, and was a major jurist of the Mamluk/Ottoman transition period.",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Syria"
     },
     {
       "id": "Muḥammad ibn Farāmurz Mullā Khusraw",
@@ -1054,7 +1149,8 @@
       "note": "",
       "works": "Ghurar al-Aḥkām / Durar al-Ḥukkām",
       "bio": "Leading Hanafi jurist of the Ottoman era, born in Istanbul. He authored *Durar al-Ḥukkām fī Sharḥ Ghurar al-Aḥkām* (a major legal text) and *Mirʾāt al-Uṣūl* (on uṣūl al-fiqh). He served as Shaykh al-I...",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Anatolia"
     },
     {
       "id": "Khwājazādah",
@@ -1065,7 +1161,8 @@
       "note": "Leading Ottoman Ḥanafī commentator; glosses on al-Taftazānī became a standard reference",
       "works": "Ḥāshiyyah ʿalā al-Talwīḥ",
       "bio": "Ottoman Hanafi scholar and jurist of the late 9th century. He was part of the scholarly establishment that shaped early Ottoman Hanafi jurisprudence.",
-      "color": "#2980b9"
+      "color": "#2980b9",
+      "region": "Anatolia"
     },
     {
       "id": "Ṣarī al-Dīn ʿAbd al-Barr Ibn Shihnah",
@@ -1076,7 +1173,8 @@
       "note": "",
       "works": "Sharḥ Manẓūmat Ibn Wahbān",
       "bio": "A prominent Hanafi scholar from Aleppo, renowned for his expertise in Islamic jurisprudence, history, and literature. He authored significant chronicles and works on the Mamluk period and was a distin...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Syria"
     },
     {
       "id": "Ibrāhīm ibn Mūsā al-Ṭarābulusī",
@@ -1087,7 +1185,8 @@
       "note": "",
       "works": "Al-Iṣʿāf li Aḥkām al-Awqāf",
       "bio": "A Hanafi jurist and scholar from Tripoli (Ṭarābulus). He contributed to the development and teaching of Hanafi fiqh in the Levant during the early 10th century AH.",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Maghrib"
     },
     {
       "id": "Aḥmad ibn Sulaymān Ibn Kamāl Pāshā",
@@ -1098,7 +1197,8 @@
       "note": "",
       "works": "Al-Īḍāḥ fī Sharḥ al-Iṣlāḥ",
       "bio": "A distinguished Ottoman scholar and jurist who served as **Shaykh al-Islām** (the highest religious authority in the Ottoman Empire). He was a crucial figure in codifying the Ottoman iteration of Hana...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Anatolia"
     },
     {
       "id": "Aḥmad ibn Yūnus Ibn al-Shilbī",
@@ -1109,7 +1209,8 @@
       "note": "",
       "works": "Ḥāshiyat Tabyīn al-Ḥaqāʾiq",
       "bio": "A Hanafi scholar active in the mid-10th century AH. He was known for his contributions to Hanafi jurisprudence, though specific biographical details in English sources are sparse.",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Andalusia"
     },
     {
       "id": "Shams al-Dīn Muḥammad al-Quhustānī",
@@ -1120,7 +1221,8 @@
       "note": "",
       "works": "Jāmiʿ al-Rumūz / Jāmiʿ al-Mabānī",
       "bio": "A notable Hanafi scholar and jurist from Khurasān/Quhistān. He authored a commentary on the *Wiqāyat al-Hidāyah* of Ṣadr al-Sharīʿah, and was recognized for his contributions to Islamic jurisprudence ...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Khurāsān"
     },
     {
       "id": "Ibrāhīm ibn Muḥammad al-Ḥalabī",
@@ -1131,7 +1233,8 @@
       "note": "",
       "works": "Multāqā al-Abḥur / Ghunyat al-Mutamallī",
       "bio": "Author of Multāqā al-Abḥur — the most widely-studied Ḥanafī mukhtaṣar (concise handbook) in the Ottoman Empire and beyond. It synthesised the four key pre-Ottoman Ḥanafī texts and became the basis for...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Syria"
     },
     {
       "id": "Zayn al-Dīn ibn Ibrāhīm Ibn al-Nujaym",
@@ -1142,7 +1245,8 @@
       "note": "",
       "works": "Al-Baḥr al-Rāʾiq / al-Ashbāh wa al-Naẓāʾir",
       "bio": "Born in Cairo circa 926 AH, Ibn al-Nujaym is the author of Al-Baḥr al-Rāʾiq — a monumental supercommentary on al-Hidāyah that rivals Fatḥ al-Qadīr in importance. His al-Ashbāh wa al-Naẓāʾir establishe...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Egypt"
     },
     {
       "id": "Muḥammad ibn Bīr ʿAlī al-Birgawī",
@@ -1153,7 +1257,8 @@
       "note": "",
       "works": "Al-Ṭarīqah al-Muḥammadiyyah",
       "bio": "Also known as Imam Birgivi, he was a Hanafi jurist, moralist, and scholar born in Balıkesir (1523). He was renowned for his staunch dedication to Islamic scholarship and social reform, authoring works...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Anatolia"
     },
     {
       "id": "Muḥammad al-Mawlā Abū al-Suʿūd",
@@ -1164,7 +1269,8 @@
       "note": "Famous Qurʾānic exegete",
       "works": "Tafsīr Abī al-Suʿūd",
       "bio": "A preeminent Ottoman scholar and jurist who served as **Shaykh al-Islām** under Sultan Suleiman the Magnificent. He is celebrated for his influential Quranic commentary (*Tafsīr Abū al-Suʿūd*) and for...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Egypt"
     },
     {
       "id": "Sinān al-Dīn Yūsuf al-Amāsī",
@@ -1175,7 +1281,8 @@
       "note": "",
       "works": "Tabyīn al-Maḥārim",
       "bio": "An Ottoman Hanafi scholar who held the prestigious position of **Shaykh al-Haram** in Makkah. He authored *Tabyīn al-Maḥārim*, a significant work on the prohibitions in the Quran from a juridical and ...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Anatolia"
     },
     {
       "id": "Aḥmad ibn Maḥmūd Qāḍī Zādah",
@@ -1186,7 +1293,8 @@
       "note": "",
       "works": "Natāʾij al-Afkār (Takmilat Fatḥ al-Qadīr)",
       "bio": "A Hanafi scholar and mathematician-astronomer who served as a teacher and jurist. He contributed to the sciences of Islamic jurisprudence alongside his work in astronomy and mathematics in the Ottoman...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "Anatolia"
     },
     {
       "id": "Raḥmat Allāh al-Sindī",
@@ -1197,7 +1305,8 @@
       "note": "",
       "works": "Lubāb al-Manāsik",
       "bio": "A noted Hanafi scholar from Sind (modern-day Pakistan) who studied hadith in the Hejaz with scholars like Ibn ʿArrāq. He taught extensively in Gujarat and Makkah, leaving a mark on Hanafi jurisprudenc...",
-      "color": "#9b59b6"
+      "color": "#9b59b6",
+      "region": "India"
     },
     {
       "id": "Sirāj al-Dīn ʿUmar ibn Ibrāhīm Ibn Nujaym",
@@ -1208,7 +1317,8 @@
       "note": "",
       "works": "Al-Nahr al-Fāʾiq",
       "bio": "A distinguished Egyptian Hanafi jurist renowned for his work on legal maxims and analogical reasoning. He authored *Al-Ashbāh wa al-Naẓāʾir* and *Al-Nahr al-Fāʾiq*, a commentary on al-Nasafī’s *Kanz a...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Egypt"
     },
     {
       "id": "Shihāb al-Dīn al-Tumurtāshī al-Ghazzī",
@@ -1219,7 +1329,8 @@
       "note": "",
       "works": "Tanwīr al-Abṣār / Muṣīʿat al-Ḥukkām",
       "bio": "A Hanafi jurist from Gaza who authored *Fatāwā al-Tumurtāshī* and *Muʿīn al-Muftī*, practical works on issuing legal verdicts that became standard references in the Hanafi school.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Syria"
     },
     {
       "id": "ʿAlī ibn Sulṭān Mullā ʿAlī al-Qārī",
@@ -1230,7 +1341,8 @@
       "note": "",
       "works": "Fatḥ Bāb al-ʿInāyah / Mirqāt al-Mafātīḥ",
       "bio": "A Hanafi polymath from Herat who settled in Makkah, considered one of the masters of hadith and imams of fiqh, Quranic commentary, and tasawwuf in Hanafi circles. He was a *ḥāfiẓ* and famous calligrap...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Khurāsān"
     },
     {
       "id": "Abū Muḥammad al-Baghdādī",
@@ -1241,7 +1353,8 @@
       "note": "",
       "works": "Majmaʿ al-Damānāt",
       "bio": "A Hanafi scholar active in Baghdad during the early 11th century AH. He contributed to the transmission and teaching of Hanafi jurisprudence in Iraq, though detailed biographical records in English ar...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Iraq"
     },
     {
       "id": "Aḥmad Sirhindī (Mujaddid al-Alf al-Thānī)",
@@ -1252,7 +1365,8 @@
       "note": "Reviver of the second millennium; Ḥanafī jurist whose Maktūbāt address fiqh, theology, and spirituality",
       "works": "Maktūbāt",
       "bio": "Born in 971 AH (1564 CE) in Sirhind, Imām Rabbānī Aḥmad Sirhindī is known as the Reviver of the Second Millennium (Mujaddid al-Alf al-Thānī). His Maktūbāt — a three-volume collection of 536 letters — ...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "India"
     },
     {
       "id": "Ismāʿīl ibn ʿAbd al-Ghanī al-Nābulusī",
@@ -1263,7 +1377,8 @@
       "note": "",
       "works": "Al-Aḥkām (Sharḥ Durar al-Ḥukkām)",
       "bio": "A Hanafi scholar from Nablus/Damascus. He was a jurist and teacher, part of the scholarly Nabulusi family, and contributed to the Hanafi tradition in Ottoman Syria.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Syria"
     },
     {
       "id": "Abū al-Ikhlāṣ Ḥasan al-Shurunbulālī",
@@ -1274,7 +1389,8 @@
       "note": "",
       "works": "Nūr al-Īḍāḥ / al-Ghunyah Ḥāshiyah ʿalā al-Durar",
       "bio": "A major Egyptian Hanafi *imām* and verifier (*muḥaqqiq*) whose works form an integral part of the school. He authored *Nūr al-Īḍāḥ*, one of the most widely studied primers in Hanafi fiqh, and was cons...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Egypt"
     },
     {
       "id": "ʿAbd al-Raḥmān Shaykhī Zādah al-Dāmād",
@@ -1285,7 +1401,8 @@
       "note": "",
       "works": "Majmaʿ al-Anhur",
       "bio": "An Ottoman Hanafi scholar and jurist who served as a military judge (*Qāḍī ʿAskar*) and was a prominent teacher and author in Istanbul, contributing to the codification of Ottoman Hanafi jurisprudence...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Anatolia"
     },
     {
       "id": "Khayr al-Dīn ibn Aḥmad al-Ramlī",
@@ -1296,7 +1413,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Khayriyyah",
       "bio": "A prominent Hanafi jurist and mufti in Ottoman Palestine, born in Ramla (1585). He authored *Al-Fatāwā al-Khayriyyah*, an extensive collection of fatwas that became a cornerstone of Hanafi jurispruden...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Syria"
     },
     {
       "id": "ʿAbd al-Qādir ibn Yūsuf Qadrī Afandī",
@@ -1307,7 +1425,8 @@
       "note": "",
       "works": "Wāqiʿāt al-Muftīn",
       "bio": "An Ottoman Hanafi jurist and scholar who served as a teacher and mufti in the imperial administration. He contributed to Hanafi legal literature during the height of Ottoman scholarly production.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Anatolia"
     },
     {
       "id": "ʿAlāʾ al-Dīn Muḥammad al-Ḥaskafī",
@@ -1318,7 +1437,8 @@
       "note": "Author of Al-Durr al-Mukhtār",
       "works": "Al-Durr al-Mukhtār / al-Durr al-Muntaqā",
       "bio": "Born in 1025 AH (1616 CE) in Ḥaskaf (near Diyarbakır), al-Ḥaskafī is the author of Al-Durr al-Mukhtār — the decisive Ḥanafī text for fatwā-giving. This concise but comprehensive manual of Ḥanafī law, ...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Anatolia"
     },
     {
       "id": "Aḥmad ibn Muḥammad al-Ḥamawī",
@@ -1329,7 +1449,8 @@
       "note": "",
       "works": "Ghamz ʿUyūn al-Baṣāʾir",
       "bio": "A Hanafi scholar from Ḥamāh (Syria) whose contributions spanned various fields of Islamic studies, particularly remembered for his works in Hanafi jurisprudence reflecting the intellectual currents of...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Syria"
     },
     {
       "id": "Shaykh al-Islām Muḥammad al-Anqarawī",
@@ -1340,7 +1461,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Anqarawiyyah",
       "bio": "An Ottoman Hanafi scholar who held the prestigious title of Shaykh al-Islām. He authored *Al-Fatāwā al-Anqarawiyyah*, a collection of legal verdicts that served as a reference for Hanafi jurists in th...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Anatolia"
     },
     {
       "id": "Ibrāhīm ibn Ḥusayn ibn Aḥmad Ibn Bīrī",
@@ -1351,7 +1473,8 @@
       "note": "",
       "works": "ʿUmadat Dhawī al-Baṣāʾir",
       "bio": "An Ottoman Hanafi scholar from Medina (born 1611). He was a jurist and teacher in the Hejaz, buried in Jannat al-Muʿallā, and contributed to the transmission of Hanafi fiqh in the Ottoman Arabian prov...",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "Hejaz"
     },
     {
       "id": "Asʿad ibn Abī Bakr al-Uskudārī al-Madanī",
@@ -1362,7 +1485,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Asʿadiyyah",
       "bio": "A Hanafi scholar from Üsküdar (Istanbul) who taught in Medina. He was a jurist and hadith scholar who contributed to the scholarly networks connecting the Ottoman center with the Hejaz.",
-      "color": "#e91e63"
+      "color": "#e91e63",
+      "region": "Anatolia"
     },
     {
       "id": "ʿAbd al-Ghanī ibn Ismāʿīl al-Nābulusī",
@@ -1373,7 +1497,8 @@
       "note": "",
       "works": "Nihāyat al-Murād / al-Jawhar al-Kalī",
       "bio": "A Damascene Hanafi jurist, Sufi master, and one of the most prolific authors in Islamic history with over 200 works. He synthesized theology, law, mysticism, and literature, and is renowned for his de...",
-      "color": "#e91e63"
+      "color": "#e91e63",
+      "region": "Syria"
     },
     {
       "id": "Abū al-Suʿūd al-Azharī",
@@ -1384,7 +1509,8 @@
       "note": "",
       "works": "Fatḥ Allāh al-Muʿīn",
       "bio": "A Hanafi scholar associated with al-Azhar in Cairo. He contributed to the teaching and development of Hanafi jurisprudence in Egypt during the 12th century AH.",
-      "color": "#e91e63"
+      "color": "#e91e63",
+      "region": "Egypt"
     },
     {
       "id": "Muḥammad Hāshim al-Tatāwī",
@@ -1395,7 +1521,8 @@
       "note": "",
       "works": "Fākihat al-Bustān",
       "bio": "A leading Hanafi theologian from Thatta (Sindh, present-day Pakistan) who served as Imam of the Grand Mosque at Thatta. He was famous for his missionary work and contributions to Sufism and Hanafi jur...",
-      "color": "#e91e63"
+      "color": "#e91e63",
+      "region": "Hejaz"
     },
     {
       "id": "Abū Saʿīd Muḥammad al-Khādimī",
@@ -1406,7 +1533,8 @@
       "note": "",
       "works": "Al-Barīqah al-Maḥmūdiyyah",
       "bio": "An Ottoman Hanafi-Maturidi scholar from Khadim, near Konya. He became one of the most widely read Hanafi authors of the Ottoman period, particularly known for his works on Islamic legal methodology an...",
-      "color": "#e91e63"
+      "color": "#e91e63",
+      "region": "Anatolia"
     },
     {
       "id": "Shāh Walī Allāh al-Dihlawī",
@@ -1417,7 +1545,8 @@
       "note": "Most important South Asian Islamic scholar of the 18th century; re-systematised Ḥanafī law with independent ijtihād",
       "works": "Ḥujjat Allāh al-Bālighah, al-Muṣaffā",
       "bio": "Born in Delhi in 1114 AH (1703 CE), Shāh Walī Allāh is regarded as the most important South Asian Islamic scholar of the 18th century. His Ḥujjat Allāh al-Bālighah attempted a comprehensive re-systema...",
-      "color": "#e91e63"
+      "color": "#e91e63",
+      "region": "India"
     },
     {
       "id": "Ibrāhīm ibn Muṣṭafā al-Madhārī al-Ḥalabī",
@@ -1428,7 +1557,8 @@
       "note": "",
       "works": "Tuḥfat al-Akhyār",
       "bio": "A Hanafi scholar from Aleppo who was a jurist and teacher, contributing to the continuation of Hanafi legal scholarship in Ottoman Syria.",
-      "color": "#e91e63"
+      "color": "#e91e63",
+      "region": "Syria"
     },
     {
       "id": "Muṣṭafā ibn Muḥammad al-Tāʾī",
@@ -1439,7 +1569,8 @@
       "note": "",
       "works": "Tawfīq al-Raḥmān",
       "bio": "A Hanafi jurist and scholar from the Ottoman realms. He authored and taught works on Hanafi fiqh, serving as a link in the transmission of the school during the 12th century AH.",
-      "color": "#e91e63"
+      "color": "#e91e63",
+      "region": "Anatolia"
     },
     {
       "id": "Qāḍī Thanāʾ Allāh Pānīpatī",
@@ -1450,7 +1581,8 @@
       "note": "Major South Asian Ḥanafī jurist and exegete; integrated fiqh rulings into tafsīr",
       "works": "Mawāhib al-Raḥmān, al-Kifāyah fī Sharḥ al-Hidāyah",
       "bio": "A major Indian Ḥanafī scholar and exegete from Panipat, born in 1731. He authored the renowned Tafsīr al-Mazharī, a celebrated Quranic commentary that integrates fiqh rulings with tafsīr. He was a dir...",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "India"
     },
     {
       "id": "Aḥmad ibn Muḥammad al-Taḥtāwī",
@@ -1461,7 +1593,8 @@
       "note": "",
       "works": "Ḥāshiyat al-Taḥtāwī ʿalā al-Durr",
       "bio": "A Hanafi scholar and jurist from the Tahtawi family of scholars. He was a teacher of fiqh and usul, and part of the scholarly tradition that continued to produce commentaries on major Hanafi texts.",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "Egypt"
     },
     {
       "id": "Muḥammad Amīn Ibn ʿĀbidīn al-Shāmī",
@@ -1472,7 +1605,8 @@
       "note": "The preeminent Ḥanafī authority of the 19th century",
       "works": "Radd al-Muḥtār / al-ʿUqūd al-Durriyyah",
       "bio": "Born in Damascus in 1198 AH (1784 CE), Ibn ʿĀbidīn is universally recognised as the preeminent Ḥanafī authority of the 19th century — and perhaps the last great systematiser of the entire madhhab. His...",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "Syria"
     },
     {
       "id": "Muḥammad ʿĀbid al-Sindī al-Madanī",
@@ -1483,7 +1617,8 @@
       "note": "",
       "works": "Tawāliʿ al-Anwār",
       "bio": "A renowned Indian-origin Hanafi hadith scholar who settled in Madina. He wrote a large commentary on the *Musnad* of Imam Abū Ḥanīfah and was known for his expertise in hadith and Hanafi jurisprudence...",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "Hejaz"
     },
     {
       "id": "Muḥammad Qāsim Nanāwtawī",
@@ -1494,7 +1629,8 @@
       "note": "Co-founder of Deoband; established the network of Deobandi madaris",
       "works": "Āb-i Ḥayāt (commentary on the life of the Prophet); Taḥzīr al-Nās; Mubāḥasah Shāhjahānpūr; Taṣfiyat al-Aqāʾid",
       "bio": "Born 1832 in Nanauta, Muhammad Qasim Nanautawi — titled Hujjat al-Islam — was the principal co-founder of the Deoband movement and Darul Uloom Deoband (1866). He studied at Delhi College under Mamluk ...",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "India"
     },
     {
       "id": "ʿAbd al-Ghanī al-Ghunaymī al-Maydānī",
@@ -1505,7 +1641,8 @@
       "note": "",
       "works": "Al-Lubāb fī Sharḥ al-Kitāb",
       "bio": "A prominent Hanafi jurist from Maydān (near Damascus). He authored *Al-Lubāb*, a celebrated commentary on *Al-Hidāyah*, and was a teacher of Ibn ʿĀbidīn, making him a pivotal figure in late Ottoman Ha...",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "Egypt"
     },
     {
       "id": "Abū al-Ḥasanāt ʿAbd al-Ḥayy al-Laknawī",
@@ -1516,7 +1653,8 @@
       "note": "Major Ḥanafī ḥadīth scholar",
       "works": "ʿUmdat al-Riʿāyah / al-Siʿāyah",
       "bio": "Born in Lucknow in 1264 AH (1848 CE), al-Laknawī was one of the greatest Ḥanafī ḥadīth scholars of the modern era. His ʿUmdat al-Riʿāyah and al-Siʿāyah are essential works on ḥadīth criticism from a Ḥ...",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "India"
     },
     {
       "id": "Shihāb al-Dīn al-Marjānī",
@@ -1527,7 +1665,8 @@
       "note": "",
       "works": "Naẓūrat al-Ḥaqq",
       "bio": "A Tatar Hanafi scholar from Kazan, Russia, and a leading figure among the Muslim scholars of the Russian Empire. He contributed to Hanafi jurisprudence and Islamic education in the Volga region.",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "Volga Bulgaria"
     },
     {
       "id": "ʿAlāʾ al-Dīn Muḥammad Ibn ʿĀbidīn",
@@ -1538,7 +1677,8 @@
       "note": "",
       "works": "Al-Hadiyyah al-ʿAlāʾiyyah",
       "bio": "A Hanafi jurist and the father of the more famous Muḥammad Amīn Ibn ʿĀbidīn. He was a scholar and teacher in Damascus, part of the scholarly family that produced the famous *Radd al-Muḥtār*.",
-      "color": "#ff5722"
+      "color": "#ff5722",
+      "region": "Syria"
     },
     {
       "id": "Muḥammad al-ʿAbbāsī al-Mahdī",
@@ -1549,7 +1689,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Mahdiyyah",
       "bio": "An Egyptian Hanafi scholar and jurist who contributed to the legal and theological discourse of his time, associated with the scholarly circles of al-Azhar and Cairo.",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Yemen"
     },
     {
       "id": "Muḥammad Kāmil al-Ṭarābulusī",
@@ -1560,7 +1701,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Kāmiliyyah",
       "bio": "A Hanafi jurist from Tripoli (Lebanon) who served as a teacher and mufti. He contributed to the development of Hanafi fiqh in the Levant during the late Ottoman period.",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Maghrib"
     },
     {
       "id": "Amīn ʿAlī Ḥaydar Afandī",
@@ -1571,7 +1713,8 @@
       "note": "",
       "works": "Durar al-Ḥukkām (Sharḥ al-Majallah)",
       "bio": "An Ottoman Hanafi jurist and scholar who served in the imperial religious administration. He authored works on fiqh and contributed to the legal education system of the empire.",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Anatolia"
     },
     {
       "id": "Rashīd Aḥmad Gangohī",
@@ -1582,7 +1725,8 @@
       "note": "",
       "works": "Fatāwā Rashīdiyyah",
       "bio": "A leading Indian Hanafi scholar and co-founder of the Deobandi movement and Darul Uloom Deoband. He was a master of hadith and fiqh, and his lectures on *Ṣaḥīḥ al-Bukhārī* and *Jāmiʿ al-Tirmidhī* were...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "India"
     },
     {
       "id": "ʿAbd al-Qādir al-Rāfiʿī",
@@ -1593,7 +1737,8 @@
       "note": "",
       "works": "Taqrīr ʿalā al-Durr al-Mukhtār",
       "bio": "A Hanafi scholar and jurist who contributed to the legal and scholarly traditions of his time, though English biographical details are sparse.",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Egypt"
     },
     {
       "id": "Muḥammad Khālid al-Atāsī",
@@ -1604,7 +1749,8 @@
       "note": "",
       "works": "Sharḥ Majjalat al-Aḥkām",
       "bio": "A Hanafi scholar from the Atāsī family of Homs (Syria), known for their scholarly contributions. He was a jurist and teacher in the Levant.",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Syria"
     },
     {
       "id": "Aḥmad Riḍā Khān Barelwī",
@@ -1615,7 +1761,8 @@
       "note": "Founder of the Barelwī movement; prolific Ḥanafī jurist, muḥaddith, and polemicist who defended traditional Sunni practices; wrote across fiqh, ʿaqīdah, and ḥadīth",
       "works": "Ḥasanayn al-ʿUqūd al-Durriyyah fī Tarjamat al-Ṣiddīqah, Kanz al-Īmān (Qurʾān translation), Fatāwā Riḍawiyyah (12 vols.)",
       "bio": "Born in 1272 AH (1856 CE) in Bareilly, Aḥmad Riḍā Khān was the founder of the Barelwī movement and one of the most prolific Ḥanafī scholars of the modern era. His Kanz al-Īmān is a widely-used Urdu Qu...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "India"
     },
     {
       "id": "ʿAzīz al-Raḥmān ʿUthmānī",
@@ -1626,7 +1773,8 @@
       "note": "",
       "works": "ʿAzīz al-Fatāwā",
       "bio": "The first Head Mufti of Darul Uloom Deoband and an Indian Hanafi jurist. He authored *Fatāwā Dārul ʿUlūm Deoband* (in 12 volumes), issuing over 37,000 fatwas, and was a key figure in institutionalizin...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "India"
     },
     {
       "id": "Khalīl ibn ʿAbd al-Qādir al-Nahlawī",
@@ -1637,7 +1785,8 @@
       "note": "",
       "works": "Al-Durar al-Mubāḥah",
       "bio": "A Hanafi scholar from the Nahlawi family, known for their contributions to Hanafi fiqh. He was a jurist and teacher in the late Ottoman or early modern period.",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Syria"
     },
     {
       "id": "Muḥammad Bakhīt al-Muṭīʿī",
@@ -1648,7 +1797,8 @@
       "note": "",
       "works": "Fatāwā Bakhīt al-Muṭīʿī",
       "bio": "A leading Egyptian Hanafi-Maturidi scholar who served as **Grand Mufti of Egypt** (1914–1921) and rector of al-Azhar. He was a prolific author known for his conservative stance on Islamic reform and h...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Egypt"
     },
     {
       "id": "Aḥmad ibn Muḥammad Zarqā",
@@ -1659,7 +1809,8 @@
       "note": "",
       "works": "Sharḥ Qawāʿid al-Fiqhiyyah",
       "bio": "A Syrian Hanafi scholar and jurist. He was a teacher of ʿAbd al-Fattāḥ Abū Ghuddah and contributed to the tradition of Hanafi legal scholarship in Syria.",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Syria"
     },
     {
       "id": "Ashraf ʿAlī Thānawī",
@@ -1670,7 +1821,8 @@
       "note": "Hakimul Ummat — author of over 1,000 works; leading supporter of the Pakistan Movement",
       "works": "Bayān al-Qurʾān, Bahishtī Zewar, Imdād al-Fatāwā, Nashr al-Ṭibb fī Dhikr al-Nabī al-Ḥabīb",
       "bio": "Born 1863 in Thana Bhawan, Ashraf Ali Thanwi — known as Hakimul Ummat (Physician of the Ummah) — was one of the most influential Deobandi scholars of the modern era. A graduate of Darul Uloom Deoband ...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "India"
     },
     {
       "id": "Mawlānā Amjad ʿAlī Aʿẓamī",
@@ -1681,7 +1833,8 @@
       "note": "Wrote the most comprehensive Urdu Ḥanafī fiqh compendium; pillar of the Barelwī Ḥanafī tradition",
       "works": "Bahār-e-Sharīʿat (24 vols.)",
       "bio": "Born circa 1300 AH (1882 CE) in Bahraich, Mawlānā Amjad ʿAlī was a leading Barelwī Ḥanafī scholar. His Bahār-e-Sharīʿat — a 24-volume Urdu compendium of Ḥanafī fiqh — is the most comprehensive such wo...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "India"
     },
     {
       "id": "Muḥammad Zāhid al-Kawtharī",
@@ -1692,7 +1845,8 @@
       "note": "Shaykh al-Islām of the Ottoman Empire (last holder); towering Ḥanafī scholar, muḥaddith, and polemicist; defender of the madhhab against reformist critiques",
       "works": "Maqālāt al-Kawtharī, Ḥāshiyat al-ʿUqūd al-Durriyyah",
       "bio": "Born in 1296 AH (1879 CE) in the Ottoman Empire, al-Kawtharī was the last holder of the title Shaykh al-Islām. After the fall of the caliphate he lived in exile in Cairo, where he became the most form...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Anatolia"
     },
     {
       "id": "Kifāyatullāh Dehlawī",
@@ -1703,7 +1857,8 @@
       "note": "",
       "works": "Kifāyat al-Muftī",
       "bio": "An Indian Hanafi jurist and the second President of Jamiat Ulama-e-Hind. He served as the second rector of Madrasa Aminia and was regarded as the **Grand Mufti of India**. He was a founding member of ...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "India"
     },
     {
       "id": "Aḥmad ibn Muḥammad al-Kurdī",
@@ -1714,7 +1869,8 @@
       "note": "",
       "works": "Al-Fatāwā al-Ḥalabiyyah",
       "bio": "A Hanafi scholar from the Kurdish regions who contributed to the transmission of Hanafi jurisprudence in his area.",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "Syria"
     },
     {
       "id": "Zafar Aḥmad ʿUthmānī",
@@ -1725,7 +1881,8 @@
       "note": "",
       "works": "Imdād al-Aḥkām / Iʿlāʾ al-Sunan",
       "bio": "A prominent Deobandi Hanafi jurist and hadith scholar, nephew of Ashraf ʿAlī Thānawī. He authored **Iʿlāʾ al-Sunan**, an 18-volume encyclopedia of hadith proofs for the Hanafi school, and was a key fi...",
-      "color": "#795548"
+      "color": "#795548",
+      "region": "India"
     },
     {
       "id": "Muḥammad Shafīʿ Deobandī",
@@ -1736,7 +1893,8 @@
       "note": "",
       "works": "Jawāhir al-Fiqh, Imdād al-Muftīn",
       "bio": "A leading Pakistani Deobandi Hanafi scholar, former Grand Mufti of Pakistan, and founder of **Darul Uloom Karachi** (1951). He was a master of tafsīr, hadith, and fiqh, and his magnum opus *Maʿārif al...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "India"
     },
     {
       "id": "Maḥmūd Ḥasan Gangohī",
@@ -1747,7 +1905,8 @@
       "note": "",
       "works": "Fatāwā Maḥmūdiyyah",
       "bio": "A senior Indian Deobandi Hanafi scholar who served as **Grand Mufti of Darul Uloom Deoband** and **Mazahir al-ʿUlūm**. He was a top deputy (*khalīfah*) of Shaykh Zakariyyā Kandhlawī and one of the mos...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "India"
     },
     {
       "id": "ʿAbd al-Fattāḥ Abū Ghuddah",
@@ -1758,7 +1917,8 @@
       "note": "Pre-eminent Syrian Ḥanafī muḥaddith and faqīh; student of al-Kawtharī; prolific editor of classical Ḥanafī and ḥadīth manuscripts; teacher of Muftī Taqī ʿUthmānī",
       "works": "al-Ḥiwār fī ʿUlūm al-Ḥadīth, al-Nukat ʿalā Ibn al-Ṣalāḥ",
       "bio": "A Syrian Hanafi scholar, hadith expert, and former head of the Syrian Muslim Brotherhood. He was renowned for editing and publishing classical manuscripts, his biographical works, and his teaching of ...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "Syria"
     },
     {
       "id": "Niẓām al-Dīn Aʿẓamī",
@@ -1769,7 +1929,8 @@
       "note": "",
       "works": "Niẓām al-Fatāwā",
       "bio": "An Indian Deobandi Hanafi scholar and hadith expert who taught at Darul Uloom Deoband and was known for his expertise in hadith and Hanafi jurisprudence.",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "India"
     },
     {
       "id": "ʿAbd al-Raḥīm Lajpūrī",
@@ -1780,7 +1941,8 @@
       "note": "",
       "works": "Fatāwā Raḥīmiyyah",
       "bio": "A South African Deobandi Hanafi scholar of Indian origin. He was a prominent jurist and author, known for his *Fatāwā Raḥīmiyya* and for establishing the first Darul Uloom in South Africa (Azaadville)...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "South Africa"
     },
     {
       "id": "Rashīd Aḥmad Ludhyānwī",
@@ -1791,7 +1953,8 @@
       "note": "",
       "works": "Aḥsan al-Fatāwā",
       "bio": "A Pakistani Deobandi Hanafi scholar and author of *Aḥsan al-Fatāwā*. He was a senior jurist and mufti known for his detailed legal rulings and was a leading scholar of the Ahl-e-Sunnat tradition in Pa...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "India"
     },
     {
       "id": "Akhtar Riḍā Khān",
@@ -1802,7 +1965,8 @@
       "note": "Grand Muftī of the Barelwī Ḥanafī tradition; great-grandson of Aḥmad Riḍā Khān; headed Dār al-Iftāʾ and issued extensive fatāwā continuing the Barelwī jurisprudential legacy",
       "works": "Fatāwā Riḍawiyyah (new ed.), Dār al-Iftāʾ al-ʿĀlamiyyah rulings",
       "bio": "A prominent Indian Barelvi Hanafi scholar, grandson of Ahmad Rida Khan. He was a jurist and spiritual guide who continued the family tradition of issuing fatwas and leading the Barelvi movement in Ind...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "India"
     },
     {
       "id": "Muḥammad ʿAwwāmah",
@@ -1813,7 +1977,8 @@
       "note": "Foremost living hadith scholar; al-'Allamah al-Muhaddith al-Faqih al-Naqib; based in Turkey",
       "works": "Author and editor of numerous hadith works; Maktab Tahqiq al-Turath series",
       "bio": "Born 1940 in Aleppo, Syria, Muhammad 'Awwamah is one of the foremost living hadith scholars of the Sunni world. A descendant of Husayn ibn Ali on both paternal and maternal lines, he studied at Al-Mad...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "Syria"
     },
     {
       "id": "Muftī Taqī ʿUthmānī",
@@ -1824,7 +1989,8 @@
       "note": "Most prominent living Ḥanafī jurist; Islamic Fiqh Academy member; pioneered Islamic finance jurisprudence",
       "works": "Buhūth fī Qadāyā Fiqhiyyah Muʿāṣirah, Takmelat al-Hidāyah",
       "bio": "Born in 1363 AH (1944 CE) in Deoband, Muftī Taqī ʿUthmānī is the most prominent living Ḥanafī jurist. A member of the Islamic Fiqh Academy (OIC), he pioneered modern Islamic finance jurisprudence with...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "India"
     },
     {
       "id": "Ṣalāḥ Abū al-Ḥājj",
@@ -1835,7 +2001,8 @@
       "note": "Leading contemporary Hanafi scholar; Dean of Hanafi Jurisprudence at WISE University, Jordan",
       "works": "Al-Madkhal al-Mufassal ila al-Fiqh al-Hanafi; al-Fiqh al-Muqaran; Is'ad al-Mufti; Removing the Confusion",
       "bio": "Born 1974 in Amman, Jordan, Salah Abu al-Haj is one of the leading contemporary scholars of Hanafi jurisprudence. He holds bachelor's, master's, and doctoral degrees from the University of Baghdad, ha...",
-      "color": "#607d8b"
+      "color": "#607d8b",
+      "region": "Syria"
     },
     {
       "id": "Ibrāhīm Riḍā Khān",
@@ -1846,7 +2013,8 @@
       "note": "Mufassir-i Aʿẓam-i Hind; grandson of Aḥmad Riḍā Khān; father of Akhtar Riḍā Khān",
       "works": "Zikr Allāh, Niʿmat Allāh, Ḥujjat Allāh, Tafsīr Sūrat al-Balad",
       "bio": "An Indian Barelvi Ḥanafī scholar, jurist, and Sufi mystic.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "India"
     },
     {
       "id": "Shāh ʿAbd al-ʿAzīz al-Dihlawī",
@@ -1857,7 +2025,8 @@
       "note": "Muhaddith al-Aʿẓam; son and successor of Shāh Walī Allāh",
       "works": "Fatḥ al-ʿAzīz, Tuḥfah-yi Ithnā ʿAshariyyah",
       "bio": "Eldest son and successor of Shāh Walī Allāh.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "India"
     },
     {
       "id": "Shāh Muḥammad Isḥāq al-Dihlawī",
@@ -1868,7 +2037,8 @@
       "note": "Grandson of Shāh ʿAbd al-ʿAzīz; foremost muhaddith of his generation",
       "works": "",
       "bio": "Maternal grandson of Shāh ʿAbd al-ʿAzīz.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "India"
     },
     {
       "id": "ʿAbd al-Ghanī al-Mujaddidī al-Dihlawī",
@@ -1879,7 +2049,8 @@
       "note": "Student of Shāh Muḥammad Isḥāq; teacher of Deoband founders",
       "works": "Ḥāshiyah ʿalā Sunan Ibn Mājah",
       "bio": "Major muhaddith of India.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "India"
     },
     {
       "id": "Mamlūk ʿAlī Nanāwtawī",
@@ -1890,7 +2061,8 @@
       "note": "Student of Shāh ʿAbd al-ʿAzīz; teacher of Deoband founders",
       "works": "",
       "bio": "Prominent Waliullāhī scholar and teacher.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "India"
     },
     {
       "id": "Shāh Āl-i Rasūl Marahrawī",
@@ -1901,7 +2073,8 @@
       "note": "Teacher of Aḥmad Riḍā Khān Barelwī",
       "works": "",
       "bio": "Qādirī saint and teacher.",
-      "color": "#8e44ad"
+      "color": "#8e44ad",
+      "region": "India"
     },
     {
       "id": "Abū Muṭīʿ al-Ḥakam ibn ʿAbd Allāh al-Balkhī",
@@ -1912,7 +2085,8 @@
       "note": "Student of Abū Ḥanīfah; narrator of al-Fiqh al-Akbar (later known as al-Fiqh al-Absaṭ)",
       "works": "Narrated al-Fiqh al-Akbar / al-Fiqh al-Absaṭ from Abū Ḥanīfah",
       "bio": "A direct student of Imam Abū Ḥanīfah and the primary narrator of the theological treatise 'al-Fiqh al-Akbar' (also called al-Fiqh al-Absaṭ). His transmission of the Imam's creedal statements became a foundational text for the Māturīdī school of theology. While some hadith critics questioned his reliability as a narrator, Hanafī scholars have consistently defended his trustworthiness, and his transmission of Abū Ḥanīfah's ʿaqīda has been accepted by the mainstream tradition. His chain of transmission reaches down to Imam Abū Manṣūr al-Māturīdī, linking the eponym of the school to the codifier of its theology.",
-      "color": "#d4a574"
+      "color": "#d4a574",
+      "region": "Khurāsān"
     },
     {
       "id": "Naṣīr (Nusayr) ibn Yaḥyā al-Balkhī",
@@ -1923,7 +2097,8 @@
       "note": "Hanafī jurist and theologian; teacher of Imam al-Māturīdī; studied under Abū Sulaymān al-Jūzajānī and Abū Muṭīʿ al-Balkhī",
       "works": "Transmitted al-Fiqh al-Absaṭ; authored works in fiqh and kalām",
       "bio": "A prominent Hanafī faqīh, muḥaqqiq, and ascetic of Balkh. He studied jurisprudence under Abū Sulaymān Mūsā al-Jūzajānī and also learned from Abū Muṭīʿ al-Ḥakam al-Balkhī and Abū Muqātil Ḥafṣ ibn Muslim al-Samarqandī. Well-versed in both Hanafī fiqh and kalām (theology), he was one of the key teachers of Imam Abū Manṣūr al-Māturīdī. He is recorded to have engaged in scholarly debate with Aḥmad ibn Ḥanbal. His transmission of Abū Ḥanīfah's theological legacy was instrumental in the formation of the Māturīdiyya school.",
-      "color": "#c4956a"
+      "color": "#c4956a",
+      "region": "Khurāsān"
     },
     {
       "id": "Muḥammad ibn Muqātil al-Rāzī",
@@ -1934,7 +2109,8 @@
       "note": "Qāḍī of Rayy; Hanafī jurist; teacher of Imam al-Māturīdī",
       "works": "al-Muddaʿī wa al-Muddaʿā ʿalayh (fiqh)",
       "bio": "A leading Hanafī jurist who served as qāḍī (judge) of Rayy. He studied under Muḥammad ibn al-Ḥasan al-Shaybānī and was a close companion of his circle. A reliable narrator of ḥadīth according to some scholars, though criticized by Bukhārī due to his association with the Ahl al-Ray. Ibn Ḥajar al-ʿAsqalānī dismissed this criticism as stemming from madhhab bias, stating: 'I believe because he [ibn Muqātil] was inclined to Ray, Bukhārī said this.' Imām Abū Manṣūr al-Māturīdī studied fiqh and ḥadīth under him.",
-      "color": "#b5845a"
+      "color": "#b5845a",
+      "region": "Persia"
     },
     {
       "id": "Abū Bakr Aḥmad ibn Isḥāq ibn Ṣāliḥ al-Jūzajānī",
@@ -1945,7 +2121,8 @@
       "note": "Hanafī jurist of Samarkand; one of the earliest teachers of Imam al-Māturīdī",
       "works": "al-Farq wa al-Tamyīz; Kitāb al-Tawba",
       "bio": "A major Hanafī jurist in Samarkand who was among the earliest teachers of Imam Abū Manṣūr al-Māturīdī. He studied under Abū Sulaymān Mūsā al-Jūzajānī and taught fiqh to al-Māturīdī. He authored two known works: 'al-Farq wa al-Tamyīz' on jurisprudence and 'Kitāb al-Tawba', a didactic work. Scholarly opinion differs on whether he was primarily a jurist or also a theologian; the modern scholar U. Rudolf considers him a classical scholar from whom al-Māturīdī learned fiqh and piety rather than theological speculation.",
-      "color": "#a4744a"
+      "color": "#a4744a",
+      "region": "Khurāsān"
     },
     {
       "id": "Abū Naṣr Aḥmad ibn al-ʿAbbās al-ʿIyāḍī al-Anṣārī",
@@ -1956,7 +2133,8 @@
       "note": "Qāḍī of Samarkand; the primary theological teacher of Imam al-Māturīdī",
       "works": "al-Ṣifāt (divine attributes); al-Sayf al-Maslūl ʿalā man Sabba Aṣḥāb al-Rasūl",
       "bio": "A distinguished Hanafī theologian and judge who served as qāḍī of Samarkand. He was the foremost theological teacher of Imam Abū Manṣūr al-Māturīdī, from whom al-Māturīdī learned kalām (speculative theology). He produced approximately forty students and was highly respected in Samarkand. He authored works on divine attributes (al-Ṣifāt) and on the honour of the Companions. He is considered an early representative of Eastern Hanafī theology, with a focus on the divine attributes that anticipated the Māturīdī theological project. He was martyred while on a military campaign.",
-      "color": "#94643a"
+      "color": "#94643a",
+      "region": "Transoxiana"
     },
     {
       "id": "Anwar Shāh al-Kashmīrī",
@@ -1967,7 +2145,8 @@
       "note": "Imām al-ʿAṣr; 4th Principal and Shaykh al-Ḥadīth of Darul Uloom Deoband; one of the greatest ḥadīth scholars of the modern era",
       "works": "Fayḍ al-Bārī, Anwār al-Bārī, al-ʿArf al-Shadhī",
       "bio": "Born in 1292 AH (1875 CE) in the village of Dudwan, Kashmir, Anwar Shāh al-Kashmīrī was one of the greatest ḥadīth scholars of the modern era. He studied at Darul Uloom Deoband under Shaykh al-Hind Ma...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "India"
     },
     {
       "id": "Pīr Meher ʿAlī Shāh",
@@ -1978,7 +2157,8 @@
       "note": "Punjabi Sufi scholar; led the anti-Aḥmadiyya movement; disciple of Ḥājī Imdād Allāh and Khwāja Shams al-Dīn Siyālvī",
       "works": "Saif-e-Chishtiyai, Shams al-Hidāyah, Taḥqīq al-Ḥaqq fī Kalimat al-Ḥaqq, Fatāwā Meḥriyya",
       "bio": "Born on 1 Ramaḍān 1275 AH (14 April 1859 CE) in Golra Sharif, Pīr Meher ʿAlī Shāh was a Punjabi Sufi scholar and mystic poet of the Chishtī-Qādirī order. He received his early education at a khānqāh i...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "India"
     },
     {
       "id": "Muḥammad Ṭāhir al-Qādirī",
@@ -1989,7 +2169,8 @@
       "note": "Shaykh al-Islām; founder of Minhāj al-Qurʾān International; prolific author of 1,000+ works; holder of 500+ ijāzāt",
       "works": "ʿIrfān al-Qurʾān (translation), al-Mawsuʿāt al-Qurʾāniyya (8 vols.), al-Jawāhir al-Bāhira fī al-Asānīd al-Ṭāhira",
       "bio": "Born on 19 February 1951 (12 Jumādā al-Ūlā 1370 AH) in Jhang, Pakistan, Muḥammad Ṭāhir al-Qādirī is a leading contemporary Ḥanafī scholar, former professor of international constitutional law at the U...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "India"
     },
     {
       "id": "Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī",
@@ -2000,7 +2181,8 @@
       "note": "Leading Ḥanafī scholar and historian; 7th Chancellor of Nadwat al-ʿUlamāʾ; recipient of King Fayṣal International Prize (1980); influential public intellectual bridging Arab and South Asian scholarship",
       "works": "Mādhā Khasira al-ʿĀlam (Islam and the World), Saviours of Islamic Spirit (6 vols.), Sīrat-i-Sayyid Aḥmad Shahīd, Kārwān-e-Zindagī (7 vols.)",
       "bio": "Born on 5 December 1913 (6 Muḥarram 1332 AH) in Takia Kalan, Raebareli, India, Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī — known as ʿAlī Mīyān — was a leading Ḥanafī scholar, historian, and public intellec...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "India"
     },
     {
       "id": "Muḥammad Akram al-Nadwī",
@@ -2011,7 +2193,8 @@
       "note": "British-Ḥanafī scholar; author of the 43-volume biographical dictionary of 10,000 female ḥadīth scholars; student of Abū al-Ḥasan al-Nadwī",
       "works": "Al-Wafā bi-Asmāʾ al-Nisāʾ (43 vols.), Abū Ḥanīfah: His Life, His Method, His Legacy, al-Muḥaddithāt",
       "bio": "Born circa 1963 (1383 AH) in Jaunpur, India, Muḥammad Akram al-Nadwī is a British-Ḥanafī scholar and the author of the monumental 43-volume al-Wafā bi-Asmāʾ al-Nisāʾ (Biographical Dictionary of Women ...",
-      "color": "#3498db"
+      "color": "#3498db",
+      "region": "India"
     },
     {
       "id": "Shiblī Nuʿmānī",
@@ -2020,7 +2203,8 @@
       "death": 1333,
       "place": "Azamgarh, India",
       "color": "#1da194",
-      "bio": "Allāma Shiblī Nuʿmānī (1857–1914 CE) was a leading Indian Ḥanafī scholar, historian, and reformer."
+      "bio": "Allāma Shiblī Nuʿmānī (1857–1914 CE) was a leading Indian Ḥanafī scholar, historian, and reformer.",
+      "region": "India"
     }
   ],
   "edges": [

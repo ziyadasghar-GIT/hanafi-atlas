@@ -766,5 +766,37 @@
     ],
     "modern": "Taha, Egypt",
     "region": "Egypt"
+  },
+  "Balkh": {
+    "coords": [
+      66.9058,
+      36.4667
+    ],
+    "modern": "Balkh, Afghanistan",
+    "region": "Khurāsān"
+  },
+  "Marehra": {
+    "coords": [
+      78.58,
+      27.45
+    ],
+    "modern": "Marehra, Uttar Pradesh, India",
+    "region": "India"
+  },
+  "Nanauta": {
+    "coords": [
+      77.42,
+      29.71
+    ],
+    "modern": "Nanauta, Uttar Pradesh, India",
+    "region": "India"
+  },
+  "Samarkand": {
+    "coords": [
+      66.975,
+      39.6542
+    ],
+    "modern": "Samarkand, Uzbekistan",
+    "region": "Transoxiana"
   }
 }
