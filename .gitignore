@@ -1,0 +1,33 @@
+# Generated Android / TWA projects
+pwabuilder-android/
+twa-android/
+play-store-keys/
+
+# Signing keys and certificates (NEVER commit these)
+*.keystore
+*.jks
+signing-key-info.txt
+signing.keystore
+*.pem
+*.key
+
+# Built Android artifacts
+*.aab
+*.apk
+*.ap_
+*.dex
+
+# IDE / build artifacts
+.idea/
+*.iml
+.gradle/
+build/
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary / extracted files
+extracted/
+*.zip
